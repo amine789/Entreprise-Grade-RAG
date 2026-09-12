@@ -1,0 +1,20 @@
+GITHUB REPO DESCRIPTION
+=======================
+
+Short description (repo tagline field):
+Enterprise-grade RAG system with LLM-based query routing — dynamically dispatches queries across domain-specific Qdrant vector stores (SDK docs, financial filings) with live web search fallback, powered by LangChain + Claude.
+
+Shorter alternative:
+LLM-routed RAG pipeline that picks the right knowledge source — vector search or live web — per query.
+
+Suggested topics/tags:
+rag
+retrieval-augmented-generation
+langchain
+anthropic-claude
+qdrant
+vector-database
+llm-router
+semantic-routing
+agentic-ai
+enterprise-ai
