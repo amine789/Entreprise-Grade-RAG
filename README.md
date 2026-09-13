@@ -6,7 +6,7 @@ Most RAG demos bolt a single vector store onto an LLM and call it a day. This pr
 
 ## 🏗️ Architecture
 
-![Enterprise RAG routing architecture](image/ch07__image004.png)
+![Enterprise RAG routing architecture](assets/ch07__image004.png)
 
 The flow is a **classify-then-retrieve** pipeline:
 
@@ -38,6 +38,17 @@ This is **semantic routing** applied to retrieval — each data domain gets its 
 - **Document Loaders:** `pypdf`, `docx2txt`, `wikipedia`
 - **Data & Utilities:** `pandas`, `numpy`, `torch`, `datasets`, `kagglehub`, `tiktoken`, `einops`, `scipy`, `ipywidgets`, `matplotlib`
 
+## 📁 Project Structure
+
+```
+.
+├── notebooks/              # exploratory notebooks (routing experiments, etc.)
+├── src/enterprise_rag/     # installable package (router, ingestion, retrieval code)
+├── assets/                 # images used in docs
+├── requirements.txt
+└── pyproject.toml
+```
+
 ## 🚀 Getting Started
 
 ### 1. Create a virtual environment
@@ -53,18 +64,22 @@ source .venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ### 3. Configure your environment
 
-Create a `.env` file with your API keys:
+Copy `.example.env` to `.env` and fill in your API keys:
 
 ```env
 ANTHROPIC_API_KEY=your_key_here
+OPENAI_API_KEY=your_key_here
 QDRANT_URL=your_qdrant_url
 QDRANT_API_KEY=your_qdrant_key
 SERPAPI_API_KEY=your_serpapi_key
 ```
+
+> No Qdrant account yet? Leave `QDRANT_URL` unset and the notebooks fall back to an in-process, in-memory Qdrant instance (`AsyncQdrantClient(location=":memory:")`) — no server or key required, just non-persistent between runs.
 
 ### 4. Run the router
 

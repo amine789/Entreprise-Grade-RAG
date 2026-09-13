@@ -31,3 +31,5 @@ qdrant-client
 kagglehub
 ipywidgets
 matplotlib
+openai
+nest_asyncio
