@@ -4,8 +4,8 @@ from enterprise_rag.generation import rag_formatted_response
 from enterprise_rag.utils import get_text_embeddings
 
 COLLECTIONS = {
-    "ANTHROPIC_QUERY": "anthropic_data",
     "10K_DOCUMENT_QUERY": "10k_data",
+    "HUMAN_RESOURCES_QUERY": "hr_data",
 }
 
 

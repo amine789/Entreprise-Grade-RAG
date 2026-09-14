@@ -9,9 +9,7 @@ from enterprise_rag.utils import get_text_embeddings
 async def ingest_documents(
     qdrant: AsyncQdrantClient,
     collection_name: str,
-    chunks: list[dict],
-    tokenizer,
-    model,
+    chunks: list[dict], 
     vector_size: int,
 ) -> None:
     """Embed chunks and upsert them into Qdrant with source metadata.
@@ -29,7 +27,7 @@ async def ingest_documents(
     points = [
         PointStruct(
             id=str(uuid4()),
-            vector=get_text_embeddings(chunk["content"], tokenizer, model).tolist(),
+            vector=get_text_embeddings(chunk["content"]).tolist(),
             payload={
                 "content": chunk["content"],
                 "source": chunk.get("source", "unknown"),

@@ -1,7 +1,13 @@
 import torch
+from transformers import AutoModel, AutoTokenizer
+
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
+
+tokenizer = AutoTokenizer.from_pretrained(EMBEDDING_MODEL_NAME)
+model = AutoModel.from_pretrained(EMBEDDING_MODEL_NAME)
 
 
-def get_text_embeddings(text, tokenizer, model):
+def get_text_embeddings(text, tokenizer=tokenizer, model=model):
     inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True)
     with torch.no_grad():
         outputs = model(**inputs)

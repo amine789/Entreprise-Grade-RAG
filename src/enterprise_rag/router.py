@@ -9,9 +9,9 @@ def route_query(user_query: str) -> dict:
     As a professional query router, classify user input into one of
     three categories:
 
-    1. "ANTHROPIC_QUERY": Questions about Anthropic/Claude documentation --
-       agents, tools, APIs, models, embeddings, guardrails, the Messages
-       API, or the Claude Agent SDK.
+    1. "HUMAN_RESOURCES_QUERY": Questions about internal policy, PTO/vacation and leave policy,
+        benefits enrollment, payroll and expense reibursement, onboarding, the employee handbook or 
+        performance review process
 
     2. "10K_DOCUMENT_QUERY": Questions about company financials, 10-K
        annual reports, Uber or Lyft revenue, operating costs, or filing
@@ -23,7 +23,7 @@ def route_query(user_query: str) -> dict:
 
     Always respond in this exact JSON format:
     {{
-        "action": "ANTHROPIC_QUERY" or "10K_DOCUMENT_QUERY" or
+        "action": "HUMAN_RESOURCES_QUERY" or "10K_DOCUMENT_QUERY" or
                   "WEB_SEARCH",
         "reason": "one sentence justification for the routing decision",
         "answer": "AT MOST 5 words if trivially obvious, else leave empty"
