@@ -2,18 +2,18 @@
 
 **A production-style Retrieval-Augmented Generation system that doesn't just retrieve — it *decides where to look*.**
 
-Most RAG demos bolt a single vector store onto an LLM and call it a day. This project goes further: an **LLM-based router** reads every incoming query, classifies its intent, and dispatches it to the *right* knowledge source — a dedicated SDK-docs index, a financial-filings index, or live web search — before a final response is synthesized. It's the difference between a toy chatbot and something you could actually put in front of enterprise users.
+Most RAG demos bolt a single vector store onto an LLM and call it a day. This project goes further: an **LLM-based router** reads every incoming query, classifies its intent, and dispatches it to the *right* knowledge source — an internal HR policy index, a financial-filings index, or live web search — before a final response is synthesized. It's the difference between a toy chatbot and something you could actually put in front of enterprise users.
 
 ## 🏗️ Architecture
 
-![Enterprise RAG routing architecture](assets/ch07__image004.png)
+![Enterprise RAG routing architecture](assets/router_architecture.svg)
 
 The flow is a **classify-then-retrieve** pipeline:
 
 1. **User Query** hits an **LLM-based Router**, which classifies it into one of three routes.
-2. **`OPENAI_QUERY`** → routed to a **Qdrant** vector store indexing the **OpenAI Agents SDK documentation** (API reference, model capabilities, SDK usage).
+2. **`HUMAN_RESOURCES_QUERY`** → routed to a **Qdrant** vector store indexing **internal HR policy documents** (PTO/leave policy, benefits, payroll, onboarding, the employee handbook).
 3. **`10K_DOCUMENT_QUERY`** → routed to a second **Qdrant** index built from **Uber & Lyft 10-K annual filings** (financial performance, revenue, operating metrics).
-4. **`INTERNET_QUERY`** → falls back to **live web search** via **SerpAPI/Google** for current events, comparisons, or anything outside the indexed corpora.
+4. **`WEB_SEARCH`** → falls back to **live web search** via **SerpAPI/Google** for current events, comparisons, or anything outside the indexed corpora.
 5. Whatever comes back is fed into **final response generation**, producing one coherent answer regardless of which route fired underneath.
 
 This is **semantic routing** applied to retrieval — each data domain gets its own optimized index instead of dumping everything into one giant, noisy vector store, and the system gracefully degrades to the open web when local knowledge runs out.
@@ -83,7 +83,7 @@ SERPAPI_API_KEY=your_serpapi_key
 
 ### 4. Run the router
 
-Point the pipeline at your document sets (OpenAI Agents SDK docs, 10-K filings, etc.), build the Qdrant indices, and start routing queries.
+Point the pipeline at your document sets (internal HR policy docs, 10-K filings, etc.), build the Qdrant indices, and start routing queries.
 
 ## 📌 Status
 
