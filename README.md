@@ -2,27 +2,26 @@
 
 **A production-style Retrieval-Augmented Generation system that doesn't just retrieve — it *decides where to look*.**
 
-Most RAG demos bolt a single vector store onto an LLM and call it a day. This project goes further: an **LLM-based router** reads every incoming query, classifies its intent, and dispatches it to the *right* knowledge source — an internal HR policy index, a financial-filings index, or live web search — before a final response is synthesized. It's the difference between a toy chatbot and something you could actually put in front of enterprise users.
+Most RAG demos bolt a single vector store onto an LLM and call it a day. This project goes further: Claude is given **tools**, not a fixed path — it reasons about each incoming query, decides which knowledge source(s) it actually needs (an internal HR policy index, a financial-filings index, live web search — zero, one, or several), calls them, reads the results, and repeats until it has enough to answer. It's the difference between a toy chatbot and something you could actually put in front of enterprise users.
 
 ## 🏗️ Architecture
 
-![Enterprise RAG routing architecture](assets/router_architecture.svg)
+![Enterprise RAG agent architecture](assets/agent_architecture.svg)
 
-The flow is a **classify-then-retrieve** pipeline:
+The flow is an **agentic tool-use loop**, not a one-shot classifier:
 
-1. **User Query** hits an **LLM-based Router**, which classifies it into one of three routes.
-2. **`HUMAN_RESOURCES_QUERY`** → routed to a **Qdrant** vector store indexing **internal HR policy documents** (PTO/leave policy, benefits, payroll, onboarding, the employee handbook).
-3. **`10K_DOCUMENT_QUERY`** → routed to a second **Qdrant** index built from **Uber & Lyft 10-K annual filings** (financial performance, revenue, operating metrics).
-4. **`WEB_SEARCH`** → falls back to **live web search** via **SerpAPI/Google** for current events, comparisons, or anything outside the indexed corpora.
-5. Whatever comes back is fed into **final response generation**, producing one coherent answer regardless of which route fired underneath.
+1. **User Query** enters the **Claude agent loop** along with three tool definitions.
+2. The agent reasons about what it needs and calls **`search_hr_docs`** (Qdrant: internal HR policy documents — PTO/leave policy, benefits, payroll, onboarding, the employee handbook), **`search_10k_docs`** (Qdrant: Uber & Lyft 10-K annual filings — financial performance, revenue, operating metrics), **`search_web`** (SerpAPI/Google — current events, comparisons, anything outside the indexed corpora), or any combination of them — a compound question can trigger more than one tool in the same turn.
+3. Each tool's result goes back to the agent, which reasons again: enough context to answer, or another call needed?
+4. Once satisfied, the agent **exits the loop** and generates one coherent, cited answer from everything it gathered.
 
-This is **semantic routing** applied to retrieval — each data domain gets its own optimized index instead of dumping everything into one giant, noisy vector store, and the system gracefully degrades to the open web when local knowledge runs out.
+This is **agentic retrieval** — instead of committing to a single path up front, the model controls its own retrieval strategy at runtime, which is what lets it actually handle compound questions spanning more than one knowledge source.
 
 ## ✨ Why this is more than a basic RAG pipeline
 
 | Capability | What it buys you |
 |---|---|
-| 🧭 **LLM-driven intent classification** | No manual keyword rules — the router reasons about what the user actually wants |
+| 🧭 **Agentic tool selection** | No manual keyword rules or fixed branches — the agent reasons about which sources it actually needs, including more than one per query |
 | 🗂️ **Domain-partitioned vector stores** | Cleaner embeddings, less cross-domain noise, faster and more relevant retrieval |
 | 🌐 **Live web fallback** | Never a dead end — queries outside the knowledge base still get answered |
 | 🧩 **Composable retrieval** | Hybrid search building blocks (dense + BM25), multiple vector DB backends, and swappable embedding models |
@@ -81,10 +80,10 @@ SERPAPI_API_KEY=your_serpapi_key
 
 > No Qdrant account yet? Leave `QDRANT_URL` unset and the notebooks fall back to an in-process, in-memory Qdrant instance (`AsyncQdrantClient(location=":memory:")`) — no server or key required, just non-persistent between runs.
 
-### 4. Run the router
+### 4. Run the agent
 
-Point the pipeline at your document sets (internal HR policy docs, 10-K filings, etc.), build the Qdrant indices, and start routing queries.
+Point the pipeline at your document sets (internal HR policy docs, 10-K filings, etc.), build the Qdrant indices, and let the agent start answering queries with its tools.
 
 ## 📌 Status
 
-The project's dependency stack and architecture are defined — implementation of the router, ingestion pipelines, and indices is in progress. This README reflects the target design shown in the diagram above.
+The project's dependency stack and architecture are defined — implementation of the agent loop, tool integrations, ingestion pipelines, and indices is in progress. This README reflects the target design shown in the diagram above.
