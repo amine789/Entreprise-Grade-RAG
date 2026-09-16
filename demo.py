@@ -2,7 +2,7 @@ import asyncio
 
 from enterprise_rag.tools import qdrant
 from enterprise_rag.ingestion import ingest_documents
-from enterprise_rag.agent import run_agent_sdk
+from enterprise_rag.agent import run_agent_langchain
 
 VECTOR_SIZE = 768
 
@@ -53,7 +53,7 @@ async def main():
         "What's the latest version of Python released?",
     ]:
         print(f"\n=== {query} ===")
-        answer = await run_agent_sdk(query)
+        answer = await run_agent_langchain(query)
         print(answer)
 
 

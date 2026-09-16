@@ -1,7 +1,7 @@
 import os
 import requests
 from qdrant_client import AsyncQdrantClient
-from enterprise_rag.utils import get_text_embeddings
+from enterprise_rag.utils import get_text_embeddings, is_time_sensitive
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -22,16 +22,22 @@ MAX_DESCRIPTION_CHARS = 500
 def search_web(query: str) -> str:
     """Search the web for a query. Returns the title, url, and description
     of the top results. Use this for current information, documentation,
-    or research not covered by existing project files."""
+    or research not covered by existing project files. Results have no
+    publish date attached -- a page may be outdated, so do not assume a
+    result's "latest" or "current" claim still holds; hedge accordingly."""
     api_key = os.environ.get("FIRECRAWL_API_KEY")
     if not api_key:
         return "[error] FIRECRAWL_API_KEY is not set."
+
+    payload = {"query": query, "limit": MAX_RESULTS}
+    if is_time_sensitive(query):
+        payload["tbs"] = "qdr:m"  # restrict to results from the past month
 
     try:
         response = requests.post(
             FIRECRAWL_URL,
             headers={"Authorization": f"Bearer {api_key}"},
-            json={"query": query, "limit": MAX_RESULTS},
+            json=payload,
             timeout=REQUEST_TIMEOUT,
         )
     except requests.RequestException as e:
@@ -52,7 +58,16 @@ def search_web(query: str) -> str:
     for r in results[:MAX_RESULTS]:
         description = r.get("description", "")[:MAX_DESCRIPTION_CHARS]
         lines.append(f"{r.get('title', '(no title)')}\n{r.get('url', '')}\n{description}")
-    return "\n\n".join(lines)
+
+    output = "\n\n".join(lines)
+    if is_time_sensitive(query):
+        output = (
+            "[Note: this is a time-sensitive query, so results were "
+            "restricted to the past month. Individual pages still carry no "
+            "exact publish date, so verify specific figures/versions rather "
+            "than presenting them as certain.]\n\n"
+        ) + output
+    return output
 
 
 
