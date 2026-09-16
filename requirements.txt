@@ -33,3 +33,5 @@ ipywidgets
 matplotlib
 openai
 nest_asyncio
+pytest
+pytest-asyncio
