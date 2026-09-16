@@ -3,8 +3,12 @@ from dotenv import load_dotenv
 import anthropic
 from anthropic import Anthropic
 import os
+
 from enterprise_rag.tools import search_web, search_hr_docs, search_10k_docs
 from enterprise_rag.prompt import AGENT_SYSTEM_PROMPT
+from langchain_core.tools import StructuredTool
+from langchain_core.messages import SystemMessage, HumanMessage, ToolMessage
+from langchain_anthropic import ChatAnthropic
 load_dotenv()
 client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
@@ -102,4 +106,31 @@ async def run_agent_sdk(prompt: str, system=AGENT_SYSTEM_PROMPT,
 
     return text  # MAX_TURNS exhausted; return the last text seen
 
+LC_TOOLS = [
+    StructuredTool.from_function(func=search_web, name="search_web", description=search_web.__doc__),
+    StructuredTool.from_function(coroutine=search_hr_docs, name="search_hr_docs", description=search_hr_docs.__doc__),
+    StructuredTool.from_function(coroutine=search_10k_docs, name="search_10k_docs", description=search_10k_docs.__doc__),
+]
+LC_TOOLS_BY_NAME = {t.name: t for t in LC_TOOLS}
+llm_with_tools = ChatAnthropic(model="claude-haiku-4-5").bind_tools(LC_TOOLS)
+
+async def run_agent_langchain(prompt: str, system=AGENT_SYSTEM_PROMPT):
+    messages = [SystemMessage(system), HumanMessage(prompt)]
+    for i in range(MAX_TURNS):
+        try:
+            res = await llm_with_tools.ainvoke(messages)
+        except anthropic.APIError as e:
+            return f"[error] agent request failed: {type(e).__name__}: {e}"
+        messages.append(res)
+
+        if not res.tool_calls:
+            return res.content
+
+        for call in res.tool_calls:
+            tool = LC_TOOLS_BY_NAME[call["name"]]
+            result = await tool.ainvoke(call["args"])
+            print(f"  [observation] {result}")
+            messages.append(ToolMessage(content=result, tool_call_id=call["id"]))
+
+    return res.content  # MAX_TURNS exhausted; return the last response seen
 
