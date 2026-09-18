@@ -115,3 +115,5 @@ async def search_10k_docs(user_query: str) -> str:
         heading = f"{source}, page {page}" if page is not None else source
         lines.append(f"{heading}\n{point.payload['content']}")
     return "\n\n".join(lines)
+
+
