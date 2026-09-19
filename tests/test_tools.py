@@ -2,7 +2,7 @@ from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
 import requests
-
+from enterprise_rag.agent import run_agent_sdk, MAX_TURNS
 from enterprise_rag.tools import search_hr_docs, search_10k_docs, search_web
 
 
@@ -197,3 +197,78 @@ def test_web_description_truncated(monkeypatch):
 
     description_line = result.splitlines()[2]
     assert len(description_line) == 500
+
+
+@pytest.mark.asyncio
+async def test_agent_sdk_no_tool_call():
+    fake_block = MagicMock()
+    fake_block.type = "text"
+    fake_block.text = "Recursion is when a function calls itself."
+
+    fake_res = MagicMock()
+    fake_res.content = [fake_block]
+    fake_res.stop_reason = "end_turn"
+
+    with patch("enterprise_rag.agent.client") as mock_client:
+        mock_client.messages.create.return_value = fake_res
+
+        result = await run_agent_sdk("Explain recursion")
+
+    assert result == "Recursion is when a function calls itself."
+
+
+@pytest.mark.asyncio
+async def test_agent_sdk_tool_call_then_answer():
+    fake_tool_use_block = MagicMock()
+    fake_tool_use_block.type = "tool_use"
+    fake_tool_use_block.name = "search_web"
+    fake_tool_use_block.input = {"query": "latest python version"}
+    fake_tool_use_block.id = "call_1"
+
+    first_res = MagicMock()
+    first_res.content = [fake_tool_use_block]
+    first_res.stop_reason = "tool_use"
+
+    fake_text_block = MagicMock()
+    fake_text_block.type = "text"
+    fake_text_block.text = "Python 3.14 is the latest version."
+
+    second_res = MagicMock()
+    second_res.content = [fake_text_block]
+    second_res.stop_reason = "end_turn"
+
+    mock_search_web = MagicMock(return_value="fake search results")
+
+    with patch("enterprise_rag.agent.client") as mock_client, \
+         patch("enterprise_rag.agent.TOOLS", {"search_web": mock_search_web}):
+        mock_client.messages.create.side_effect = [first_res, second_res]
+
+        result = await run_agent_sdk("What is the latest Python version?")
+
+    assert result == "Python 3.14 is the latest version."
+    assert mock_client.messages.create.call_count == 2
+    mock_search_web.assert_called_once_with(query="latest python version")
+
+
+@pytest.mark.asyncio
+async def test_agent_sdk_max_turns_exhausted():
+    fake_tool_use_block = MagicMock()
+    fake_tool_use_block.type = "tool_use"
+    fake_tool_use_block.name = "search_web"
+    fake_tool_use_block.input = {"query": "anything"}
+    fake_tool_use_block.id = "call_x"
+
+    fake_tool_use_response = MagicMock()
+    fake_tool_use_response.content = [fake_tool_use_block]
+    fake_tool_use_response.stop_reason = "tool_use"
+
+    mock_search_web = MagicMock(return_value="fake search results")
+
+    with patch("enterprise_rag.agent.client") as mock_client, \
+         patch("enterprise_rag.agent.TOOLS", {"search_web": mock_search_web}):
+        mock_client.messages.create.return_value = fake_tool_use_response
+
+        result = await run_agent_sdk("What is the latest Python version?")
+
+    assert mock_client.messages.create.call_count == MAX_TURNS
+    assert result == ""
