@@ -134,7 +134,12 @@ def test_web_formats_results(monkeypatch):
         ]},
     }
 
-    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp):
+    fake_grading_response = MagicMock()
+    fake_grading_response.content = "[1]"
+
+    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp), \
+         patch("enterprise_rag.tools.llm") as mock_llm:
+        mock_llm.invoke.return_value = fake_grading_response
         result = search_web("explain TCP")
 
     assert result == "TCP Explained\nhttps://example.com/tcp\nTCP is a protocol."
@@ -152,7 +157,12 @@ def test_web_time_sensitive_adds_tbs_and_note(monkeypatch):
         ]},
     }
 
-    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp) as mock_post:
+    fake_grading_response = MagicMock()
+    fake_grading_response.content = "[1]"
+
+    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp) as mock_post, \
+         patch("enterprise_rag.tools.llm") as mock_llm:
+        mock_llm.invoke.return_value = fake_grading_response
         result = search_web("what is the latest python version")
 
     assert result.startswith("[Note: this is a time-sensitive query")
@@ -172,7 +182,12 @@ def test_web_non_time_sensitive_has_no_tbs_or_note(monkeypatch):
         ]},
     }
 
-    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp) as mock_post:
+    fake_grading_response = MagicMock()
+    fake_grading_response.content = "[1]"
+
+    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp) as mock_post, \
+         patch("enterprise_rag.tools.llm") as mock_llm:
+        mock_llm.invoke.return_value = fake_grading_response
         result = search_web("explain TCP")
 
     assert not result.startswith("[Note:")
@@ -193,11 +208,87 @@ def test_web_description_truncated(monkeypatch):
         ]},
     }
 
-    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp):
+    fake_grading_response = MagicMock()
+    fake_grading_response.content = "[1]"
+
+    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp), \
+         patch("enterprise_rag.tools.llm") as mock_llm:
+        mock_llm.invoke.return_value = fake_grading_response
         result = search_web("explain TCP")
 
     description_line = result.splitlines()[2]
     assert len(description_line) == 500
+
+
+def test_web_grading_filters_irrelevant_results(monkeypatch):
+    monkeypatch.setenv("FIRECRAWL_API_KEY", "fake-key")
+
+    fake_resp = MagicMock()
+    fake_resp.status_code = 200
+    fake_resp.json.return_value = {
+        "success": True,
+        "data": {"web": [
+            {"title": "TCP Explained", "url": "https://example.com/tcp", "description": "TCP is a protocol."},
+            {"title": "Unrelated Page", "url": "https://example.com/other", "description": "Nothing to do with it."},
+        ]},
+    }
+
+    fake_grading_response = MagicMock()
+    fake_grading_response.content = "[1]"
+
+    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp), \
+         patch("enterprise_rag.tools.llm") as mock_llm:
+        mock_llm.invoke.return_value = fake_grading_response
+        result = search_web("explain TCP")
+
+    assert "TCP Explained" in result
+    assert "Unrelated Page" not in result
+
+
+def test_web_grading_all_filtered_out(monkeypatch):
+    monkeypatch.setenv("FIRECRAWL_API_KEY", "fake-key")
+
+    fake_resp = MagicMock()
+    fake_resp.status_code = 200
+    fake_resp.json.return_value = {
+        "success": True,
+        "data": {"web": [
+            {"title": "Unrelated Page", "url": "https://example.com/other", "description": "Nothing to do with it."},
+        ]},
+    }
+
+    fake_grading_response = MagicMock()
+    fake_grading_response.content = "[]"
+
+    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp), \
+         patch("enterprise_rag.tools.llm") as mock_llm:
+        mock_llm.invoke.return_value = fake_grading_response
+        result = search_web("explain TCP")
+
+    assert result == "no relevant results found for: explain TCP"
+
+
+def test_web_grading_fails_open_on_bad_response(monkeypatch):
+    monkeypatch.setenv("FIRECRAWL_API_KEY", "fake-key")
+
+    fake_resp = MagicMock()
+    fake_resp.status_code = 200
+    fake_resp.json.return_value = {
+        "success": True,
+        "data": {"web": [
+            {"title": "TCP Explained", "url": "https://example.com/tcp", "description": "TCP is a protocol."},
+        ]},
+    }
+
+    fake_grading_response = MagicMock()
+    fake_grading_response.content = "not valid json"
+
+    with patch("enterprise_rag.tools.requests.post", return_value=fake_resp), \
+         patch("enterprise_rag.tools.llm") as mock_llm:
+        mock_llm.invoke.return_value = fake_grading_response
+        result = search_web("explain TCP")
+
+    assert result == "TCP Explained\nhttps://example.com/tcp\nTCP is a protocol."
 
 
 @pytest.mark.asyncio

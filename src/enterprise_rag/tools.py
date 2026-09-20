@@ -1,6 +1,9 @@
+import json
 import os
+import re
 import requests
 from qdrant_client import AsyncQdrantClient
+from enterprise_rag.llm_model import llm
 from enterprise_rag.utils import get_text_embeddings, is_time_sensitive
 from dotenv import load_dotenv
 
@@ -17,6 +20,29 @@ FIRECRAWL_URL = "https://api.firecrawl.dev/v2/search"
 REQUEST_TIMEOUT = 10  # seconds
 MAX_RESULTS = 5
 MAX_DESCRIPTION_CHARS = 500
+
+
+def grade_web_results(query: str, results: list[dict]) -> list[dict]:
+    numbered = "\n".join(
+        f"{i + 1}. {r.get('title', '')} -- {r.get('description', '')[:200]}"
+        for i, r in enumerate(results)
+    )
+    prompt = f'''
+    Query: {query}
+
+    Here are search results. Return a JSON array of the numbers
+    that are likely to contain the CURRENT, up-to-date answer --
+    not outdated or unrelated pages. If none qualify, return [].
+
+    {numbered}
+    '''
+    response = llm.invoke(prompt)
+    try:
+        match = re.search(r"\[.*\]", response.content, re.DOTALL)
+        relevant_indices = json.loads(match.group())
+        return [results[i - 1] for i in relevant_indices if 1 <= i <= len(results)]
+    except (json.JSONDecodeError, AttributeError, IndexError):
+        return results  # grading failed -- fail open, keep original results
 
 
 def search_web(query: str) -> str:
@@ -53,6 +79,10 @@ def search_web(query: str) -> str:
     results = body.get("data", {}).get("web", [])
     if not results:
         return f"no results found for: {query}"
+
+    results = grade_web_results(query, results)
+    if not results:
+        return f"no relevant results found for: {query}"
 
     lines = []
     for r in results[:MAX_RESULTS]:
