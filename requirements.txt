@@ -35,3 +35,5 @@ openai
 nest_asyncio
 pytest
 pytest-asyncio
+fastapi
+uvicorn

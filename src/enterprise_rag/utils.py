@@ -38,3 +38,6 @@ def get_text_embeddings(text, tokenizer=tokenizer, model=model):
         outputs = model(**inputs)
     embeddings = outputs.last_hidden_state.mean(dim=1)
     return embeddings[0].detach().numpy()
+
+
+
