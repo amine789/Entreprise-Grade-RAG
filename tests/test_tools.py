@@ -1,8 +1,9 @@
 from unittest.mock import AsyncMock, MagicMock, patch
 
+import anthropic
 import pytest
 import requests
-from enterprise_rag.agent import run_agent_sdk, MAX_TURNS
+from enterprise_rag.agent import run_agent_sdk, MAX_TURNS, run_agent_langchain
 from enterprise_rag.tools import search_hr_docs, search_10k_docs, search_web
 
 
@@ -272,3 +273,91 @@ async def test_agent_sdk_max_turns_exhausted():
 
     assert mock_client.messages.create.call_count == MAX_TURNS
     assert result == ""
+
+
+@pytest.mark.asyncio
+async def test_agent_sdk_api_error():
+    fake_error = anthropic.APIError("rate limited", MagicMock(), body=None)
+
+    with patch("enterprise_rag.agent.client") as mock_client:
+        mock_client.messages.create.side_effect = fake_error
+
+        result = await run_agent_sdk("Explain recursion")
+
+    assert result == "[error] agent request failed: APIError: rate limited"
+    assert mock_client.messages.create.call_count == 1
+
+
+@pytest.mark.asyncio
+async def test_agent_langchain_no_tool_call():
+    fake_res = MagicMock()
+    fake_res.tool_calls = []
+    fake_res.content = "Recursion is when a function calls itself."
+
+    with patch("enterprise_rag.agent.llm_with_tools") as mock_llm:
+        mock_llm.ainvoke = AsyncMock(return_value=fake_res)
+
+        result = await run_agent_langchain("Explain recursion")
+
+    assert result == "Recursion is when a function calls itself."
+
+
+@pytest.mark.asyncio
+async def test_agent_langchain_tool_call_then_answer():
+    first_res = MagicMock()
+    first_res.tool_calls = [
+        {"name": "search_web", "args": {"query": "latest python version"}, "id": "call_1"}
+    ]
+
+    second_res = MagicMock()
+    second_res.tool_calls = []
+    second_res.content = "Python 3.14 is the latest version."
+
+    mock_tool = MagicMock()
+    mock_tool.ainvoke = AsyncMock(return_value="fake search results")
+
+    with patch("enterprise_rag.agent.llm_with_tools") as mock_llm, \
+         patch("enterprise_rag.agent.LC_TOOLS_BY_NAME", {"search_web": mock_tool}):
+        mock_llm.ainvoke = AsyncMock(side_effect=[first_res, second_res])
+
+        result = await run_agent_langchain("What is the latest Python version?")
+
+    assert result == "Python 3.14 is the latest version."
+    assert mock_llm.ainvoke.await_count == 2
+    mock_tool.ainvoke.assert_awaited_once_with({"query": "latest python version"})
+
+
+@pytest.mark.asyncio
+async def test_agent_langchain_max_turns_exhausted():
+    fake_tool_use_response = MagicMock()
+    fake_tool_use_response.tool_calls = [
+        {"name": "search_web", "args": {"query": "anything"}, "id": "call_x"}
+    ]
+    fake_tool_use_response.content = ""
+
+    mock_tool = MagicMock()
+    mock_tool.ainvoke = AsyncMock(return_value="fake search results")
+
+    with patch("enterprise_rag.agent.llm_with_tools") as mock_llm, \
+         patch("enterprise_rag.agent.LC_TOOLS_BY_NAME", {"search_web": mock_tool}):
+        mock_llm.ainvoke = AsyncMock(return_value=fake_tool_use_response)
+
+        result = await run_agent_langchain("What is the latest Python version?")
+
+    assert mock_llm.ainvoke.await_count == MAX_TURNS
+    assert result == ""
+
+
+@pytest.mark.asyncio
+async def test_agent_langchain_api_error():
+    fake_error = anthropic.APIError("rate limited", MagicMock(), body=None)
+
+    with patch("enterprise_rag.agent.llm_with_tools") as mock_llm:
+        mock_llm.ainvoke = AsyncMock(side_effect=fake_error)
+
+        result = await run_agent_langchain("Explain recursion")
+
+    assert result == "[error] agent request failed: APIError: rate limited"
+    assert mock_llm.ainvoke.await_count == 1
+
+
