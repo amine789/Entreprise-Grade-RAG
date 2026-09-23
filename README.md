@@ -86,4 +86,10 @@ Point the pipeline at your document sets (internal HR policy docs, 10-K filings,
 
 ## 📌 Status
 
-The project's dependency stack and architecture are defined — implementation of the agent loop, tool integrations, ingestion pipelines, and indices is in progress. This README reflects the target design shown in the diagram above.
+- ✅ Agent loops — both a raw Anthropic SDK tool-use loop and a LangChain loop, sharing the same tool set, tested
+- ✅ Tools — `search_web` (Firecrawl + LLM-based relevance grading), `search_hr_docs`, `search_10k_docs` (Qdrant vector search)
+- ✅ FastAPI endpoints (`/query`, `/query_langchain`) wrapping both loops, tested, with CI running the suite on push
+- ✅ Qdrant ingestion primitive (`ingestion.py`, `pipeline.py`)
+- 🚧 In progress: loading/chunking real source documents into the indices (currently only demo/hardcoded chunks are ingested), relevance grading + corrective retry for the internal Qdrant tools (only `search_web` has it today), hybrid dense+BM25 retrieval, query rewriting (prototyped in `notebooks/3. query_rewriter.ipynb`, not yet wired into the agent), an evaluation suite, and a demoable UI
+
+This README reflects the target design shown in the diagram above; the checklist tracks how much of it is implemented.
