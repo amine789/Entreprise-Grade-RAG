@@ -1,0 +1,2332 @@
+ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and the related notes included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K
+.
+We have elected to omit discussion on the earliest of the three years covered by the consolidated financial statements presented. Refer to Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations located in our Annual Report on Form 10-K for the year ended December 31, 2022, filed on February 21, 2023, for reference to discussion of the fiscal year ended December 31, 2021, the earliest of the three fiscal years presented.
+48
+In addition to our historical consolidated financial information, the following discussion contains forward-looking statements that reflect our plans, estimates, and beliefs. Our actual results could differ materially from those discussed in the forward-looking statements. You should review the sections titled “Special Note Regarding Forward-Looking Statements” for a discussion of forward-looking statements and in Part I, Item 1A, “Risk Factors”, for a discussion of factors that could cause actual results to differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis and elsewhere in this Annual Report on Form 10-K.
+Overview
+We are a technology platform that uses a massive network, leading technology, operational excellence, and product expertise to power movement from point A to point B. We develop and operate proprietary technology applications supporting a variety of offerings on our platform. We connect consumers with providers of ride services, merchants as well as delivery service providers for meal preparation, grocery and other delivery services. Uber also connects consumers with public transportation networks. We use this same network, technology, operational excellence, and product expertise to connect Shippers with Carriers in the freight industry by providing Carriers with the ability to book a shipment, transportation management and other logistics services. We are also developing technologies designed to provide new solutions to solve everyday problems.
+Driver Classification Developments
+The classification of Drivers is currently being challenged in courts, by legislators and by government agencies in the United States and abroad. We are involved in numerous legal proceedings globally, including putative class and collective class action lawsuits, demands for arbitration, charges and claims before administrative agencies, and investigations or audits by labor, social security, and tax authorities that claim that Drivers should be treated as our employees (or as workers or quasi-employees where those statuses exist), rather than as independent contractors. Of particular note are proceedings in California, where on May 5, 2020, the California Attorney General, in conjunction with the city attorneys for San Francisco, Los Angeles and San Diego, filed a complaint in San Francisco Superior Court (the “Court”) against Uber and Lyft, Inc., alleging that drivers are misclassified, and sought an injunction and monetary damages related to the alleged competitive advantage caused by the alleged misclassification of drivers. To comply with Proposition 22, we have incurred and expect to incur additional expenses, including expenses associated with a guaranteed minimum earnings floor for Drivers, insurance for injury protection and subsidies for health care. We do not expect these changes will have a material impact on our business, results of operations, financial position, or cash flows.
+If, as a result of legislation or judicial decisions, we are required to classify Drivers as employees, workers or quasi-employees where those statuses exist, we would incur significant additional expenses for compensating Drivers, including expenses associated with the application of wage and hour laws (including minimum wage, overtime, and meal and rest period requirements), employee benefits, social security contributions, taxes (direct and indirect), and potential penalties. Additionally, we may not have adequate Driver supply as Drivers may opt out of our platform given the loss of flexibility under an employment model, and we may not be able to hire a majority of the Drivers currently using our platform. Any of these events could negatively impact our business, result of operations, financial position, and cash flows.
+For a discussion of risk factors related to how misclassification challenges may impact our business, result of operations, financial position and operating condition and cash flows, see the risk factor titled “-Our business would be adversely affected if Drivers were classified as employees, workers or quasi-employees” included in Part I, Item 1A, “Risk Factors”, and Note 14 – Commitments and Contingencies to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+In addition, if we are required to classify Drivers as employees, this may impact our current financial statement presentation including revenue, cost of revenue, incentives and promotions as further described in Note 1 – Description of Business and Summary of Significant Accounting Policies in the notes to the consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” and the section titled “Critical Accounting Estimates” in Part II, Item 7, of this Annual Report on Form 10-K.
+49
+Financial and Operational Highlights
+Year Ended December 31,
+(In millions, except percentages)
+2022
+2023
+% Change
+% Change
+(Constant Currency
+(1)
+)
+Monthly Active Platform Consumers (“MAPCs”)
+(2), (3)
+131
+150
+15
+%
+Trips
+(2)
+7,642
+9,448
+24
+%
+Gross Bookings
+(2)
+$
+115,395
+$
+137,865
+19
+%
+20
+%
+Revenue
+$
+31,877
+$
+37,281
+17
+%
+18
+%
+Income (loss) from operations
+$
+(1,832)
+$
+1,110
+**
+Net income (loss) attributable to Uber Technologies, Inc.
+$
+(9,141)
+$
+1,887
+**
+Adjusted EBITDA
+(1), (2)
+$
+1,713
+$
+4,052
+137
+%
+Net cash provided by operating activities
+(4)
+$
+642
+$
+3,585
+**
+Free cash flow
+(1), (4)
+$
+390
+$
+3,362
+**
+(1)
+See the section titled “Reconciliations of Non-GAAP Financial Measures” for more information and reconciliations to the most directly comparable GAAP financial measure.
+(2)
+See the section titled “Certain Key Metrics and Non-GAAP Financial Measures” below for more information.
+(3)
+MAPCs presented for annual periods are MAPCs for the fourth quarter of the year.
+(4)
+Net cash provided by operating activities and free cash flow during the year ended December 31, 2022 reflected an approximately $733 million (£613 million) cash outflow related to the resolution of all outstanding HMRC VAT claims that were paid during the fourth quarter of 2022.
+Net cash provided by operating activities and free cash flow during the year ended December 31, 2023 reflected an approximately $789 million (£631 million) cash outflow related to payments of HMRC VAT assessments for the period of March 2022 to June 2023.
+For additional information on these matters, refer to Note 14 – Commitments and Contingencies to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K as well as the section titled “Liquidity and Capital Resources”.
+**    Percentage not meaningful.
+Highlights for 2023
+In the fourth quarter of 2023, our MAPCs were 150 million, growing 8 million, or 6%, quarter-over-quarter, and growing 15% compared to the same period in 2022.
+Overall Gross Bookings increased by $22.5 billion in 2023, up 19%, or 20% on a constant currency basis, compared to 2022. Mobility Gross Bookings grew 32% year-over-year, on a constant currency basis, primarily due to increases in Trip volumes. Delivery Gross Bookings grew 15% year-over-year, on a constant currency basis, primarily driven by an increase in delivery orders and higher basket sizes. Freight Gross Bookings declined 25% year-over-year, on a constant currency basis, primarily attributable to lower revenue per load and volume both a consequence of the challenging freight market cycle.
+Revenue was $37.3 billion, up 17% year-over-year. Mobility revenue increased $5.8 billion primarily attributable to an increase in Mobility Gross Bookings of 31% year-over-year. Delivery revenue increased $1.3 billion primarily attributable to an increase in Delivery Gross Bookings of 14% year-over-year. Revenue growth was partially offset by a $1.7 billion decrease in our Freight business, with Freight Gross Bookings declining 25% year-over-year. Additionally, the increase in Mobility and Delivery revenue was partially offset by business model changes in some countries that classified certain sales and marketing costs as contra revenue, which negatively impacted revenue by $368 million and $796 million across Mobility and Delivery, respectively.
+Net income attributable to Uber Technologies, Inc. was $1.9 billion, which includes the favorable impact of a pre-tax unrealized gain on debt and equity securities, net, of $1.6 billion primarily related to changes in the fair value of our equity securities, including: a $985 million net unrealized gain on our Aurora investment, a $443 million net unrealized gain on our Didi investment, a $84 million net unrealized gain on our Joby investment, and a $80 million net unrealized gain on our Grab investment.
+Adjusted EBITDA was $4.1 billion, growing $2.3 billion year-over-year. Mobility Adjusted EBITDA profit was $5.0 billion, up $1.7 billion year-over-year. Delivery Adjusted EBITDA profit was $1.5 billion, up $955 million year-over-year. These increases were partially offset by a $216 million increase in Corporate G&A and Platform R&D costs, year-over-year, as well as a $64 million decrease in Freight Adjusted EBITDA year-over-year.
+We ended the year with $5.4 billion in unrestricted cash, cash equivalents and short-term investments.
+50
+Components of Results of Operations
+Revenue
+We generate substantially all of our revenue from fees paid by Drivers and Merchants for use of our platform. We have concluded that we are an agent in these arrangements as we arrange for other parties to provide the service to the end-user. Under this model, revenue is net of Driver and Merchant earnings and Driver incentives. We act as an agent in these transactions by connecting consumers to Drivers and Merchants to facilitate a Trip, meal, grocery or other delivery service. In certain markets we are responsible for the Mobility or Delivery services (and in most markets we are responsible for the Freight services), and in these markets we present revenue from end-users and from Shippers on a gross basis, with the payments to Drivers and Carriers classified within cost of revenue, exclusive of depreciation and amortization.
+We would expect revenue to fluctuate on an absolute dollar basis for the foreseeable future based upon factors such as Trip volume, Driver supply, macroeconomic conditions, global travel activities and management pricing and promotional activities. During the year ended December 31, 2023, we implemented a business model change in certain major markets resulting in end-users becoming our customers. Promotions to end-users considered customers are recognized as contra-revenue while promotions to end-users not considered customers are recognized as sales and marketing expenses.
+For additional discussion related to our revenue, see the section titled “Management’s Discussion and Analysis of Financial Condition and Results of Operations - Critical Accounting Estimates - Revenue Recognition” as well as “Note 1 – Description of Business and Summary of Significant Accounting Policies - Revenue Recognition,” and “Note 2 – Revenue” to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Cost of Revenue, Exclusive of Depreciation and Amortization
+Cost of revenue, exclusive of depreciation and amortization, primarily consists of costs incurred for certain Mobility and Delivery transactions where we are primarily responsible for Mobility and Delivery services and pay Drivers and Couriers for services, certain insurance costs related to our Mobility and Delivery offerings, costs incurred with Carriers for Uber Freight transportation services, credit card processing fees, bank fees, data center and networking expenses, mobile device and service costs, and amounts related to fare chargebacks and other credit card losses.
+We expect that cost of revenue, exclusive of depreciation and amortization, will fluctuate on an absolute dollar basis for the foreseeable future in line with Trip volume changes on the platform.
+Operations and Support
+Operations and support expenses primarily consist of compensation expenses, including stock-based compensation, for employees that support operations in cities, including the general managers, Driver operations, platform user support representatives and community managers. Also included is the cost of customer support, Driver background checks and the allocation of certain corporate costs.
+We would expect operations and support expenses to increase on an absolute dollar basis for the foreseeable future as our business continues to grow and Trip volume increases, but decrease as a percentage of revenue as we become more efficient in supporting platform users.
+Sales and Marketing
+Sales and marketing expenses primarily consist of advertising costs, product marketing costs, discounts, loyalty programs, promotions, refunds, and credits provided to end-users who are not customers, compensation costs, including stock-based compensation to sales and marketing employees, and the allocation of certain corporate costs. We expense advertising and other promotional expenditures as incurred.
+We would expect sales and marketing expenses to vary from period to period as a percentage of revenue due to timing of marketing campaigns.
+During the year ended December 31, 2023, we implemented a business model change in certain major markets resulting in end-users becoming our customers. Promotions to end-users considered customers are recognized as contra-revenue while promotions to end-users not considered customers are recognized as sales and marketing expenses.
+Research and Development
+Research and development expenses primarily consist of compensation costs, including stock-based compensation, for employees in engineering, design and product development. Expenses also include ongoing improvements to, and maintenance of, existing products and services, and allocation of certain corporate costs. We expense substantially all research and development expenses as incurred.
+51
+We would expect research and development expenses to increase and vary from period to period as a percentage of revenue as we continue to invest in research and development activities relating to ongoing improvements to and maintenance of our platform offerings and other research and development programs.
+General and Administrative
+General and administrative expenses primarily consist of compensation costs, including stock-based compensation, for executive management and administrative employees, including finance and accounting, human resources, policy and communications, legal, and certain impairment charges, as well as allocation of certain corporate costs, occupancy, and general corporate insurance costs. General and administrative expenses also include certain legal settlements.
+We would expect general and administrative expenses to increase on an absolute dollar basis for the foreseeable future as our business continues to grow and Trip volume increases, but decrease as a percentage of revenue as we achieve improved fixed cost leverage and efficiencies in our internal support functions.
+Depreciation and Amortization
+Depreciation and amortization expenses primarily consist of depreciation on buildings, site improvements, computer and network equipment, software, leasehold improvements, furniture and fixtures, and amortization of intangible assets. Depreciation includes expenses associated with buildings, site improvements, computer and network equipment, and furniture, fixtures, as well as leasehold improvements. Amortization includes expenses associated with our capitalized internal-use software and acquired intangible assets.
+Interest Expense
+Interest expense consists primarily of interest expense associated with our outstanding debt, including accretion of debt discount. For additional detail related to our debt obligations, see “Note 8 – Long-Term Debt and Revolving Credit Arrangements” to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Other Income (Expense), Net
+Other income (expense), net primarily includes the following items:
+•
+Interest income, which consists primarily of interest earned on our cash and cash equivalents, short-term investments, restricted cash and cash equivalents and restricted investments.
+•
+Foreign currency exchange gains (losses), net, which consist primarily of remeasurement of transactions and monetary assets and liabilities denominated in currencies other than the functional currency at the end of the period.
+•
+Gain on business divestitures, net.
+•
+Gain (loss) from sale of investments.
+•
+Unrealized gain (loss) on debt and equity securities, net, which consists primarily of gains (losses) from fair value adjustments relating to our marketable and non-marketable securities.
+•
+Impairment of equity method investment.
+•
+Revaluation of MLU B.V. call option, which represents changes in fair value recorded on the call option granted to Yandex (“MLU B.V. Call Option”).
+•
+Other, net.
+Provision for (Benefit from) Income Taxes
+We are subject to income taxes in the United States and foreign jurisdictions in which we do business. These foreign jurisdictions have different statutory tax rates than those in the United States. Additionally, certain of our foreign earnings may also be taxable in the United States. Accordingly, our effective tax rate will vary depending on the relative proportion of foreign to domestic income, changes in the valuation allowance on our U.S. and Netherlands' deferred tax assets, and changes in tax laws.
+Income (Loss) from Equity Method Investments
+Income (loss) from equity method investments primarily includes the results of our share of income or loss from our equity method investments. For additional information, see “Note 4 - Equity Method Investments” to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+52
+Results of Operations
+The following table summarizes our consolidated statements of operations for each of the periods presented (in millions):
+Year Ended December 31,
+2022
+2023
+Revenue
+$
+31,877
+$
+37,281
+Costs and expenses
+Cost of revenue, exclusive of depreciation and amortization shown separately below
+19,659
+22,457
+Operations and support
+2,413
+2,689
+Sales and marketing
+4,756
+4,356
+Research and development
+2,798
+3,164
+General and administrative
+3,136
+2,682
+Depreciation and amortization
+947
+823
+Total costs and expenses
+33,709
+36,171
+Income (loss) from operations
+(1,832)
+1,110
+Interest expense
+(565)
+(633)
+Other income (expense), net
+(7,029)
+1,844
+Income (loss) before income taxes and income from equity method investments
+(9,426)
+2,321
+Provision for (benefit from) income taxes
+(181)
+213
+Income from equity method investments
+107
+48
+Net income (loss) including non-controlling interests
+(9,138)
+2,156
+Less: net income attributable to non-controlling interests, net of tax
+3
+269
+Net income (loss) attributable to Uber Technologies, Inc.
+$
+(9,141)
+$
+1,887
+53
+The following table sets forth the components of our consolidated statements of operations for each of the periods presented as a percentage of revenue
+(1)
+:
+Year Ended December 31,
+2022
+2023
+Revenue
+100
+%
+100
+%
+Costs and expenses
+Cost of revenue, exclusive of depreciation and amortization shown separately below
+62
+%
+60
+%
+Operations and support
+8
+%
+7
+%
+Sales and marketing
+15
+%
+12
+%
+Research and development
+9
+%
+8
+%
+General and administrative
+10
+%
+7
+%
+Depreciation and amortization
+3
+%
+2
+%
+Total costs and expenses
+106
+%
+97
+%
+Income (loss) from operations
+(6)
+%
+3
+%
+Interest expense
+(2)
+%
+(2)
+%
+Other income (expense), net
+(22)
+%
+5
+%
+Income (loss) before income taxes and income from equity method investments
+(30)
+%
+6
+%
+Provision for (benefit from) income taxes
+(1)
+%
+1
+%
+Income from equity method investments
+—
+%
+—
+%
+Net income (loss) including non-controlling interests
+(29)
+%
+6
+%
+Less: net income attributable to non-controlling interests, net of tax
+—
+%
+1
+%
+Net income (loss) attributable to Uber Technologies, Inc.
+(29)
+%
+5
+%
+(1)
+Totals of percentage of revenues may not foot due to rounding.
+Comparison of the Years Ended December 31, 2022 and 2023
+Revenue
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Revenue
+$
+31,877
+$
+37,281
+17
+%
+2023
+Compared to 2022
+Revenue increased $5.4 billion, or 17% year-over-year. Mobility revenue increased $5.8 billion primarily attributable to an increase in Mobility Gross Bookings of 31% year-over-year. Delivery revenue increased $1.3 billion primarily attributable to an increase in Delivery Gross Bookings of 14% year-over-year. Revenue growth was partially offset by a $1.7 billion decrease in our Freight business, with Freight Gross Bookings declining 25% year-over-year. Additionally, the increase in Mobility and Delivery revenue was partially offset by business model changes in some countries that classified certain sales and marketing costs as contra revenue, which negatively impacted revenue by $368 million and $796 million across Mobility and Delivery, respectively.
+Cost of Revenue, Exclusive of Depreciation and Amortization
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Cost of revenue, exclusive of depreciation and amortization
+$
+19,659
+$
+22,457
+14
+%
+Percentage of revenue
+62
+%
+60
+%
+2023 Compared to 2022
+Cost of revenue, exclusive of depreciation and amortization, increased $2.8 billion, or 14%, mainly due to a $1.6 billion increase in Driver payments and incentives that are recorded in cost of revenue, exclusive of depreciation and amortization, as a result of increased Mobility Gross Bookings, a $1.4 billion increase in insurance expense primarily due to an increase in miles driven in our Mobility business, and an $945 million increase in Courier payments and incentives that are recorded in cost of revenue, exclusive of depreciation and amortization, as a result of increased Delivery Gross Bookings in certain markets, partially offset by a $1.3 billion decrease in Freight Carrier payments due to reduced Freight Gross Bookings.
+54
+Operations and Support
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Operations and support
+$
+2,413
+$
+2,689
+11
+%
+Percentage of revenue
+8
+%
+7
+%
+2023 Compared to 2022
+Operations and support expenses increased $276 million, or 11%, primarily attributable to a $132 million increase in employee headcount costs, a $58 million increase in Driver background checks, and a $47 million increase in external contractor expenses.
+Sales and Marketing
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Sales and marketing
+$
+4,756
+$
+4,356
+(8)
+%
+Percentage of revenue
+15
+%
+12
+%
+2023 Compared to 2022
+Sales and marketing expenses decreased $400 million, or 8%, primarily attributable to a $448 million decrease in consumer discounts, promotions, credits and refunds to $1.7 billion compared to $2.2 billion in 2022. The decrease in consumer discounts, promotions, credits and refunds is primarily attributed to business model changes in some countries that classified certain sales and marketing costs as contra revenue totaling $1.2 billion, partially offset by a $716 million increase in consumer discounts, promotions, credits and refunds spend globally.
+Research and Development
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Research and development
+$
+2,798
+$
+3,164
+13
+%
+Percentage of revenue
+9
+%
+8
+%
+2023 Compared to 2022
+Research and development expenses increased $366 million, or 13%, primarily attributable to a $223 million increase in employee headcount costs and a $155 million increase in stock-based compensation.
+General and Administrative
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+General and administrative
+$
+3,136
+$
+2,682
+(14)
+%
+Percentage of revenue
+10
+%
+7
+%
+2023 Compared to 2022
+General and administrative expenses decreased $454 million, or 14%, primarily attributable to a $327 million decrease in other corporate expenses and a $208 million decrease in legal settlements and legal expenses, partially offset by a $73 million increase in employee headcount costs.
+Depreciation and Amortization
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Depreciation and amortization
+$
+947
+$
+823
+(13)
+%
+Percentage of revenue
+3
+%
+2
+%
+2023 Compared to 2022
+Depreciation and amortization expenses decreased $124 million, or 13%, primarily attributable to a $160 million decrease in amortization expenses due to acquired Postmates intangible assets being fully amortized in 2022. This was partially offset by a $25
+55
+million increase in amortization for internally developed software.
+Interest Expense
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Interest expense
+$
+(565)
+$
+(633)
+12
+%
+Percentage of revenue
+(2)
+%
+(2)
+%
+2023 Compared to 2022
+Interest expense increased by $68 million, or 12%, primarily attributable to an increase in interest expense on our term loans due to higher LIBOR and SOFR rates.
+Other Income (Expense), Net
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Interest income
+$
+139
+$
+484
+248
+%
+Foreign currency exchange gains (losses), net
+(147)
+(182)
+(24)
+%
+Gain on business divestitures, net
+14
+204
+**
+Loss from sale of investment
+—
+(74)
+**
+Unrealized gain (loss) on debt and equity securities, net
+(7,045)
+1,610
+**
+Impairment of equity method investment
+(182)
+—
+**
+Revaluation of MLU B.V. call option
+191
+—
+**
+Other, net
+1
+(198)
+**
+Other income (expense), net
+$
+(7,029)
+$
+1,844
+**
+Percentage of revenue
+(22)
+%
+5
+%
+**    Percentage not meaningful.
+2023 Compared to 2022
+Interest income increased by $345 million primarily attributable to a larger investment portfolio and higher yields compared to the same period in 2022.
+Gain on business divestitures, net increased by $190 million primarily due to a $204 million gain on the sale of interest in Careem Technologies in the fourth quarter of 2023. For additional information, see Note 18 – Divestitures included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Unrealized gain (loss) on debt and equity securities, net increased by $8.7 billion primarily represents changes in the fair value of our equity investments. In 2022, unrealized loss on debt and equity securities, net, includes: a $3.0 billion net unrealized loss on our Aurora investments, a $2.1 billion net unrealized loss on our Grab investment, a $1.0 billion net unrealized loss on our Didi investment, a $747 million change of fair value on our Zomato investment, as well as a $142 million net unrealized loss on our other investments in securities accounted for under the fair value option.
+In 2023, net unrealized gain on debt and equity securities, net, includes: a $985 million net unrealized gain on our Aurora investment, a $443 million net unrealized gain on our Didi investment, a $84 million net unrealized gain on our Joby investment, and a $80 million net unrealized gain on our Grab investment. For additional information, see Note 3 – Investments and Fair Value Measurement included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Impairment of equity method investment represents a $182 million impairment loss recorded on our MLU B.V. equity method investment. For additional information, see Note 4 - Equity Method Investments included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Revaluation of MLU B.V. call option represents a $191 million net gain for the change in fair value of the call option granted to Yandex (“MLU B.V. Call Option”). For additional information, see Note 4 - Equity Method Investments included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+56
+Provision for (Benefit from) Income Taxes
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Provision for (benefit from) income taxes
+$
+(181)
+$
+213
+**
+Effective tax rate
+1.9
+%
+9.2
+%
+**    Percentage not meaningful.
+2023 Compared to 2022
+Provision for income taxes increased by $394 million primarily due to the deferred U.S. tax impact related to our investments.
+Income from Equity Method Investments
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Income from equity method investments
+$
+107
+$
+48
+(55)
+%
+Percentage of revenue
+—
+%
+—
+%
+2023 Compared to 2022
+The change in income from equity method investments was not material.
+Segment Results of Operations
+We operate our business as three operating and reportable segments: Mobility, Delivery, and Freight. For additional information about our segments, see Note 13 – Segment Information and Geographic Information in the notes to the consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Revenue
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Mobility
+$
+14,029
+$
+19,832
+41
+%
+Delivery
+10,901
+12,204
+12
+%
+Freight
+6,947
+5,245
+(24)
+%
+Total revenue
+$
+31,877
+$
+37,281
+17
+%
+Segment Adjusted EBITDA
+Segment Adjusted EBITDA is defined as revenue less the following expenses: cost of revenue, exclusive of depreciation and amortization, operations and support, sales and marketing, and general and administrative and research and development expenses associated with our segments. Segment adjusted EBITDA also excludes non-cash items, certain transactions that are not indicative of ongoing segment operating performance and/or items that management does not believe are reflective of our ongoing core operations. For additional information, see Note 13 – Segment Information and Geographic Information to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Year Ended December 31,
+% Change
+(In millions, except percentages)
+2022
+2023
+Mobility
+$
+3,299
+$
+4,963
+50
+%
+Delivery
+551
+1,506
+173
+%
+Freight
+—
+(64)
+**
+Corporate G&A and Platform R&D
+(1), (2)
+(2,137)
+(2,353)
+(10)
+%
+Adjusted EBITDA
+(3)
+$
+1,713
+$
+4,052
+137
+%
+(1
+)
+Excluding stock-based compensation expense.
+(2)
+Includes costs that are not directly attributable to our reportable segments. Corporate G&A also includes certain shared costs such as finance, accounting, tax, human resources, information technology and legal costs. Platform R&D also includes mapping and payment technologies and support and development of the internal technology infrastructure. Our allocation methodology is periodically evaluated and may change.
+57
+(3)
+See the section titled “Reconciliations of Non-GAAP Financial Measures” for more information and reconciliations to the most directly comparable GAAP financial measure.
+**    Percentage not meaningful.
+Mobility Segment
+For the year ended December 31, 2023 compared to the same period in 2022, Mobility revenue increased $5.8 billion, or 41% and Mobility adjusted EBITDA profit increased $1.7 billion, or 50%.
+Mobility revenue increased primarily attributable to an increase in Mobility Gross Bookings of 31%, driven by an increase in Trip volumes. The increase in Mobility revenue was partially offset by business model changes in some countries that classified certain sales and marketing costs as contra revenue, which negatively impacted revenue by $368 million.
+Mobility Adjusted EBITDA profit increased primarily attributable to an increase in Mobility Gross Bookings, partially offset by a $1.6 billion increase in Driver payments and incentives that are recorded in cost of revenue, exclusive of depreciation and amortization, and a $1.4 billion increase in insurance expense primarily due to an increase in miles driven.
+Delivery Segment
+For the year ended December 31, 2023 compared to the same period in 2022, Delivery revenue increased $1.3 billion, or 12% and Delivery adjusted EBITDA profit increased $955 million, or 173%.
+Delivery revenue increased primarily attributable to an increase in Delivery Gross Bookings of 14%, driven by an increase in delivery orders and higher basket sizes. The increase in Delivery revenue was partially offset by business model changes in some countries that classified certain sales and marketing costs as contra revenue, which negatively impacted revenue by $796 million.
+Delivery Adjusted EBITDA profit increased primarily attributable to an increase in Delivery revenue including advertising, partially offset by a $945 million increase in Courier payments and incentives that are recorded in cost of revenue, exclusive of depreciation and amortization, and a $116 million increase in employee headcount costs.
+Freight Segment
+For the year ended December 31, 2023 compared to the same period in 2022, Freight revenue decreased $1.7 billion, or 24% and Freight adjusted EBITDA declined $64 million to a Freight adjusted EBITDA loss of $64 million.
+Freight revenue decreased primarily
+attributable to a decrease in Freight Gross Bookings due to lower revenue per load and volume, both a consequence of the challenging freight market cycle.
+Freight Adjusted EBITDA declined primarily attributable to the $1.7 billion decrease in Freight revenue, partially offset by a $1.3 billion decrease in Freight Carrier payments recorded in cost of revenue, exclusive of depreciation and amortization.
+58
+Certain Key Metrics and Non-GAAP Financial Measures
+Adjusted
+EBITDA is a non-GAAP financial measure. For more information about how we use this and other non-GAAP financial measures in our business, the limitations of these measures, and reconciliations of these measures to the most directly comparable GAAP financial measures, see the section titled “Reconciliations of Non-GAAP Financial Measures.”
+Monthly Active Platform Consumers.
+MAPCs is the number of unique consumers who completed a Mobility ride or received a Delivery order on our platform at least once in a given month, averaged over each month in the quarter. While a unique consumer can use multiple product offerings on our platform in a given month, that unique consumer is counted as only one MAPC. We use MAPCs to assess the adoption of our platform and frequency of transactions, which are key factors in our penetration of the countries in which we operate.
+Trips.
+We define Trips as the number of completed consumer Mobility rides and Delivery orders in a given period. For example, an UberX Share ride with three paying consumers represents three unique Trips, whereas an UberX ride with three passengers represents one Trip. We believe that Trips are a useful metric to measure the scale and usage of our platform.
+59
+Gross Bookings.
+We define Gross Bookings as the total dollar value, including any applicable taxes, tolls, and fees, of: Mobility rides; Delivery orders (in each case without any adjustment for consumer discounts and refunds); Driver and Merchant earnings; Driver incentives and Freight revenue. Gross Bookings do not include tips earned by Drivers. Gross Bookings are an indication of the scale of our current platform, which ultimately impacts revenue.
+(In millions)
+Q1 2022
+Q2 2022
+Q3 2022
+Q4 2022
+Q1 2023
+Q2 2023
+Q3 2023
+Q4 2023
+Mobility
+$
+10,723
+$
+13,364
+$
+13,684
+$
+14,894
+$
+14,981
+$
+16,728
+$
+17,903
+$
+19,285
+Delivery
+13,903
+13,876
+13,684
+14,315
+15,026
+15,595
+16,094
+17,011
+Freight
+1,823
+1,838
+1,751
+1,540
+1,401
+1,278
+1,284
+1,279
+Adjusted EBITDA.
+See the section titled “Reconciliations of Non-GAAP Financial Measures” for our definition and a reconciliation of net income (loss) attributable to Uber Technologies, Inc. to Adjusted EBITDA.
+Year Ended December 31,
+(In millions, except percentages)
+2022
+2023
+% Change
+Adjusted EBITDA
+$
+1,713
+$
+4,052
+137
+%
+2023 Compared to 2022
+Adjusted EBITDA improved $2.3 billion, to $4.1 billion, primarily attributable to a $1.7 billion increase in Mobility Adjusted EBITDA, a $955 million improvement in Delivery Adjusted EBITDA, partially offset by a $216 million increase in Corporate G&A and Platform R&D costs as well as a $64 million decrease in Freight Adjusted EBITDA.
+Reconciliations of Non-GAAP Financial Measures
+We collect and analyze operating and financial data to evaluate the health of our business and assess our performance. In addition to revenue, net income (loss), income (loss) from operations, and other results under GAAP, we use Adjusted EBITDA, revenue growth rates in constant currency and free cash flow, which are described below, to evaluate our business. We use these non-GAAP financial measures for financial and operational decision-making and as a means to evaluate period-to-period comparisons. We believe that these non-GAAP financial measures provide meaningful supplemental information regarding our performance by excluding certain items that may not be indicative of our recurring core business operating results.
+We believe that both management and investors benefit from referring to these non-GAAP financial measures in assessing our performance and when planning, forecasting, and analyzing future periods. These non-GAAP financial measures also facilitate management’s internal comparisons to our historical performance. We believe these non-GAAP financial measures are useful to investors both because (1) they allow for greater transparency with respect to key metrics used by management in its financial and operational decision-making and (2) they are used by our institutional investors and the analyst community to help them analyze the health of our business. Accordingly, we believe that these non-GAAP financial measures provide useful information to investors and others in understanding and evaluating our operating results in the same manner as our management team and board of directors. Our calculation of these non-GAAP financial measures may differ from similarly-titled non-GAAP measures, if any, reported by our peer companies. These non-GAAP financial measures should not be considered in isolation from, or as substitutes for, financial information prepared in accordance with GAAP.
+60
+Adjusted EBITDA
+We define Adjusted EBITDA as net income (loss), excluding (i) income (loss) from discontinued operations, net of income taxes, (ii) net income (loss) attributable to non-controlling interests, net of tax, (iii) provision for (benefit from) income taxes, (iv) income (loss) from equity method investments, (v) interest expense, (vi) other income (expense), net, (vii) depreciation and amortization, (viii) stock-based compensation expense, (ix) certain legal, tax, and regulatory reserve changes and settlements, (x) goodwill and asset impairments/loss on sale of assets, (xi) acquisition, financing and divestitures related expenses, (xii) restructuring and related charges and (xiii) other items not indicative of our ongoing operating performance.
+We have included Adjusted EBITDA in this Annual Report on Form 10-K because it is a key measure used by our management team to evaluate our operating performance, generate future operating plans, and make strategic decisions, including those relating to operating expenses. Accordingly, we believe that Adjusted EBITDA provides useful information to investors and others in understanding and evaluating our operating results in the same manner as our management team and board of directors. In addition, it provides a useful measure for period-to-period comparisons of our business, as it removes the effect of certain non-cash expenses and certain variable charges.
+Legal, tax, and regulatory reserve changes and settlements
+Legal, tax, and regulatory reserve changes and settlements are primarily related to certain significant legal proceedings or governmental investigations related to worker classification definitions, or tax agencies challenging our non-income tax positions. These matters have limited precedent, cover extended historical periods and are unpredictable in both magnitude and timing, therefore are distinct from normal, recurring legal, tax and regulatory matters and related expenses incurred in our ongoing operating performance.
+Limitations of Non-GAAP Financial Measures and Adjusted EBITDA Reconciliation
+Adjusted EBITDA has limitations as a financial measure, should be considered as supplemental in nature, and is not meant as a substitute for the related financial information prepared in accordance with GAAP. These limitations include the following:
+•
+Adjusted EBITDA excludes certain recurring, non-cash charges, such as depreciation of property and equipment and amortization of intangible assets, and although these are non-cash charges, the assets being depreciated and amortized may have to be replaced in the future, and Adjusted EBITDA does not reflect all cash capital expenditure requirements for such replacements or for new capital expenditure requirements;
+•
+Adjusted EBITDA excludes stock-based compensation expense, which has been, and will continue to be for the foreseeable future, a significant recurring expense in our business and an important part of our compensation strategy;
+•
+Adjusted EBITDA excludes certain restructuring and related charges, part of which may be settled in cash;
+•
+Adjusted EBITDA excludes other items not indicative of our ongoing operating performance;
+•
+Adjusted EBITDA does not reflect period-to-period changes in taxes, income tax expense or the cash necessary to pay income taxes;
+•
+Adjusted EBITDA does not reflect the components of other income (expense), net, which primarily includes: interest income; foreign currency exchange gains (losses), net; gain (loss) on business divestitures, net; unrealized gain (loss) on debt and equity securities, net; and impairment of debt and equity securities; and
+•
+Adjusted EBITDA excludes certain legal, tax, and regulatory reserve changes and settlements that may reduce cash available to us.
+61
+The following table presents a reconciliation of net income (loss) attributable to Uber Technologies, Inc., the most directly comparable GAAP financial measure, to Adjusted EBITDA for each of the periods indicated:
+Year Ended December 31,
+(In millions)
+2022
+2023
+Adjusted EBITDA reconciliation:
+Net income (loss) attributable to Uber Technologies, Inc.
+$
+(9,141)
+$
+1,887
+Add (deduct):
+Net income attributable to non-controlling interests, net of tax
+3
+269
+Provision for (benefit from) income taxes
+(181)
+213
+Income from equity method investments
+(107)
+(48)
+Interest expense
+565
+633
+Other (income) expense, net
+7,029
+(1,844)
+Depreciation and amortization
+947
+823
+Stock-based compensation expense
+1,793
+1,935
+Legal, tax, and regulatory reserve changes and settlements
+732
+9
+Goodwill and asset impairments/loss on sale of assets, net
+25
+84
+Acquisition, financing and divestitures related expenses
+46
+36
+Accelerated lease costs related to cease-use of ROU assets
+6
+—
+COVID-19 response initiatives
+1
+—
+Loss on lease arrangement, net
+7
+4
+Restructuring and related charges
+2
+51
+Mass arbitration fees, net
+(14)
+—
+Adjusted EBITDA
+$
+1,713
+$
+4,052
+Constant Currency
+We compare the percent change in our current period results from the corresponding prior period using constant currency disclosure. We present constant currency growth rate information to provide a framework for assessing how our underlying revenue performed excluding the effect of foreign currency rate fluctuations. We calculate constant currency by translating our current period financial results using the corresponding prior period’s monthly exchange rates for our transacted currencies other than the U.S. dollar.
+Free Cash Flow
+We define free cash flow as net cash flows from operating activities less capital expenditures.
+The following table presents a reconciliation of free cash flow to the most directly comparable GAAP financial measure for each of the periods indicated:
+Year Ended December 31,
+(In millions)
+2022
+2023
+Free cash flow reconciliation:
+Net cash provided by operating activities
+$
+642
+$
+3,585
+Purchases of property and equipment
+(252)
+(223)
+Free cash flow
+$
+390
+$
+3,362
+Liquidity and Capital Resources
+Year Ended December 31,
+(In millions)
+2022
+2023
+Net cash provided by operating activities
+$
+642
+$
+3,585
+Net cash used in investing activities
+(1,637)
+(3,226)
+Net cash provided by (used in) financing activities
+15
+(95)
+Operating Activities
+Net cash provided by operating activities was $3.6 billion for the year ended December 31, 2023, primarily consisting of $2.2 billion of net income including non-controlling interests, adjusted for certain non-cash items, which primarily included $1.9 billion of stock-based compensation expense, $1.6 billion of unrealized gains from equity securities, $823 million of depreciation and
+62
+amortization expense, $204 million gain from business divestiture, as well as a $165 million decrease in cash consumed by working capital. The decrease in cash consumed by working capital was primarily driven by an increase in our insurance reserves, partially offset by an increase in prepaid expenses and other assets as well as accounts receivable. Net cash provided by operating activities reflects a cash outflow of approximately $789 million (£631 million) cash outflow related to payments of HMRC VAT for assessments for the period of March 2022 to June 2023. For additional information on this matter, refer to Note 14 – Commitments and Contingencies to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Net cash provided by operating activities was $642 million for the year ended December 31, 2022, primarily consisting of $9.1 billion of net loss including non-controlling interests, adjusted for certain non-cash items, which primarily included $7.0 billion of unrealized losses from equity securities, $1.8 billion of stock-based compensation expense, and $947 million of depreciation and amortization expense, as well as a $335 million decrease in cash consumed by working capital. The decrease in cash consumed by working capital and other operating activities was primarily driven by an increase in our insurance reserves and accrued expenses and other current liabilities, partially offset by higher accounts receivable. Net cash provided by operating activities reflects a cash outflow of approximately $733 million (£613 million) related to the resolution of outstanding HMRC VAT claims that were paid during the fourth quarter of 2022.
+Investing Activities
+Net cash used in investing activities was $3.2 billion for the year ended December 31, 2023, primarily consisting of $8.8 billion in purchases of marketable securities, $223 million in purchases of property and equipment, partially offset by proceeds from maturities and sales of marketable securities of $5.1 billion and proceeds from the sale of an equity method investment of $721 million.
+Net cash used in investing activities was $1.6 billion for the year ended December 31, 2022, primarily consisting of $1.7 billion in purchases of marketable securities, $252 million in purchases of property and equipment, and $59 million in acquisition of business net of cash acquired, partially offset by proceeds from maturities and sales of marketable securities of $376 million.
+Financing Activities
+Net cash used in financing activities was $95 million for the year ended December 31, 2023, primarily consisting of $2.7 billion in principal repayment on term loan and notes, $171 million of principal payments on finance leases and $141 million to fund the cost of entering into the capped call transactions related to our 2028 Convertible Notes, partially offset by $2.8 billion of proceeds from issuance of term loan and notes, net of issuance costs. For additional information, see Note 8 – Long-Term Debt and Revolving Credit Arrangements to our consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Net cash provided by financing activities was $15 million for the year ended December 31, 2022, primarily consisting of proceeds from sale of subsidiary stock units of $255 million, and proceeds from the issuance of common stock under the Employee Stock Purchase Plan of $92 million, partially offset by $184 million of principal payments on finance leases, and $80 million of principal repayment on the non-interest bearing unsecured convertible notes related to the acquisition of Careem (“Careem Notes”).
+Other Information
+As of December 31, 2023, $2.8 billion of our $4.7 billion in cash and cash equivalents was held by our foreign subsidiaries. Cash held outside the United States may be repatriated, subject to certain limitations, and would be available to be used to fund our domestic operations. Repatriation of funds may result in immaterial tax liabilities. We believe that our existing cash, cash equivalents and short-term investments in the United States are sufficient to fund our working capital needs in the United States. We are in compliance with our debt and line of credit covenants as of December 31, 2023, including by meeting our reporting obligations. We also believe that our sources of funding and our available line of credit will be sufficient to satisfy our currently anticipated cash requirements including capital expenditures, working capital requirements, collateral requirements, potential acquisitions, potential prepayments of contested indirect tax assessments (“pay-to-play”), and other liquidity requirements through at least the next 12 months. We intend to continue to evaluate and may, in certain circumstances, take preemptive action to preserve liquidity.
+Non-Income Tax Matters
+United Kingdom
+On October 31, 2022, we settled our UK VAT dispute with the HMRC, the UK tax regulator, for all periods prior to March 14, 2022. As a result of the settlement agreement, these prior periods are closed to assessment and Uber made a payment of approximately $733 million (£613 million) in the fourth quarter of 2022 for this resolution.
+As of March 14, 2022, we modified our operating model in the UK, such that as of that date Uber UK is a merchant of transportation and is required to remit VAT. Uber UK is remitting VAT under the Value Added (Tour Operators) Order 1987 (“VAT Order 1987”), which allows for VAT remittance on a calculated margin, rather than on Gross Bookings.
+Throughout 2023, we received multiple assessments from the HMRC disputing our application of VAT Order 1987 application for the period of March 2022 to June 2023, totaling approximately $789 million (£631 million) for unpaid VAT. Uber paid, and is
+63
+required to pay, these assessments in order to proceed with the appeal process. The payments do not represent our acceptance of the assessments.
+The payments made in 2023 are recorded as a receivable in other assets on our consolidated balance sheet because we believe that we will be successful in our appeal, upon which, the full amount of our payments will be returned to us with interest upon completion of the appeals process. We expect to receive additional assessments related to this matter and will be required to pay the assessments in order to continue with the appeals process. Any payments are expected to decrease operating cash flow and have no impact on our results of operations. We plan to vigorously defend our application of the VAT Order 1987 and are waiting to obtain hearing dates from the Tax Tribunal. For additional information, see Note 14 – Commitments and Contingencies in the section titled “Notes to Consolidated Financial Statements” included in Part II, Item 8 of this Annual Report on Form 10-K.
+Commitments
+Leases
+Our operating lease portfolio primarily consists of corporate offices. For additional information, see Note 6 - Leases in the notes to the consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Long-Term Debt
+We have long-term debt with varying maturities dates through 2030. For additional information, see Note 8 – Long-Term Debt and Revolving Credit Arrangements in the notes to the consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+Purchase Commitments
+We have non-cancelable commitments which primarily relate to network and cloud services and other items in the ordinary course of business. These amounts are determined based on the non-cancelable quantities to which we are contractually obligated.
+In November 2022, we entered into commercial technology agreements with vendors for cloud computing services (“2022 Cloud Computing Service Agreements”). We are committed to spend an aggregate of at least $2.7 billion through November 2029, of which $291 million is short-term. We may pay more than the minimum purchase commitment to our cloud-computing web services providers based on usage. For the years ended December 31, 2022 and 2023, the amounts utilized for these agreements were immaterial.
+As of December 31, 2023, we had $3.0 billion in non-cancelable commitments, this includes the $2.7 billion in 2022 Cloud Computing Service Agreements discussed above. The non-cancellable commitments have varying expiration terms through November 2029.
+Share Repurchase Authorization
+In February 2024, our board of directors authorized the repurchase of up to $7.0 billion in shares of our outstanding common stock. The timing, manner, price and amount of any repurchases are determined by the discretion of management, depending on market conditions and other factors. Repurchases may be made through open market purchases and accelerated share repurchases. The exact number of shares to be repurchased by us, if any, is not guaranteed. Depending on market conditions and other factors, these repurchases may be commenced or suspended at any time or periodically without prior notice.
+Critical Accounting Estimates
+We believe that the following accounting policies involve a high degree of judgment and complexity and are critical to understanding and evaluating our consolidated financial condition and results of our operations. An accounting policy is considered to be critical if it requires judgment on a significant accounting estimate to be made based on assumptions about matters that are uncertain at the time the estimate is made, and if different estimates that reasonably could have been used, or changes in the accounting estimates that are reasonably likely to occur periodically, could materially impact the reported amounts of assets, liabilities, revenue and expenses, and related disclosures in our audited consolidated financial statements. We have based our estimates on historical experience and on various other assumptions that are believed to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Although we believe that the estimates we use are reasonable, due to the inherent uncertainty involved in making those estimates, actual results reported in future periods could differ from those estimates.
+We believe that the following critical accounting policies reflect the more significant judgments, estimates and assumptions used in the preparation of our consolidated financial statements. For additional information, see the disclosure included in Note 1 – Description of Business and Summary of Significant Accounting Policies in the notes to the consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+64
+Revenue Recognition
+We derive our revenue from service fees paid by Drivers and Merchants for the use of our platform in connection with our Mobility products and Delivery offering provided by Drivers and Merchants to end-users. Our sole performance obligation in the transaction is to connect Drivers and Merchants with end-users to facilitate the completion of a successful ridesharing trip or delivery. In certain markets, we also generate revenue from end-users and charge a direct fee for use of the platform or in exchange for Mobility or Delivery services.
+Judgment is required in evaluating the presentation of revenue on a gross versus net basis based on whether we control the service provided to the end-user and are the principal in the transaction (gross), or we arrange for other parties to provide the service to the end-user and are the agent in the transaction (net). The assessment of whether we are considered the principal or the agent in a transaction could impact the accounting for certain payments and incentives provided to Drivers and end-users and change the timing and amount of revenue recognized.
+Driver Incentives
+We offer various incentive programs to Drivers. Judgment is required to determine the appropriate classification of these incentives. Incentives provided to customers are recorded as a reduction of revenue if we do not receive a distinct service in exchange or cannot reasonably estimate the fair value of the service received. Incentives offered in exchange for specific services, such as referral services are recorded as sales and marketing expenses.
+End-User Discounts and Promotions
+We offer discounts and promotions to end-users (that are not customers) to encourage use of our platform. Judgment is required to determine the appropriate classification of these incentives. End-user discounts and promotions are recorded to sales and marketing expenses with the exception of market-wide promotions which are recorded as a reduction of revenue.
+Business Combinations
+We allocate the fair value of purchase consideration to the tangible assets acquired, liabilities assumed, and intangible assets acquired based on their estimated fair values. The excess of the fair value of purchase consideration over the fair values of these identifiable assets and liabilities is recorded as goodwill. Such valuations require management to make significant estimates and assumptions, especially with respect to intangible assets. Significant estimates in valuing certain intangible assets include, but are not limited to, future expected cash flows from acquired advertiser, fleet, merchant, and end-user contracts, acquired technology, and trade names, based on expected future growth rates and margins, attrition rates, future changes in technology and royalty for similar brand licenses, useful lives, and discount rates.
+Management's estimates of fair value are based upon assumptions believed to be reasonable, but which are inherently uncertain and unpredictable and, as a result, actual results may differ from estimates. Allocation of purchase consideration to identifiable assets and liabilities affects our amortization expense, as acquired finite-lived intangible assets are amortized over the useful life, whereas any indefinite lived intangible assets, including goodwill, are not amortized. During the measurement period, which may be up to one year from the acquisition date, we may record adjustments to the assets acquired and liabilities assumed, with the corresponding offset to goodwill. Upon the conclusion of the measurement period, any subsequent adjustments are recorded to earnings.
+Investments—Non-Marketable Equity and Debt Securities
+We hold investments in privately held companies in the form of equity securities and debt securities without readily determinable fair values and in which we do not have a controlling interest or significant influence. Investments in equity securities without readily determinable fair values are initially recorded at cost and are subsequently adjusted to fair value for impairments and price changes from observable transactions in the same or a similar security from the same issuer. Investments in material available-for-sale debt securities are recorded initially at fair value and subsequently remeasured to fair value at each reporting date with the changes in fair value recognized in other comprehensive income (loss), net of tax. We may elect the fair value option for financial instruments and account for investments in debt and equity securities at fair value with changes reported in net income (loss) from continuing operations.
+Investments in privately held equity and debt securities are valued using significant unobservable inputs or data in inactive markets. This valuation requires judgment due to the absence of market prices and inherent lack of liquidity and are classified as Level 3 in the fair value hierarchy. In determining the estimated fair value of our investments in privately held companies, we utilize the most recent data available including observed transactions such as equity financing transactions of the investees and sales of the existing shares of the investees’ securities. In addition, the determination of whether an observed transaction is similar to the equity and debt securities held by us requires significant management judgment based on the rights and preferences of the securities.
+We assess our investment portfolio of privately held equity and debt securities quarterly for impairment. The impairment analysis for investments in equity securities includes a qualitative analysis of factors including the investee’s financial performance, industry and market conditions, and other relevant factors. If an equity investment is considered to be impaired we will establish a new carrying value for the investment and recognize an impairment loss through our consolidated statement of operations. Investments in debt
+65
+securities are evaluated for impairment quarterly based on whether its fair value has declined below its amortized cost. In circumstances where we intend to sell, or are more likely than not required to sell the security before it recovers its amortized cost basis, the difference between the fair value and amortized cost is recognized as a loss in the consolidated financial statement of operations, with a corresponding write-down of the security’s amortized cost. In circumstances where neither condition exists, we then evaluate whether a decline is due to credit-related factors. The factors considered in determining whether a credit loss exists can include the extent to which fair value is less than the amortized cost basis, changes in the credit quality of the underlying loan obligor’s, credit ratings actions, as well as other factors. To determine the portion of a decline in fair value that is credit-related, we compare the present value of the expected cash flows of the security discounted at the security’s effective interest rate to the amortized cost basis of the security. A credit-related impairment is limited to the difference between fair value and amortized cost, and recognized as an allowance for credit loss on the consolidated balance sheet with a corresponding adjustment to net income (loss). Any remaining decline in fair value that is non-credit related is recognized in other comprehensive income (loss), net of tax. Improvements in expected cash flows due to improvements in credit are recognized through reversal of the credit loss and corresponding reduction in the allowance for credit loss.
+Equity Method Investments
+We account for investments in the common stock or in-substance common stock of entities that provide us with the ability to exercise significant influence, but not a controlling financial interest, using the equity method. Investments accounted for under the equity method are initially recorded at cost. Subsequently, we recognize through the consolidated statements of operations, and as an adjustment to the investment balance, our proportionate share of the investee entities’ net income or loss, and the amortization of basis differences. In accounting for these investments, we record our share of the entities’ net income or loss one quarter in arrears. Equity method investments for which the fair value option is elected are measured at fair value on a recurring basis with changes in fair value reflected in earnings.
+We review our equity method investments for impairment whenever events or changes in business circumstances indicate that the carrying value of the investment may not be fully recoverable. Qualitative and quantitative factors considered as indicators of a potential impairment include financial results and operating trends of the investees, implied values in transactions of the investee’s securities, severity and length of decline in value, and our intention for holding the investment, among other factors. If an impairment is determined to be other-than-temporary, the fair value of the impaired investment would have to be determined and an impairment charge recorded for the difference between the fair value and the carrying value of the investment. The fair value determination, particularly for investments in privately held companies, requires significant judgment to determine appropriate estimates and assumptions. Changes in these estimates and assumptions could affect the calculation of the fair value of the investments and the determination of the impairment charges.
+Goodwill Impairment Assessment
+We review goodwill for impairment annually (in the fourth quarter) and whenever events or changes in circumstances indicate that goodwill might be impaired. We make certain judgments and assumptions to determine our reporting units and in allocating shared assets and liabilities to determine the carrying values for each of our reporting units. Determination of reporting units is based on a judgmental evaluation of the level at which our segment managers review financial results, evaluate performance, and allocate resources.
+Judgment in the assessment of qualitative factors of impairment include, among other factors: financial performance; legal, regulatory, contractual, political, business, and other factors; entity specific factors; industry and market considerations, macroeconomic conditions, and other relevant events and factors affecting the reporting unit. To the extent we determine that it is more likely than not that the fair value of the reporting unit is less than its carrying value, a quantitative test is then performed.
+Performing a quantitative goodwill impairment test includes the determination of the fair value of a reporting unit and involves significant estimates and assumptions. These estimates and assumptions include, among others, revenue growth rates and operating margins used to calculate projected future cash flows, risk-adjusted discount rates, future economic and market conditions, and the determination of appropriate market comparables.
+Loss Contingencies
+We are involved in legal proceedings, claims, and regulatory, indirect tax examinations, or government inquiries and investigations that may arise in the ordinary course of business. Certain of these matters include speculative claims for substantial or indeterminate amounts of damages. We record a liability when we believe that it is both probable that a loss has been incurred and the amount can be reasonably estimated. If we determine that a loss is reasonably possible and the loss or range of loss can be reasonably estimated, we disclose the possible loss in the accompanying notes to the consolidated financial statements.
+We review the developments in our contingencies that could affect the amount of the provisions that have been previously recorded, and the matters and related reasonably possible losses disclosed. We make adjustments to our provisions and changes to our disclosures accordingly to reflect the impact of negotiations, settlements, rulings, advice of legal counsel, and updated information. Significant judgment is required to determine both the probability and the estimated amount of loss. These estimates have been based
+66
+on our assessment of the facts and circumstances at each balance sheet date and are subject to change based on new information and future events.
+The outcomes of litigation, regulatory, indirect tax examinations and investigations are inherently uncertain. Therefore, if one or more of these matters were resolved against us for amounts in excess of management’s expectations, our results of operations, financial condition, or cash flows, including in a particular reporting period in which any such outcome becomes probable and estimable, could be materially adversely affected.
+Income Taxes
+We are subject to income taxes in the United States and foreign jurisdictions. We account for income taxes using the asset and liability method. The establishment of deferred tax assets from intra-entity transfers of intangible assets requires management to make significant estimates and assumptions to determine the fair value of such intangible assets. Significant estimates in valuing intangible assets may include, but are not necessarily limited to, internal revenue and expense forecasts, the estimated life of the intangible assets, comparable transaction values, and/or discount rates. The discount rates used to discount expected future cash flows to present value are derived from a weighted-average cost of capital analysis and are adjusted to reflect the inherent risks related to the cash flow. Although we believe the assumptions and estimates we have made are reasonable and appropriate, they are based, in part, on historical experience, internal and external comparable data and are inherently uncertain. Unanticipated events and circumstances may occur that could affect either the accuracy or validity of such assumptions, estimates or actual results.
+We account for uncertainty in tax positions by recognizing a tax benefit from uncertain tax positions when it is more-likely-than-not that the position will be sustained upon examination. Evaluating our uncertain tax positions and determining our provision for income taxes are inherently uncertain and require making judgments, assumptions, and estimates. While we believe we have adequately reserved for our uncertain tax positions, no assurance can be given that the final tax outcome of these matters will not be different. We adjust these reserves in light of changing facts and circumstances, such as the closing of a tax audit. To the extent that the final tax outcome of these matters is different than the amounts recorded, such differences may impact the provision for income taxes and the effective tax rate in the period in which such determination is made.
+The provision for income taxes includes the impact of reserve provisions and changes to reserves as well as the related net interest and penalties. In addition, we are subject to the continuous examination of our income tax returns by the IRS and other tax authorities which may assert assessments against us. We regularly assess the likelihood of adverse outcomes resulting from these examinations and assessments to determine the adequacy of our provision for income taxes.
+Based on available evidence, management believes it is not more-likely-than-not that the net U.S., Netherlands, and other non-material jurisdictions’ deferred tax assets will be fully realizable. In these jurisdictions, we have recorded a valuation allowance against net deferred tax assets. We regularly review the deferred tax assets for recoverability based on historical taxable income, projected future taxable income, excess tax benefits related to stock-based compensation, the expected timing of the reversals of existing taxable temporary differences and tax planning strategies by jurisdiction. Our judgment regarding future profitability may change due to many factors, including future market conditions and the ability to successfully execute our business plans and/or tax planning strategies.
+Based on our assessment of current income and anticipated future earnings, there is a reasonable possibility that we will have sufficient evidence to release a significant portion of the valuation allowance in the U.S. within the next 12 months. However, our judgment regarding future earnings and the exact timing and amount of any valuation allowance release are subject to change due to many factors, including future market conditions, the ability to successfully execute our business plans, and the amount of stock-based compensation tax deductions available in the future.
+Release of the valuation allowance would result in the recognition of net deferred tax assets on our consolidated balance sheet and would decrease income tax expense in the period the release is recorded.
+Insurance Reserves
+We use a combination of third-party insurance and self-insurance mechanisms, including a wholly-owned captive insurance subsidiary, to provide for the potential liabilities for certain risks, including auto liability, uninsured and underinsured motorist, auto physical damage, general liability, and workers’ compensation. Insurance reserves is an estimate of our potential liability for unpaid losses and loss adjustment expenses, which represents the estimate of the ultimate unpaid obligation for risks retained by us and includes an amount for case reserves related to reported claims and an amount for losses incurred but not reported as of the balance sheet date. The estimate of the ultimate unpaid obligation utilizes generally accepted actuarial methods applied to historical claim and loss experience. In addition, we use assumptions based on actuarial judgment related to claim and loss development patterns and expected loss costs, which consider frequency trends, severity trends, and relevant industry data. These reserves are continually reviewed and adjusted as experience develops and new information becomes known. Adjustments, if any, relating to accidents that occurred in prior years are reflected in the current year results of operations.
+All estimates of ultimate losses and allocated loss adjustment expenses, and of resulting reserves, are subject to inherent variability caused by the nature of the insurance claim settlement process. Such variability is increased for us due to limited historical
+67
+experience and the nature of the coverage provided. Actual results depend upon the outcome of future contingent events and can be affected by many factors, such as claim settlement processes and changes in the economic, legal, and social environments. As a result, the net amounts that will ultimately be paid to settle the liability, and when these amounts will be paid, may vary in the near term from the estimated amounts.
+While management believes that the insurance reserve amount is adequate, the ultimate liability may be in excess of, or less than, the amount provided.
+Recent Accounting Pronouncements
+See Note 1 – Description of Business and Summary of Significant Accounting Policies, to the consolidated financial statements included in Part II, Item 8, “Financial Statements and Supplementary Data,” of this Annual Report on Form 10-K.
+ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+We are exposed to market risks in the ordinary course of our business. These risks primarily include interest rate risk, investment risk, and foreign currency risk as follows:
+Interest Rate Risk
+Our exposures to market risk for changes in interest rates relate primarily to our 2030 Refinanced Term Loans. The 2030 Refinanced Term Loans represent floating rate notes and are carried at amortized cost. Therefore, fluctuations in interest rates will impact our consolidated financial statements. The interest rate for the 2030 Refinanced Term Loans is SOFR plus 2.75% per annum, subject to a floor of 0.00%. There is no cap on the interest rate associated with the 2030 Refinanced Term Loans. A rising interest rate environment will increase the amount of interest paid on the 2030 Refinanced Term Loans. A hypothetical 100 basis point increase or decrease in interest rates would not have a material effect on our financial results.
+The fair value of our fixed rate notes will generally fluctuate with movements of interest rates, increasing in periods of declining rates of interest and declining in periods of increasing rates of interest. A hypothetical 100 basis point increase in interest rates would have decreased the fair value of our notes by $231 million as of December 31, 2023.
+Investment Risk
+Our investment policy limits the amount of credit exposure with any one financial institution or commercial issuer. Cash deposits typically exceed insured limits and are placed with financial institutions around the world that we believe are of high credit quality. These deposits are in excess of the Federal Deposit Insurance Corporation (“FDIC”) insurance limits. There can be no assurance that our deposits in excess of the FDIC limits will be backstopped by the U.S., or that any bank or financial institution with which we do business will be able to obtain needed liquidity from other banks, government institutions or by acquisition in the event of a failure or liquidity crisis.
+Our investment policy objective aims to preserve capital and meet liquidity requirements without significantly increasing risk. We had cash and cash equivalents including restricted cash and cash equivalents totaling $6.7 billion and $7.0 billion as of December 31, 2022 and December 31, 2023, respectively. Marketable debt securities classified as restricted investments and short-term investments totaled $5.5 billion as of December 31, 2023. As of December 31, 2023, our cash, cash equivalents, and marketable debt securities primarily consist of money market funds, cash deposits, U.S. government securities, U.S. government agency securities, and investment-grade corporate debt securities. We do not enter into investments for trading or speculative purposes. Investments in fixed rate securities carry a degree of interest rate risk. Changes in rates would primarily impact interest income due to the relatively short-term nature of our investments. A hypothetical 100 basis point change in interest rates would not have a material effect on our financial results.
+We are exposed to certain risks related to the carrying amounts of investments in other companies, including our minority-owned, privately-held entities and public companies, compared to their fair value. We hold privately held investments in illiquid private company stock which are inherently difficult to value given the lack of publicly available information. We also hold equity securities with readily determinable fair values which are subject to equity price risk. These investments in privately-held entities and public companies may increase the volatility in our net income/(loss) in future periods due to changes in the fair value of these investments. In certain cases, our ability to sell these investments may be impacted by contractual obligations to hold the securities for a set period of time after a public offering. As of December 31, 2023, the carrying value of these investments was $6.5 billion, including equity method investments.
+Foreign Currency Risk
+We transact business globally in multiple currencies. Our international revenue, as well as costs and expenses denominated in foreign currencies, expose us to the risk of fluctuations in foreign currency exchange rates against the U.S. dollar. We are exposed to foreign currency risks related to our revenue and operating expenses denominated in currencies other than the U.S. dollar. Accordingly, changes in exchange rates may negatively affect our future revenue and other operating results as expressed in U.S. dollars. Our foreign currency risk is partially mitigated as our revenue recognized in currencies other than the U.S. dollar is diversified across geographic regions and we incur expenses in the same currencies in such regions.
+68
+We have experienced and will continue to experience fluctuations in our net income/(loss) as a result of transaction gains or (losses) related to remeasurement of our asset and liability balances that are denominated in currencies other than the functional currency of the entities in which they are recorded. At this time, we do not, but we may in the future, enter into derivatives or other financial instruments in an attempt to hedge our foreign currency exchange risk.
+69
+
+
+ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA
+INDEX TO CONSOLIDATED FINANCIAL STATEMENTS AND SCHEDULE
+Pages
+Report of Independent Registered Public Accounting Firm
+(PCAOB ID
+238
+)
+71
+Consolidated Financial Statements
+Consolidated Balance Sheets
+74
+Consolidated Statements of Operations
+75
+Consolidated Statements of Comprehensive Income (Loss)
+76
+Consolidated Statements of Redeemable Non-Controlling Interests and Equity
+77
+Consolidated Statements of Cash Flows
+80
+Notes to the Consolidated Financial Statements
+82
+Financial Statement Schedule
+Schedule II - Valuation and Qualifying Accounts for the Years Ended December 31, 2021, 2022 and 2023
+134
+70
+Report of Independent Registered Public Accounting Firm
+To the Board of Directors and Stockholders of Uber Technologies, Inc.
+Opinions on the Financial Statements and Internal Control over Financial Reporting
+We have audited the accompanying consolidated balance sheets of Uber Technologies, Inc. and its subsidiaries (the “Company”) as of December 31, 2023 and 2022, and the related consolidated statements of operations, of comprehensive income (loss), of redeemable non-controlling interests and equity and of cash flows for each of the three years in the period ended December 31, 2023, including the related notes and financial statement schedule listed in the accompanying index (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2023, based on criteria established in
+Internal Control - Integrated Framework
+(2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO).
+In our opinion, the consolidated financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and 2022, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2023 in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control - Integrated Framework (2013) issued by the COSO.
+Change in Accounting Principle
+As discussed in Note 8 to the consolidated financial statements, the Company changed the manner in which it accounts for convertible instruments and contracts in an entity’s own equity in 2021.
+Basis for Opinions
+The Company's management is responsible for these consolidated financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in Management’s Report on Internal Control over Financial Reporting appearing under Item 9A. Our responsibility is to express opinions on the Company’s consolidated financial statements and on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud, and whether effective internal control over financial reporting was maintained in all material respects.
+Our audits of the consolidated financial statements included performing procedures to assess the risks of material misstatement of the consolidated financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the consolidated financial statements. Our audit of internal control over financial reporting included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exists, and testing and evaluating the design and operating effectiveness of internal control based on the assessed risk. Our audits also included performing such other procedures as we considered necessary in the circumstances. We believe that our audits provide a reasonable basis for our opinions.
+Definition and Limitations of Internal Control over Financial Reporting
+A company’s internal control over financial reporting is a process designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. A company’s internal control over financial reporting includes those policies and procedures that (i) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the company; (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorizations of management and directors of the company; and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the company’s assets that could have a material effect on the financial statements.
+Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+71
+Critical Audit Matters
+The critical audit matters communicated below are matters arising from the current period audit of the consolidated financial statements that were communicated or required to be communicated to the audit committee and that (i) relate to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matters below, providing separate opinions on the critical audit matters or on the accounts or disclosures to which they relate.
+Presentation of Mobility and Delivery Revenue Agreements, Including Incentives, Discounts and Promotions to Drivers, Merchants and End-Users
+As described in Notes 1 and 2 to the consolidated financial statements, the Company derives its revenues from Drivers’ and Merchants’ use of the Company’s platform, on-demand lead generation, and related services in connection with Mobility and Delivery services, as well as from direct fees charged to end-users for use of the platform or in exchange for Mobility or Delivery services. Management applies judgment in determining whether the Company is the principal or agent in transactions with Drivers, Merchants and end-users. This determination impacts the presentation of revenue on a gross or net basis as well as the presentation of incentives provided to Drivers and Merchants and discounts and promotions offered to end-users, to the extent they are not customers. For the year ended December 31, 2023, the Company’s Mobility and Delivery revenue, net of incentives, was $32.0 billion and discounts, loyalty programs, promotions, refunds, and credits provided to end-users who are not customers totaled $
+1.7
+billion, of which a significant portion relates to discounts and promotions.
+The principal considerations for our determination that performing procedures relating to the presentation of Mobility and Delivery revenue agreements, including incentives, discounts and promotions to Drivers, Merchants, and end-users is a critical audit matter are the significant judgment by management in assessing the presentation of revenue on a gross or net basis, as well as the presentation of incentives, discounts and promotions offered to Drivers, Merchants, and end-users, which in turn led to a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence relating to whether transaction attributes were appropriately analyzed and presented by management.
+Addressing the matter involved performing procedures and evaluating audit evidence in connection with forming our overall opinion on the consolidated financial statements. These procedures included testing the effectiveness of controls relating to the Company’s revenue recognition process, including controls over the presentation of Mobility and Delivery revenue, incentives, discounts and promotions. These procedures also included, among others, testing, on a sample basis, trip transaction attributes and assessing management’s classification of new or changed agreements by examining documentation related to the agreement terms, driver statements, rider receipts, and discount, promotion and incentive terms, and assessing the impact of those terms and attributes on the presentation of revenue and income statement classification.
+Valuation of Insurance Reserves
+As described in Note 1 to the consolidated financial statements, insurance reserves is the liability for unpaid losses and loss adjustment expenses, which represents the estimate of the ultimate unpaid obligation for certain risks retained by the Company, including auto liability, uninsured and underinsured motorist, auto physical damage, general liability, and workers’ compensation, and includes an amount for case reserves related to reported claims and an amount for losses incurred but not reported as of the balance sheet date. The estimate of the ultimate unpaid obligation utilizes generally accepted actuarial methods applied to historical claim and loss experience. In addition, management uses assumptions based on actuarial judgment related to claim and loss development patterns and expected loss costs, which consider frequency trends, severity trends, and relevant industry data. These reserves are continually reviewed by management and adjusted as experience develops and new information becomes known. The Company’s short-term and long-term insurance reserves as of December 31, 2023 totaled $6.7 billion.
+The principal considerations for our determination that performing procedures relating to the valuation of insurance reserves is a critical audit matter are the significant judgment by management when developing the estimate of the insurance reserves, which in turn led to a high degree of auditor judgment, subjectivity and effort in performing procedures and evaluating audit evidence relating to the actuarial methods and management’s significant assumptions related to loss development patterns and expected loss costs. The audit effort also involved the use of professionals with specialized skill and knowledge.
+Addressing the matter involved performing procedures and evaluating audit evidence in connection with forming our overall opinion on the consolidated financial statements. These procedures included testing the effectiveness of controls relating to the Company’s valuation of insurance reserves, including controls over the development of the significant assumptions related to loss development patterns and expected loss costs. These procedures also included, among others, the involvement of professionals with specialized skill and knowledge to assist in (i) developing, for selected reserve components, an independent actuarial estimate of the insurance reserves, and comparison of this independent estimate to management’s actuarially determined reserves, and (ii) testing, for other selected reserve components, management’s process for estimating the insurance reserves. Developing the independent estimate involved independently developing the loss development patterns and expected loss costs and testing the completeness and accuracy of data provided by management. Testing management’s process for estimating the insurance reserves involved evaluating the
+72
+appropriateness of management’s actuarial methods, evaluating the reasonableness of the significant assumptions used by management related to loss development patterns and expected loss costs used in those methods, and testing the completeness and accuracy of data used by management.
+/s/
+PricewaterhouseCoopers LLP
+San Francisco, California
+February 15, 2024
+We have served as the Company’s auditor since 2014.
+73
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED BALANCE SHEETS
+(In millions, except share amounts which are reflected in thousands, and per share amounts)
+As of December 31, 2022
+As of December 31, 2023
+Assets
+Cash and cash equivalents
+$
+4,208
+$
+4,680
+Short-term investments
+103
+727
+Restricted cash and cash equivalents
+680
+805
+Accounts receivable, net of allowance of $
+80
+and $
+91
+, respectively
+2,779
+3,404
+Prepaid expenses and other current assets
+1,479
+1,681
+Total current assets
+9,249
+11,297
+Restricted cash and cash equivalents
+1,789
+1,519
+Restricted investments
+1,614
+4,779
+Investments
+4,401
+6,101
+Equity method investments
+870
+353
+Property and equipment, net
+2,082
+2,073
+Operating lease right-of-use assets
+1,449
+1,241
+Intangible assets, net
+1,874
+1,425
+Goodwill
+8,263
+8,151
+Other assets
+518
+1,760
+Total assets
+$
+32,109
+$
+38,699
+Liabilities, redeemable non-controlling interests and equity
+Accounts payable
+$
+728
+$
+790
+Short-term insurance reserves
+1,692
+2,016
+Operating lease liabilities, current
+201
+190
+Accrued and other current liabilities
+6,232
+6,458
+Total current liabilities
+8,853
+9,454
+Long-term insurance reserves
+3,028
+4,722
+Long-term debt, net of current portion
+9,265
+9,459
+Operating lease liabilities, non-current
+1,673
+1,550
+Other long-term liabilities
+786
+832
+Total liabilities
+23,605
+26,017
+Commitments and contingencies (Note 14)
+Redeemable non-controlling interests
+430
+654
+Equity
+Common stock, $
+0.00001
+par value,
+5,000,000
+shares authorized for both periods,
+2,005,486
+and
+2,071,144
+shares issued and outstanding, respectively
+—
+—
+Additional paid-in capital
+40,550
+42,264
+Accumulated other comprehensive loss
+(
+443
+)
+(
+421
+)
+Accumulated deficit
+(
+32,767
+)
+(
+30,594
+)
+Total Uber Technologies, Inc. stockholders' equity
+7,340
+11,249
+Non-redeemable non-controlling interests
+734
+779
+Total equity
+8,074
+12,028
+Total liabilities, redeemable non-controlling interests and equity
+$
+32,109
+$
+38,699
+The accompanying notes are an integral part of these consolidated financial statements.
+74
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(In millions, except share amounts which are reflected in thousands, and per share amounts)
+Year Ended December 31,
+2021
+2022
+2023
+Revenue
+$
+17,455
+$
+31,877
+$
+37,281
+Costs and expenses
+Cost of revenue, exclusive of depreciation and amortization shown separately below
+9,351
+19,659
+22,457
+Operations and support
+1,877
+2,413
+2,689
+Sales and marketing
+4,789
+4,756
+4,356
+Research and development
+2,054
+2,798
+3,164
+General and administrative
+2,316
+3,136
+2,682
+Depreciation and amortization
+902
+947
+823
+Total costs and expenses
+21,289
+33,709
+36,171
+Income (loss) from operations
+(
+3,834
+)
+(
+1,832
+)
+1,110
+Interest expense
+(
+483
+)
+(
+565
+)
+(
+633
+)
+Other income (expense), net
+3,292
+(
+7,029
+)
+1,844
+Income (loss) before income taxes and income from equity method investments
+(
+1,025
+)
+(
+9,426
+)
+2,321
+Provision for (benefit from) income taxes
+(
+492
+)
+(
+181
+)
+213
+Income (loss) from equity method investments
+(
+37
+)
+107
+48
+Net income (loss) including non-controlling interests
+(
+570
+)
+(
+9,138
+)
+2,156
+Less: net income (loss) attributable to non-controlling interests, net of tax
+(
+74
+)
+3
+269
+Net income (loss) attributable to Uber Technologies, Inc.
+$
+(
+496
+)
+$
+(
+9,141
+)
+$
+1,887
+Net income (loss) per share attributable to Uber Technologies, Inc. common stockholders:
+Basic
+$
+(
+0.26
+)
+$
+(
+4.64
+)
+$
+0.93
+Diluted
+$
+(
+0.29
+)
+$
+(
+4.65
+)
+$
+0.87
+Weighted-average shares used to compute net income (loss) per share attributable to common stockholders:
+Basic
+1,892,546
+1,972,131
+2,035,651
+Diluted
+1,895,519
+1,974,928
+2,091,782
+The accompanying notes are an integral part of these consolidated financial statements.
+75
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)
+(In millions)
+Year Ended December 31,
+2021
+2022
+2023
+Net income (loss) including non-controlling interests
+$
+(
+570
+)
+$
+(
+9,138
+)
+$
+2,156
+Other comprehensive income, net of tax:
+Change in foreign currency translation adjustment
+57
+81
+17
+Change in unrealized gain (loss) on investments in available-for-sale debt securities
+(
+46
+)
+—
+5
+Other comprehensive income, net of tax
+11
+81
+22
+Comprehensive income (loss) including non-controlling interests
+(
+559
+)
+(
+9,057
+)
+2,178
+Less: comprehensive income (loss) attributable to non-controlling interests
+(
+74
+)
+3
+269
+Comprehensive income (loss) attributable to Uber Technologies, Inc.
+$
+(
+485
+)
+$
+(
+9,060
+)
+$
+1,909
+The accompanying notes are an integral part of these consolidated financial statements.
+76
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED STATEMENTS OF REDEEMABLE NON-CONTROLLING INTERESTS AND EQUITY
+(In millions, except share amounts which are reflected in thousands)
+Redeemable Non-Controlling Interests
+Common Stock
+Additional Paid-In Capital
+Accumulated Other Comprehensive Income (Loss)
+Accumulated Deficit
+Non-redeemable Non-Controlling Interests
+Total Equity
+Shares
+Amount
+Balance as of December 31, 2020
+$
+787
+1,849,794
+$
+—
+$
+35,931
+$
+(
+535
+)
+$
+(
+23,130
+)
+$
+701
+$
+12,967
+Exercise of stock options
+—
+9,440
+—
+101
+—
+—
+—
+101
+Stock-based compensation
+—
+—
+—
+1,204
+—
+—
+—
+1,204
+Reclassification of the equity component of 2025 Convertible Notes to liability upon adoption of ASU 2020-06
+—
+—
+—
+(
+243
+)
+—
+—
+—
+(
+243
+)
+Reclassification of share-based award liability to additional paid-in capital
+—
+—
+—
+4
+—
+—
+—
+4
+Issuance of common stock under the Employee Stock Purchase Plan
+—
+2,770
+—
+107
+—
+—
+—
+107
+Issuance of common stock as consideration for acquisitions
+—
+19,377
+—
+929
+—
+—
+—
+929
+Issuance of common stock for settlement of Careem Convertible Notes
+—
+4,225
+—
+232
+—
+—
+—
+232
+Issuance of common stock for settlement of contingent consideration liability
+—
+2,252
+—
+102
+—
+—
+—
+102
+Issuance of restricted stock awards, subject to repurchase, in connection with acquisition of non-controlling interest
+—
+4,641
+—
+—
+—
+—
+—
+—
+Re-measurement of non-controlling interest
+1,052
+—
+—
+(
+1,058
+)
+—
+—
+—
+(
+1,058
+)
+Acquisition of non-controlling interests
+(
+1,194
+)
+20,641
+—
+1,327
+—
+—
+—
+1,327
+Recognition of non-controlling interest upon sale of Freight Holding preferred stock
+—
+—
+—
+—
+—
+—
+675
+675
+Derecognition of non-controlling interests upon divestiture
+(
+356
+)
+—
+—
+—
+—
+—
+(
+701
+)
+(
+701
+)
+Issuance of common stock for settlement of RSUs
+—
+36,703
+—
+—
+—
+—
+—
+—
+Shares withheld related to net share settlement
+—
+(
+527
+)
+—
+(
+28
+)
+—
+—
+—
+(
+28
+)
+Unrealized loss on investments in available-for-sale debt securities, net of tax
+—
+—
+—
+—
+(
+46
+)
+—
+—
+(
+46
+)
+Foreign currency translation adjustment
+—
+—
+—
+—
+57
+—
+—
+57
+Net income (loss)
+(
+85
+)
+—
+—
+—
+—
+(
+496
+)
+12
+(
+484
+)
+Balance as of December 31, 2021
+$
+204
+1,949,316
+$
+—
+$
+38,608
+$
+(
+524
+)
+$
+(
+23,626
+)
+$
+687
+$
+15,145
+The accompanying notes are an integral part of these consolidated financial statements.
+77
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED STATEMENTS OF REDEEMABLE NON-CONTROLLING INTERESTS AND EQUITY
+(In millions, except share amounts which are reflected in thousands)
+Redeemable Non-Controlling Interests
+Common Stock
+Additional Paid-In Capital
+Accumulated Other Comprehensive Income (Loss)
+Accumulated Deficit
+Non-redeemable Non-Controlling Interests
+Total Equity
+Shares
+Amount
+Balance as of December 31, 2021
+$
+204
+1,949,316
+$
+—
+$
+38,608
+$
+(
+524
+)
+$
+(
+23,626
+)
+$
+687
+$
+15,145
+Exercise of stock options
+—
+4,151
+—
+19
+—
+—
+—
+19
+Stock-based compensation
+—
+—
+—
+1,843
+—
+—
+—
+1,843
+Issuance of common stock for settlement of RSUs
+—
+47,828
+—
+—
+—
+—
+—
+—
+Issuance of common stock under the Employee Stock Purchase Plan
+—
+4,599
+—
+92
+—
+—
+—
+92
+Shares withheld related to net share settlement
+—
+(
+540
+)
+—
+(
+17
+)
+—
+—
+—
+(
+17
+)
+Issuance of common stock for settlement of contingent consideration liability
+—
+132
+—
+5
+—
+—
+—
+5
+Foreign currency translation adjustment
+(
+3
+)
+—
+—
+—
+81
+—
+—
+81
+Recognition of non-controlling interest upon capital investment
+18
+—
+—
+—
+—
+—
+—
+—
+Recognition of non-controlling interest upon issuance of subsidiary stock
+—
+—
+—
+—
+—
+—
+5
+5
+Issuance of Freight subsidiary preferred stock
+250
+—
+—
+—
+—
+—
+—
+—
+Net income (loss)
+(
+39
+)
+—
+—
+—
+—
+(
+9,141
+)
+42
+(
+9,099
+)
+Balance as of December 31, 2022
+$
+430
+2,005,486
+$
+—
+$
+40,550
+$
+(
+443
+)
+$
+(
+32,767
+)
+$
+734
+$
+8,074
+The accompanying notes are an integral part of these consolidated financial statements.
+78
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED STATEMENTS OF REDEEMABLE NON-CONTROLLING INTERESTS AND EQUITY
+(In millions, except share amounts which are reflected in thousands)
+Redeemable Non-Controlling Interests
+Common Stock
+Additional Paid-In Capital
+Accumulated Other Comprehensive Income (Loss)
+Accumulated Deficit
+Non-redeemable Non-Controlling Interests
+Total Equity
+Shares
+Amount
+Balance as of December 31, 2022
+$
+430
+2,005,486
+$
+—
+$
+40,550
+$
+(
+443
+)
+$
+(
+32,767
+)
+$
+734
+$
+8,074
+Exercise of stock options
+—
+7,747
+—
+46
+—
+—
+—
+46
+Stock-based compensation
+—
+—
+—
+1,983
+—
+—
+—
+1,983
+Issuance of common stock for settlement of RSUs
+—
+53,027
+—
+—
+—
+—
+—
+—
+Issuance of common stock under the Employee Stock Purchase Plan
+—
+5,578
+—
+130
+—
+—
+—
+130
+Shares withheld related to net share settlement
+—
+(
+435
+)
+—
+(
+18
+)
+—
+—
+—
+(
+18
+)
+Repurchase of restricted common stock awards
+—
+(
+259
+)
+—
+—
+—
+—
+—
+—
+Re-measurement of non-controlling interest
+286
+—
+—
+(
+286
+)
+—
+—
+—
+(
+286
+)
+Purchase of capped calls
+—
+—
+—
+(
+141
+)
+—
+—
+—
+(
+141
+)
+Unrealized gain on investments in available-for-sale debt securities, net of tax
+—
+—
+—
+—
+5
+—
+—
+5
+Foreign currency translation adjustment
+—
+—
+—
+—
+17
+—
+—
+17
+Net income (loss)
+(
+62
+)
+—
+—
+—
+—
+2,173
+45
+2,218
+Balance as of December 31, 2023
+$
+654
+2,071,144
+$
+—
+$
+42,264
+$
+(
+421
+)
+$
+(
+30,594
+)
+$
+779
+$
+12,028
+The accompanying notes are an integral part of these consolidated financial statements.
+79
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In millions)
+Year Ended December 31,
+2021
+2022
+2023
+Cash flows from operating activities
+Net income (loss) including non-controlling interests
+$
+(
+570
+)
+$
+(
+9,138
+)
+$
+2,156
+Adjustments to reconcile net income (loss) to net cash provided by (used in) operating activities:
+Depreciation and amortization
+902
+947
+823
+Bad debt expense
+109
+114
+92
+Stock-based compensation
+1,168
+1,793
+1,935
+Loss from sale of investments
+(
+413
+)
+—
+74
+Gain on business divestitures
+(
+1,684
+)
+(
+14
+)
+(
+204
+)
+Deferred income taxes
+(
+692
+)
+(
+441
+)
+26
+Impairments of goodwill, long-lived assets and other assets
+116
+28
+86
+Impairment of equity method investment
+—
+182
+—
+Loss (income) from equity method investments, net
+37
+(
+107
+)
+(
+48
+)
+Unrealized (gain) loss on debt and equity securities, net
+(
+1,142
+)
+7,045
+(
+1,610
+)
+Revaluation of MLU B.V. call option
+—
+(
+191
+)
+—
+Unrealized foreign currency transactions
+38
+96
+138
+Other
+4
+(
+7
+)
+(
+48
+)
+Change in assets and liabilities, net of impact of business acquisitions and disposals:
+Accounts receivable
+(
+597
+)
+(
+542
+)
+(
+758
+)
+Prepaid expenses and other assets
+(
+236
+)
+(
+196
+)
+(
+1,462
+)
+Collateral held by insurer
+860
+—
+—
+Operating lease right-of-use assets
+165
+193
+191
+Accounts payable
+90
+(
+133
+)
+64
+Accrued insurance reserves
+516
+736
+2,015
+Accrued expenses and other liabilities
+1,068
+492
+295
+Operating lease liabilities
+(
+184
+)
+(
+215
+)
+(
+180
+)
+Net cash provided by (used in) operating activities
+(
+445
+)
+642
+3,585
+Cash flows from investing activities
+Purchases of property and equipment
+(
+298
+)
+(
+252
+)
+(
+223
+)
+Purchases of non-marketable equity securities
+(
+982
+)
+(
+14
+)
+(
+52
+)
+Purchases of marketable securities
+(
+1,113
+)
+(
+1,708
+)
+(
+8,774
+)
+Proceeds from sale of non-marketable equity securities
+500
+—
+—
+Proceeds from maturities and sales of marketable securities
+2,291
+376
+5,069
+Proceeds from sale of equity method investments
+1,000
+—
+721
+Proceeds from business divestiture
+—
+26
+—
+Acquisition of businesses, net of cash acquired
+(
+2,314
+)
+(
+59
+)
+—
+Purchase of notes receivables
+(
+297
+)
+—
+—
+Other investing activities
+12
+(
+6
+)
+33
+Net cash used in investing activities
+(
+1,201
+)
+(
+1,637
+)
+(
+3,226
+)
+Cash flows from financing activities
+Proceeds from issuance and sale of subsidiary stock units
+675
+255
+—
+Proceeds from the issuance of common stock under the Employee Stock Purchase Plan
+107
+92
+130
+Issuance of term loan and notes, net of issuance costs
+1,766
+—
+2,824
+Purchase of Capped Calls
+—
+—
+(
+141
+)
+80
+UBER TECHNOLOGIES, INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In millions)
+Year Ended December 31,
+2021
+2022
+2023
+Principal repayment on term loan and notes
+(
+309
+)
+—
+(
+2,675
+)
+Principal repayment on Careem Notes
+(
+307
+)
+(
+80
+)
+(
+25
+)
+Principal payments on finance leases
+(
+226
+)
+(
+184
+)
+(
+171
+)
+Other financing activities
+74
+(
+68
+)
+(
+37
+)
+Net cash provided by (used in) financing activities
+1,780
+15
+(
+95
+)
+Effect of exchange rate changes on cash and cash equivalents, and restricted cash and cash equivalents
+(
+69
+)
+(
+148
+)
+63
+Net increase (decrease) in cash and cash equivalents, and restricted cash and cash equivalents
+65
+(
+1,128
+)
+327
+Cash and cash equivalents, and restricted cash and cash equivalents
+Beginning of period
+7,391
+7,805
+6,677
+Reclassification from (to) assets held for sale during the period
+349
+—
+—
+End of period, excluding cash classified within assets held for sale
+$
+7,805
+$
+6,677
+$
+7,004
+Supplemental disclosures of cash flow information
+Cash paid for:
+Interest, net of amount capitalized
+$
+449
+$
+513
+$
+629
+Income taxes, net of refunds
+87
+175
+234
+Non-cash investing and financing activities:
+Finance lease obligations
+184
+349
+216
+Right-of-use assets obtained in exchange for lease obligations
+273
+329
+84
+Common stock issued in connection with acquisitions
+1,868
+—
+—
+Ownership interest received in exchange for divestitures
+1,018
+—
+300
+Conversion of convertible notes to common stock related to Careem
+232
+—
+—
+The accompanying notes are an integral part of these consolidated financial statements.
+81
+UBER TECHNOLOGIES, INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+Note 1 – 

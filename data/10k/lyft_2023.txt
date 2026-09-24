@@ -1,0 +1,2117 @@
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations.
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with the consolidated financial statements and related notes thereto included elsewhere in this Annual Report on Form 10-K. This section of this Form 10-K generally discusses fiscal years 2023 and 2022 and year-to-year comparisons between 2023 and 2022. Discussions of fiscal year 2021 and year-to-year comparisons between 2022 and 2021 that are not included in this Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2022. This discussion contains forward-looking statements that involve risks and uncertainties. Factors that could cause or contribute to such differences include those identified below and those discussed in the section titled “Risk Factors” and other parts of this Annual Report on Form 10-K. Our historical results are not necessarily indicative of the results that may be expected for any period in the future.
+Financial and Operational Results for the Year Ended December 31, 2023
+Year Ended December 31,
+2023
+2022
+2022 to 2023 % Change
+(in millions, except percentages)
+GAAP Financial Measures
+Revenue
+$
+4,403.6
+$
+4,095.1
+8%
+Total costs and expenses
+$
+4,879.2
+$
+5,554.1
+(12)%
+Loss from operations
+$
+(475.6)
+$
+(1,458.9)
+67%
+Net loss
+$
+(340.3)
+$
+(1,584.5)
+79%
+Net loss as a percentage of revenue
+(7.7)
+%
+(38.7)
+%
+80%
+Net cash used in operating activities
+$
+(98.2)
+$
+(237.3)
+59%
+Net cash provided by investing activities
+$
+599.8
+$
+186.0
+222%
+Net cash used in financing activities
+$
+(122.1)
+$
+(87.5)
+(40)%
+Key Metrics and Non-GAAP Financial Measures
+Active Riders for the fourth quarter
+22.4
+20.4
+10%
+Rides
+709.0
+598.5
+18%
+Gross Bookings
+$
+13,775.2
+$
+12,057.3
+14%
+Adjusted EBITDA
+(1)
+$
+222.4
+$
+(416.5)
+153%
+Net loss as a percentage of Gross Bookings
+(2.5)
+%
+(13.1)
+%
+81%
+Adjusted EBITDA margin (calculated as a percentage of Gross Bookings)
+1.6
+%
+(3.5)
+%
+146%
+Adjusted Net Income (Loss)
+(1)
+$
+250.7
+$
+(531.4)
+147%
+Free cash flow
+(1)(2)
+$
+(248.1)
+$
+(352.3)
+30%
+_______________
+(1)
+For more information regarding our use of our non-GAAP financial measures and reconciliations of these measures to the most comparable GAAP measures, see “Non-GAAP Financial Measures”.
+(2)
+Free cash flow is defined as net cash provided by (used in) operating activities less purchases of property and equipment and scooter fleet.
+Impact of Macroeconomic Conditions, COVID-19 and Recent Market Dynamics on our Business
+Beginning in the middle of March 2020, the COVID-19 pandemic and related responses caused decreased demand for our platform leading to decreased revenues as well as decreased earning opportunities for drivers on our platform. We have experienced volatility in the health of our overall marketplace, including fluctuations in driver supply and service levels. Although there has been an improvement in our overall marketplace health, demand for our platform has not returned to pre-pandemic levels in all markets and the timing of demand increases have not always aligned with supply availability. Our pricing adjustments throughout 2023 have helped stimulate demand for our network and increased total revenue for the year ended December 31, 2023 when compared to the prior year. While these actions may have had an adverse impact on revenue growth and our overall profitability, we believe these changes will have a positive impact on our business over time.
+For more information on risks associated with these factors, see the section titled “Risk Factors” in Item 1A
+of Part I of this Annual Report on Form 10-K.
+Recent Developments
+55
+Revolving Credit Agreement
+On December 12, 2023, we entered into an amendment to Revolving Credit Facility, which amends the existing agreement to, among other things: (i) permit us to refinance existing junior indebtedness (including our convertible senior notes due 2025) with proceeds from one or more new convertible debt issuance(s) or other subordinated indebtedness, subject to certain conditions set forth therein, (ii) permit us to repurchase up to $450.0 million of our convertible senior notes due 2025, (iii) extend the applicability of the existing liquidity covenant to the fiscal quarter ending June 30, 2024 and (iv) commence the date of the stepdown of the total leverage ratio from 3.50x to 3.00x at the fiscal quarter ending March 31, 2025. As of December 31, 2023, no amounts had been drawn under the credit facility.
+Leadership Changes
+On March 27, 2023, we announced that Logan Green, our co-founder and Chief Executive Officer (“CEO”), decided to transition from his role as CEO, effective as of April 17, 2023, and John Zimmer, our co-founder and President, decided to transition from his role as President, effective as of June 30, 2023. On March 27, 2023, we also announced that our board of directors (the “Board”) appointed David Risher, a member of the Board since July 2021, to serve as CEO, effective as of April 17, 2023, and President and CEO, effective as of July 1, 2023. Messrs. Green and Zimmer will each remain as advisors for 12 months following the end of their employment and will continue serving on the Board, Mr. Green as Chair of the Board and Mr. Zimmer to continue serving as Vice Chair of the Board.
+Subsequent to Mr. Risher’s appointment, the Board appointed Kristin Sverchek, a senior executive at the Company, as President, effective as of July 1, 2023, following Mr. Zimmer’s departure. Mr. Risher continues to be the principal executive officer. On May 16, 2023, we announced the appointment of Erin Brewer as Chief Financial Officer, effective as of July 10, 2023.
+Restructuring Activities
+On November 3, 2022, we committed to a plan of termination as part of our efforts to reduce operating expenses and adjust cash flows. The plan involved the termination of approximately 683 employees, representing 13% of our employees. As a result of the restructuring plan, in the fourth quarter of 2022, we recorded $29.5 million in employee severance and other employee costs and $9.5 million in net stock-based compensation expense related to equity compensation for employees impacted by the plan of termination. We have also incurred restructuring charges related to the exit and sublease or cease use of certain facilities, which included $55.3 million in impairment charges related to real estate operating lease right-of-use assets, $23.9 million in accelerated depreciation of certain fixed assets and $2.1 million in write-off of fixed assets not yet placed into service. As a result of these charges, we incurred net restructuring charges of $120.3 million in the fourth quarter of 2022. We also announced the intention to pursue a sale of certain assets related to our first-party vehicle service business.
+In the first quarter of 2023, we finalized the exit of certain leases as part of the 2022 plan of termination and we completed a transaction for the divestiture of certain assets related to our first party vehicle services business to align with our anticipated operating needs. As a result, we recorded lease termination penalties and additional impairment charges related to the cease use of certain facilities to real estate operating lease right-of-use assets. The remaining employee related charges, which include employee severance, benefits and stock-based compensation, were not material in the first quarter of 2023.
+In April 2023, we announced an additional restructuring plan as part of our efforts to reduce operating costs. The plan involved the termination of approximately 1,072 employees, representing 26% of our employees. As a result of the restructuring plan, in the second quarter of 2023, we recorded $47.2 million in employee severance and other employee costs and $9.7 million in net stock-based compensation expense related to equity compensation for employees impacted by the plan of termination. Refer to Note 16 “Restructuring” to the consolidated financial statements for information regarding these reductions in workforce.
+Definitions of Key Metrics
+Gross Bookings and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings)
+Gross Bookings is a key indicator of the scale and impact of our overall platform.
+We define Gross Bookings as the total dollar value of transactions invoiced to rideshare riders including any applicable taxes, tolls and fees, excluding tips to drivers. Gross Bookings also includes amounts invoiced for other offerings, including but not limited to: Express Drive vehicle rentals, bike and scooter rentals, and amounts recognized for subscriptions, bike and bike station hardware and software sales, media, sponsorships, partnerships, and licensing and data access agreements. Adjusted EBITDA margin (calculated as a percentage of Gross Bookings) is calculated by dividing Adjusted EBITDA for a period by Gross Bookings for the same period. For the definition of Adjusted EBITDA, refer to “Non-GAAP Financial Measures”.
+The increase in Gross Bookings in the year ended December 31, 2023 as compared to the year ended December 31, 2022 was due primarily to Rides growth which benefited from improvements in marketplace health driven by our competitive pricing adjustments in addition to our focused execution.
+56
+The improvements in net loss as a percentage of Gross Bookings and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings) in the year ended December 31, 2023 as compared to the year ended December 31, 2022 were due primarily to our cost-restructuring efforts in the first half of the year which helped us to partially offset the impact of competitive pricing to net loss and Adjusted EBITDA. Additionally, our net loss in the year ended December 31, 2022 included a $135.7 million impairment charge related to a non-marketable equity investment in a privately held company and other assets which negatively impacted net loss as a percentage of Gross Bookings in the year ended December 31, 2022, but did not have a similar impact in 2023.
+Rides
+Rides represent the level of usage of our multimodal platform.
+We define Rides as the total number of rides including rideshare and bike and scooter rides completed using our multimodal platform that contribute to our revenue. These include any Rides taken through our Lyft App. If multiple riders take a private rideshare ride, including situations where one party picks up another party on the way to a destination, or splits the bill, we count this as a single rideshare ride. Each unique segment of a Shared Ride is considered a single Ride. For example, if two riders successfully match in Shared Ride mode and both complete their Rides, we count this as two Rides. We have largely shifted away from Shared Rides, and now only offer Shared Rides in limited markets. We include all Rides taken by riders via our Concierge offering, even though such riders may be excluded from the definition of Active Riders unless the ride is accessible in that rider’s Lyft App.
+The increase in Rides in the year ended December 31, 2023 as compared to the year ended December 31, 2022 was due primarily to our improved marketplace heath and competitive pricing adjustments, which also resulted in Active Riders reaching a multi-year high.
+Active Riders
+The number of Active Riders is a key indicator of the scale of our user community.
+Active Riders
+2023
+2022
+(in millions)
+Three Months Ended March 31
+19.6
+17.8
+Three Months Ended June 30
+21.5
+19.9
+Three Months Ended September 30
+22.4
+20.3
+Three Months Ended December 31
+22.4
+20.4
+We define Active Riders as all riders who take at least one ride during a quarter where the Lyft Platform processes the transaction. An Active Rider is identified by a unique phone number. If a rider has two mobile phone numbers or changed their phone number and that rider took rides using both phone numbers during the quarter, that person would count as two Active Riders. If a rider has a personal and business profile tied to the same mobile phone number, that person would be considered a single Active Rider. If a ride has been requested by an organization using our Concierge offering for the benefit of a rider, we exclude this rider in the calculation of Active Riders unless the ride is accessible in that rider’s Lyft App.
+In each of the three month periods ended March 31, June 30, September 30, and December 31, 2023, Active Riders increased compared to the same periods in 2022 primarily due to an increase in demand driven by competitive pricing adjustments which resulted in Active Riders in the fourth quarter of 2023 being just shy of our all-time high.
+Critical Accounting Policies and Estimates
+Our consolidated financial statements and the related notes thereto included elsewhere in this Annual Report on Form 10-K are prepared in accordance with GAAP. The preparation of consolidated financial statements also requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, costs and expenses and related disclosures. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances. Actual results could differ significantly from our estimates. To the extent that there are differences between our estimates and actual results, our future financial statement presentation, financial condition, results of operations and cash flows will be affected.
+We believe that the accounting policies described below involve a significant degree of judgment and complexity. Accordingly, we believe these are the most critical to aid in fully understanding and evaluating our consolidated financial condition and results of operations. For further information, see Note 2 of the notes to our consolidated financial statements included elsewhere in this Annual Report on Form 10-K.
+Revenue Recognition
+57
+Revenues from Contracts with Customers (ASC 606)
+We generate substantially all our revenue from our ridesharing marketplace that connects drivers and riders. We recognize revenue from fees paid by drivers for use of our Lyft Platform offerings in accordance with ASC 606 as described in Note 2 of the notes to our consolidated financial statements. Drivers enter into terms of service (“ToS”) with us in order to use our Lyft Driver App.
+We provide a service to drivers to complete a successful transportation service for riders. This service includes on-demand lead generation that assists drivers to find, receive and fulfill on-demand requests from riders seeking transportation services and related collection activities using our Lyft Platform. As a result, our single performance obligation in the transaction is to connect drivers with riders to facilitate the completion of a successful transportation service for riders.
+We evaluate the presentation of revenue on a gross versus net basis based on whether we act as a principal by controlling the transportation service provided to the rider or whether we act as an agent by arranging for third parties to provide the service to the rider. We facilitate the provision of a transportation service by a driver to a rider (the driver’s customer) in order for the driver to fulfill their contractual promise to the rider. The driver fulfills their promise to provide a transportation service to their customer through use of the Lyft Platform. While we facilitate setting the price for transportation services, the drivers and riders have the discretion in accepting the transaction price through the platform. We do not control the transportation services being provided to the rider nor do we have inventory risk related to the transportation services. As a result, we act as an agent in facilitating the ability for a driver to provide a transportation service to a rider.
+We report revenue on a net basis, reflecting the service fees and commissions owed to us from the drivers as revenue, and not the gross amount collected from the rider. We made this determination of not being primarily responsible for the services since we do not promise the transportation services, do not contract with drivers to provide transportation services on our behalf, do not control whether the driver accepts or declines the transportation request via the Lyft Platform, and do not control the provision of transportation services by drivers to riders at any point in time either before, during, or after, the trip.
+We consider the ToS and our customary business practices in identifying the contracts under ASC 606. As our customary business practice, a contract exists between the driver and us when the driver’s ability to cancel the trip lapses, which typically is upon pickup of the rider. We collect the fare and related charges from riders on behalf of drivers using the rider’s pre-authorized credit card or other payment mechanism and retain any fees owed to us before making the remaining disbursement to drivers; thus the driver’s ability and intent to pay is not subject to significant judgment.
+We earn service fees and commissions from the drivers either as the difference between an amount paid by a rider based on an upfront quoted fare and the amount earned by a driver based on actual time and distance for the trip or as a fixed percentage of the fare charged to the rider. In an upfront quoted fare arrangement, as we do not control the driver’s actions at any point in the transaction to limit the time and distance for the trip, we take on risks related to the driver’s actions which may not be fully mitigated. We earn a variable amount from the drivers and may record a loss from a transaction, which is recorded as a reduction to revenue, in instances where an up-front quoted fare offered to a rider is less than the amount we are committed to pay the driver.
+We recognize revenue upon completion of a ride as the single performance obligation is satisfied and we have the right to receive payment for the services rendered upon the completion of the ride.
+We offer various incentive programs to drivers that are recorded as reduction to revenue if we do not receive a distinct good or service in consideration or if we cannot reasonably estimate the fair value of goods or services received.
+In some cases, we also earn Concierge platform fees from organizations that use our Concierge offering, which is a product that allows organizations to request rides for their customers and employees through our ridesharing marketplace. Concierge platform fees are earned as a fixed dollar amount per ride or a percentage of the ride price depending on the contract and such Concierge platform fee revenue is recognized on a gross basis.
+We recognize revenue from subscription fees paid by users to access transportation options through the Lyft Platform and mobile-based applications over the applicable subscription period.
+We also recognize revenue from bikes and bike station hardware and software sales when control is transferred to the customer. These revenues are not significant to the Company’s consolidated revenue.
+We generate revenue from licensing and data access agreements. We are primarily responsible for fulfilling our promise to provide rideshare data and access to Flexdrive vehicles and bear the fulfillment risk, and the responsibility of providing the data, over the license period. We act as a principal in delivering the data and access licenses and present revenue on a gross basis. Consideration allocated to each performance obligation, the data delivery and vehicle access, are determined by assigning the relative fair value to each of the performance obligations. Revenue is recorded upon delivery of the rideshare data and ratably over the quarter for access to fleet vehicles as our respective performance obligation is satisfied upon the delivery of each. These revenues are not material to the Company’s consolidated revenue. Refer to Note 4 "Divestitures" to the consolidated financial statements for information regarding the divestiture of certain assets related to our self-driving vehicles division, Level 5.
+58
+We have arrangements to provide advertising services to third parties that are interested in reaching users of our platform. These arrangements generally require us to provide advertising services over a fixed period of time for which revenue is recognized ratably over the contractual period. These revenues are not significant to the Company’s consolidated revenue.
+Rental Revenue (ASC 842)
+We generate rental revenues primarily from Flexdrive and our network of Light Vehicles. Under the Flexdrive program, we operate a fleet of rental vehicles comprised of both vehicles owned by us and vehicles leased from third-party leasing companies. We either lease or sublease vehicles to drivers and as a result, we are considered the accounting lessor or sublessor, as applicable, in these arrangements in accordance with ASC 842. For vehicles that are subleased, sublease income and head lease expense for these transactions are recognized on a gross basis on the consolidated financial statements. Drivers who rent vehicles are charged rental fees, which we collect from the driver by deducting such amounts from the driver’s earnings on the Lyft Platform.
+Revenue generated from single-use ride fees paid by Light Vehicles riders are recognized upon completion of each related ride. Revenue generated from Flexdrive is recognized evenly over the rental period, which is typically seven days or less. Due to the short-term nature of the Flexdrive and Light Vehicle transactions, we classify these rentals as operating leases.
+Insurance Reserves and Insurance-related Accruals
+We utilize both a wholly-owned captive insurance subsidiary and third-party insurance, which may include deductibles and self-insured retentions, to insure or reinsure costs including auto liability, uninsured and underinsured motorist, auto physical damage, first party injury coverages including personal injury protection under state law and general business liabilities up to certain limits. The recorded liabilities reflect the estimated cost for claims incurred but not paid and claims that have been incurred but not yet reported and any estimable administrative run-out expenses related to the processing of these outstanding claim payments. Liabilities are determined on a quarterly basis by internal actuaries through an analysis of historical trends, changes in claims experience including consideration of new information and application of loss development factors for the insurance reserves and frequency and severity assumptions for the insurance-related accruals, among other inputs and assumptions. On an annual basis, an independent third-party actuary will evaluate the liabilities for appropriateness with claims reserve valuations.
+Insurance claims may take years to completely settle, and we have limited historical loss experience. Because of the limited operational history, we make certain assumptions based on currently available information and industry statistics, with the loss development factors as the most significant assumptions related to the insurance reserves and the frequency and severity assumptions as the most significant assumptions related to insurance-related accruals, and utilize actuarial models and techniques to estimate the reserves. A number of factors can affect the actual cost of a claim, including the length of time the claim remains open, economic and healthcare cost trends and the results of related litigation. Furthermore, claims may emerge in future years for events that occurred in a prior year at a rate that differs from previous actuarial projections. The impact of these factors on ultimate costs for insurance is difficult to estimate and could be material. However, while we believe that the insurance reserve and insurance-related accrual amounts are adequate, the ultimate liabilities may be in excess of, or less than, the amounts provided. As a result, the net amounts that will ultimately be paid to settle the liabilities and when amounts will be paid may significantly vary from the estimated amounts provided for in the consolidated balance sheets. We continue to review our insurance reserve estimates in a regular, ongoing process as historical experience develops, additional claims are reported as settled, and the legal, regulatory and economic environment evolves.
+On April 22, 2021, our wholly-owned subsidiary, Pacific Valley Insurance Company, Inc. (“PVIC”), entered into a Quota Share Reinsurance Agreement (the “Reinsurance Agreement”) with DARAG Bermuda LTD (“DARAG”), under which DARAG reinsured a legacy portfolio of auto insurance policies, based on reserves in place as of March 31, 2021, for $183.2 million of coverage above the liabilities recorded as of that date. Under the terms of the Reinsurance Agreement, PVIC ceded to DARAG approximately $251.3 million of certain legacy insurance liabilities for policies underwritten during the period of October 1, 2018 to October 1, 2020, with an aggregate limit of $434.5 million, for a premium of $271.5 million (the “Reinsurance Transaction”). Losses ceded under the Reinsurance Agreement that exceed $271.5 million, but are below the aggregate limit of $434.5 million, result in the recognition of a deferred gain liability. The deferred gain liability is amortized and recognized as a benefit to the statement of operations over the estimated remaining settlement period of the ceded reserves. The settlement period of the ceded reserves is based on the life-to-date cumulative losses collected and likely extends over periods longer than a quarter. The amount of the deferral that is amortized was recalculated each period based on loss payments and updated estimates of the portfolio’s total losses. When the amount and timing of the reinsurance recoveries are uncertain, the recovery method should be used to calculate the amount of amortization in period. The deferral of gains had a negative impact in respective period to cost of revenue as the losses on direct liabilities were not offset by gains from excess benefits under the Reinsurance Agreement. The amortization of these deferred gains provided a benefit to cost of revenue over periods equal to the excess benefits received.
+On June 21, 2022, PVIC and DARAG completed the Commutation Transaction, which effectively commuted and settled the Reinsurance Agreement. As a result of the Commutation Transaction, the Company recognized a $36.8 million gain in cost of revenue in the three months ended June 30, 2022, including amortization of a portion of the previously recognized deferred gain. Refer to Note 6 “Supplemental Financial Statement Information - Commutation of the Reinsurance Agreement” to the consolidated financial
+59
+statements for information regarding this transaction. Refer to Note 6 “Supplemental Financial Statement Information” to the consolidated financial statements for information regarding these transactions.
+Stock-Based Compensation
+We incur stock-based compensation expense primarily from RSUs, performance based stock units (“PSUs”) and stock purchase rights granted under our Employee Stock Purchase Plan (“ESPP”).
+We estimate the fair value of ESPP purchase rights using the Black-Scholes option-pricing model. We recognize compensation expense related to the ESPP purchase rights on a straight-line basis over the offering period, which is typically 12 months.
+The fair value of RSUs and PSUs are estimated based on the fair market value of our common stock on the date of grant, which is based on the closing price of our Class A common stock as reported on the date of grant.
+Compensation expense for RSUs is generally recognized based on a straight-line basis over the requisite service period. Stock-based compensation expense is based on awards ultimately expected to vest and reflects estimated forfeitures. Forfeitures are estimated at the time of grant and revised, if necessary, in subsequent periods if actual forfeitures differ from initial estimates. As of December 31, 2023, the total unrecognized compensation cost related to all unvested awards was $203.1 million, which we expect to recognize over the remaining weighted-average period of approximately 1.2 years.
+Business Combinations
+We account for our business combinations using the acquisition method of accounting, which requires, among other things, allocation of the fair value of purchase consideration to the tangible and intangible assets acquired and liabilities assumed at their estimated fair values on the acquisition date. The excess of the fair value of purchase consideration over the values of these identifiable assets and liabilities is recorded as goodwill. When determining the fair value of assets acquired and liabilities assumed, we make significant estimates and assumptions, especially with respect to intangible assets. Our estimates of fair value are based upon assumptions believed to be reasonable, but which are inherently uncertain and unpredictable and, as a result, actual results may differ from estimates. During the measurement period, not to exceed one year from the date of acquisition, we may record adjustments to the assets acquired and liabilities assumed, with a corresponding offset to goodwill if new information is obtained related to facts and circumstances that existed as of the acquisition date. After the measurement period, any subsequent adjustments are reflected on the consolidated statements of operations. Acquisition costs, such as legal and consulting fees, are expensed as incurred.
+Goodwill
+Goodwill represents the excess of the purchase price over the fair value of the net tangible and identifiable intangible assets acquired in a business combination. Intangible assets resulting from the acquisition of entities accounted for using the purchase method of accounting are estimated by us based on the fair value of assets received. Intangible assets are amortized on a straight-line basis over the estimated useful lives which range from two to twelve years.
+Goodwill is not subject to amortization, but is tested for impairment on an annual basis during the fourth quarter or whenever events or changes in circumstances indicate the carrying amount of the goodwill may not be recoverable. As part of the annual goodwill impairment test, we first perform a qualitative assessment to determine whether further impairment testing is necessary. If, as a result of its qualitative assessment, it is more-likely-than-not that the fair value of the reporting unit is less than its carrying amounts, the quantitative impairment test will be required. There was no impairment of goodwill recorded for the years ended December 31, 2023, 2022 and 2021.
+Recent Accounting Pronouncements
+See
+Note 2
+to our consolidated financial statements included elsewhere in this Annual Report on Form 10-K for recently issued accounting pronouncements not yet adopted as of the date of this report.
+Components of Results of Operations
+Revenue
+Revenue consists of revenue recognized from fees paid by drivers for use of our Lyft Platform offerings, Concierge platform fees from organizations that use our Concierge offering, subscription fees paid by riders to access transportation options through the Lyft Platform, revenue from bikes and bike station hardware and software sales, revenue from licensing and data access agreements and revenue from arrangements to provide advertising services to third parties that are interested in reaching users of our platform. Revenue derived from these offerings is recognized in accordance with ASC 606 as described in the Critical Accounting Policies and Estimates above and in Note 2 of the notes to our consolidated financial statements.
+Revenue also consists of rental revenues recognized through leases or subleases primarily from Flexdrive and our network of Light Vehicles, which includes revenue generated from single-use ride fees paid by riders of Light Vehicles. Revenue derived from
+60
+these offerings is recognized in accordance with ASC 842 as described in the Critical Accounting Policies and Estimates above and in Note 2 of the notes to our consolidated financial statements.
+We offer various incentive programs to drivers that are recorded as reduction to revenue if we do not receive a distinct good or service in consideration or if we cannot reasonably estimate the fair value of goods or services received.
+Cost of Revenue
+Cost of revenue primarily consists of costs directly related to revenue generating transactions through our multimodal platform which primarily includes insurance costs, payment processing charges, and other costs. Insurance costs consist of insurance generally required under TNC and city regulations for ridesharing and bike and scooter rentals and also includes occupational hazard insurance for drivers in California. Payment processing charges include merchant fees, chargebacks and failed charges. Other costs included in cost of revenue are hosting and platform-related technology costs, personnel-related compensation costs, depreciation, amortization of technology-related intangible assets, asset write-off charges and costs related to Flexdrive, which include vehicle lease expenses and remarketing gains and losses related to the sale of vehicles. Gross profit is defined as revenue less cost of revenue.
+Operations and Support
+Operations and support expenses primarily consist of personnel-related compensation costs of local operations teams and teams who provide phone, email and chat support to users, Light Vehicle fleet operations support costs, driver background checks and onboarding costs, fees paid to third-parties providing operations support, facility costs and certain car rental fleet support costs. Light Vehicle fleet operations support costs include general repairs and maintenance, and other customer support activities related to repositioning bikes and scooters for rider convenience, cleaning and safety checks.
+Research and Development
+Research and development expenses primarily consist of personnel-related compensation costs and facilities costs. Such expenses include costs related to autonomous vehicle technology initiatives. Research and development costs are expensed as incurred.
+On July 13, 2021, we completed a transaction with Woven Planet, a subsidiary of Toyota Motor Corporation, for the divestiture of certain assets related to our self-driving vehicle division, Level 5, and as a result, certain costs related to our prior initiative to develop self-driving systems were eliminated beginning in the third quarter of 2021.
+Sales and Marketing
+Sales and marketing expenses primarily consist of rider incentives, personnel-related compensation costs, driver incentives for referring new drivers or riders, advertising expenses, rider refunds and marketing partnerships with third parties. Sales and marketing costs are expensed as incurred.
+General and Administrative
+General and administrative expenses primarily consist of personnel-related compensation costs, professional services fees, certain insurance costs that are generally not required under TNC regulations, certain loss contingency expenses including legal accruals and settlements, insurance claims administrative fees, policy spend, depreciation, facility costs and other corporate costs. General and administrative expenses are expensed as incurred.
+Interest Expense
+Interest expense consists primarily of interest incurred on our 2025 Notes, as well as the related amortization of deferred debt issuance costs and debt discount. Interest expense also includes interest incurred on our Non-Revolving Loan and our Master Vehicle Loan.
+Other Income (Expense), Net
+Other income (expense), net consists primarily of an impairment charge related to a non-marketable equity investment and other assets in 2022, a pre-tax gain as a result of the transaction with Woven Planet in 2021, interest earned on our cash and cash equivalents, sublease income and restricted and unrestricted short-term investments.
+Provision for Income Taxes
+Our provision for income taxes consists of federal and state taxes in the U.S. and foreign taxes in jurisdictions in which we conduct business. As we expand the scale of our international business activities, any changes in the U.S. and foreign taxation of such activities may increase our overall provision for income taxes in the future.
+We have a valuation allowance for our U.S. deferred tax assets, including federal and state net operating loss carryforwards, or NOLs. We expect to maintain this valuation allowance until it becomes more likely than not that the benefit of our federal and state deferred tax assets will be realized.
+61
+Results of Operations
+The following table summarizes our historical consolidated statements of operations data:
+Year Ended December 31,
+2023
+2022
+2021
+(in thousands)
+Revenue
+$
+4,403,589
+$
+4,095,135
+$
+3,208,323
+Costs and expenses
+Cost of revenue
+2,543,954
+2,435,736
+1,702,317
+Operations and support
+427,239
+443,846
+402,233
+Research and development
+555,916
+856,777
+911,946
+Sales and marketing
+481,004
+531,512
+411,406
+General and administrative
+871,080
+1,286,180
+915,638
+Total costs and expenses
+4,879,193
+5,554,051
+4,343,540
+Loss from operations
+(475,604)
+(1,458,916)
+(1,135,217)
+Interest expense
+(26,223)
+(19,735)
+(51,635)
+Other income (expense), net
+170,123
+(99,988)
+135,933
+Loss before income taxes
+(331,704)
+(1,578,639)
+(1,050,919)
+Provision for (benefit from) income taxes
+8,616
+5,872
+11,225
+Net loss
+$
+(340,320)
+$
+(1,584,511)
+$
+(1,062,144)
+The following table sets forth the components of our consolidated statements of operations data as a percentage of revenue:
+Year Ended December 31,
+2023
+2022
+2021
+Revenue
+100.0
+%
+100.0
+%
+100.0
+%
+Costs and expenses
+Cost of revenue
+57.8
+59.5
+53.1
+Operations and support
+9.7
+10.8
+12.5
+Research and development
+12.6
+20.9
+28.4
+Sales and marketing
+10.9
+13.0
+12.8
+General and administrative
+19.8
+31.4
+28.5
+Total costs and expenses
+110.8
+135.6
+135.4
+Loss from operations
+(10.8)
+(35.6)
+(35.4)
+Interest expense
+(0.6)
+(0.5)
+(1.6)
+Other income (expense), net
+3.9
+(2.4)
+4.2
+Loss before income taxes
+(7.5)
+(38.5)
+(32.8)
+Provision for (benefit from) income taxes
+0.2
+0.1
+0.3
+Net loss
+(7.7)
+%
+(38.7)
+%
+(33.1)
+%
+Comparison of Years Ended December 31, 2023 and 2022
+Revenue
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+Revenue
+$
+4,403,589
+$
+4,095,135
+$
+3,208,323
+8
+%
+28
+%
+Revenue increased $308.5 million, or 8%, in 2023 as compared to the prior year, due primarily to growth in demand along with our improved marketplace health and competitive pricing adjustments initiated in early 2023. Improving marketplace health was reflected in increases in Gross Bookings, Rides and Active Riders in the year ended December 31, 2023 as compared to 2022.
+62
+Investments in driver supply, which are recorded as a reduction to revenue, decreased by $233.6 million in 2023 as compared to the prior year.
+Near-term, we intend to continue to strive for competitive service levels, which may include offering lower prices compared to the same periods in the prior year that may have an adverse impact on our revenue and profitability. However, we expect to continue to see improved marketplace balance as increasing driver supply better meets demand.
+Cost of Revenue
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+Cost of revenue
+$
+2,543,954
+$
+2,435,736
+$
+1,702,317
+4
+%
+43
+%
+Cost of revenue increased $108.2 million, or 4%, in 2023 as compared to the prior year. The increase was due primarily to increases of $39.2 million in transaction fees, $38.7 million in Flexdrive related costs due to decreased gains from the sale of vehicles in 2023 as compared to 2022, and $29.3 million in Light Vehicle related costs. There was also a $16.6 million increase in insurance costs driven by recent economic factors including the high inflationary environment, increased litigation and higher than expected paid losses across the commercial auto industry as well as an increase in rider demand. These increases were partially offset by decreases of $16.4 million in personnel-related costs and $14.0 million in stock-based compensation primarily driven by a reduction in headcount after the restructuring events in the fourth quarter of 2022 and second quarter of 2023.
+We expect to see cost of revenue increase in the near term on a year-over-year basis due to higher insurance costs driven by recent economic factors.
+Operations and Support
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+Operations and support
+$
+427,239
+$
+443,846
+$
+402,233
+(4)
+%
+10
+%
+Operations and support expenses decreased $16.6 million, or 4%, in 2023 as compared to the prior year. The decrease was primarily due to a $41.2 million decrease in personnel-related costs, a $11.7 million decrease in depreciation, a $10.0 million decrease in stock-based compensation and a $0.7 million decrease in facilities costs driven by the restructuring events in the fourth quarter of 2022 and second quarter of 2023, which included reductions in headcount and the cease use of certain facilities. These decreases were partially offset by increases of $20.3 million in driver onboarding costs and rider and driver support costs, $12.1 million in fleet operations support costs and $10.7 million in general repairs and maintenance costs.
+Research and Development
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+Research and development
+$
+555,916
+$
+856,777
+$
+911,946
+(35)
+%
+(6)
+%
+Research and development expenses decreased $300.9 million, or 35%, in 2023 as compared to the prior year. The decrease was primarily due to a $177.8 million decrease in stock-based compensation, a $91.9 million decrease in personnel-related costs and a $28.2 million decrease in facilities costs driven by the restructuring events in the fourth quarter of 2022 and second quarter of 2023,
+63
+which included reductions in headcount and the cease use of certain facilities. These decreases were partially offset by a $7.1 million increase in consulting and advisory costs.
+Sales and Marketing
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+Sales and marketing
+$
+481,004
+$
+531,512
+$
+411,406
+(10)
+%
+29
+%
+Sales and marketing expenses decreased $50.5 million, or 10%, in 2023 as compared to the prior year. The decrease was primarily due to decreases of $20.2 million in stock-based compensation and $15.9 million in personnel-related costs driven by a reduction in headcount after the restructuring events in the fourth quarter of 2022 and second quarter of 2023. There were also decreases of $20.4 million in driver and rider programs and $18.8 million in brand and other marketing. These decreases were partially offset by a $32.7 million increase in costs related to incentive programs.
+General and Administrative
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+General and administrative
+$
+871,080
+$
+1,286,180
+$
+915,638
+(32)
+%
+40
+%
+General and administrative expenses decreased $415.1 million, or 32%, in 2023 as compared to the prior year. The decrease was primarily due to a $133.7 million decrease in the accrual for self-retained general business liabilities. There was also a $51.5 million decrease in personnel-related costs and a $44.3 million decrease in stock-based compensation driven by a reduction in headcount after the restructuring events in the fourth quarter of 2022 and second quarter of 2023. There was also a $44.3 million decrease in restructuring costs related to impairment charges related to real estate lease right-of-use assets and accelerated deprecation incurred in 2023 as compared to 2022. In addition, there were decreases of $38.6 million in consulting and advisory costs, $24.8 million in certain loss contingencies including legal and tax accruals and settlements, $22.6 million in contributions toward policy advocacy, $12.6 million in claims administration fees and $8.7 million in taxes.
+Interest Expense
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+Interest expense
+$
+(26,223)
+$
+(19,735)
+$
+(51,635)
+33
+%
+(62)
+%
+Interest expense increased $6.5 million, or 33%, in 2023 as compared to the prior year.
+Other Income (Expense), Net
+Year Ended December 31,
+2023 to 2022
+% change
+2022 to 2021 % Change
+2023
+2022
+2021
+(in thousands, except for percentages)
+Other income (expense), net
+$
+170,123
+$
+(99,988)
+$
+135,933
+270
+%
+(174)
+%
+Other income (expense), net increased $270.1 million, or 270%, in 2023 as compared to the prior year. The increase was primarily due to a $135.7 million impairment charge related to a non-marketable equity investment in a privately held company and other assets in the third quarter of 2022. There were also increases of $98.6 million in interest income due to higher returns on investments related to the impact of the Federal Reserve's interest rate hikes on our investment instruments, $12.9 million related to a gain on an equity method investment and $8.0 million related to foreign currency exchange. These increases were offset by a $6.7 million decrease in sublease income.
+64
+Non-GAAP Financial Measures
+Year Ended December 31,
+2023
+2022
+2021
+2023 to 2022
+% Change
+2022 to 2021
+% Change
+(in millions, except for percentages)
+GAAP Financial Measures
+Revenue
+$
+4,403.6
+$
+4,095.1
+$
+3,208.3
+8
+%
+28
+%
+Net loss
+$
+(340.3)
+$
+(1,584.5)
+$
+(1,062.1)
+79
+%
+(49)
+%
+Net loss as a % of revenue
+(7.7)
+%
+(38.7)
+%
+(33.1)
+%
+Net cash used in operating activities
+$
+(98.2)
+$
+(237.3)
+$
+(101.7)
+59
+%
+(133)
+%
+Net cash provided by investing activities
+$
+599.8
+$
+186.0
+$
+267.0
+222
+%
+(30)
+%
+Net cash used in financing activities
+$
+(122.1)
+$
+(87.5)
+$
+(72.5)
+(40)
+%
+(21)
+%
+Key Metrics and Non-GAAP Financial Measures
+Gross Bookings
+$
+13,775.2
+$
+12,057.3
+$
+9,745.7
+14
+%
+24
+%
+Adjusted EBITDA
+$
+222.4
+$
+(416.5)
+$
+(157.5)
+153
+%
+(164)
+%
+Net loss as a percentage of Gross Bookings
+(2.5)
+%
+(13.1)
+%
+(10.9)
+%
+Adjusted EBITDA margin (calculated as a percentage of Gross Bookings)
+1.6
+%
+(3.5)
+%
+(1.6)
+%
+Adjusted Net Income (Loss)
+$
+250.7
+$
+(531.4)
+$
+(332.6)
+147
+%
+(60)
+%
+Free cash flow
+(1)
+$
+(248.1)
+$
+(352.3)
+$
+(180.9)
+30
+%
+(95)
+%
+_______________
+(1)
+Free cash flow is defined as as net cash provided by (used in) operating activities less purchases of property and equipment and scooter fleet.
+Adjusted EBITDA and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings)
+Adjusted EBITDA is a key performance measure and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings) is a key metric, both of which our management uses to assess our operating performance and the operating leverage in our business. Because Adjusted EBITDA and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings) facilitate internal comparisons of our historical operating performance on a more consistent basis, we use these measures for business planning purposes. Net loss is the most directly comparable financial measure to Adjusted EBITDA.
+We calculate Adjusted EBITDA as net loss, adjusted for:
+•
+interest expense;
+•
+other income (expense), net;
+•
+provision for (benefit from) income taxes;
+•
+depreciation and amortization;
+•
+stock-based compensation;
+•
+payroll tax expense related to stock-based compensation;
+•
+net amount from claims ceded under the Reinsurance Agreement;
+•
+sublease income;
+•
+transaction costs related to certain legacy auto insurance liabilities, if any;
+•
+costs related to acquisitions and divestitures, if any; and
+•
+restructuring charges, if any.
+Adjusted EBITDA margin (calculated as a percentage of Gross Bookings) is calculated by dividing Adjusted EBITDA for a period by Gross Bookings for the same period.
+65
+During the second quarter of 2021, we entered into a Quota Share Reinsurance Agreement (the “Reinsurance Agreement”) for the reinsurance of legacy auto insurance liabilities between October 1, 2018 to October 1, 2020, based on the reserves in place as of March 31, 2021. During the first quarter of 2020, we entered into a Novation Agreement for the transfer of certain legacy auto insurance liabilities between October 1, 2015 and September 30, 2018. Refer to Note 6 “Supplemental Financial Statement Information” to the consolidated financial statements regarding these transactions. We believed the costs associated with these transactions related to certain legacy auto insurance liabilities did not illustrate the current period performance of our ongoing operations at the time despite this transaction occurring in the current period because the impacted insurance liabilities related to claims that date back years. We believe the adjustment to exclude these costs associated with transactions related to legacy insurance liabilities from Adjusted EBITDA and Adjusted Net Income (Loss) is useful to investors by enabling them to better assess our operating performance in the context of current period results and provide for better comparability with our historically disclosed Adjusted EBITDA and Adjusted Net Income (Loss) amounts.
+Losses ceded under the Reinsurance Agreement that exceeded $271.5 million, but were below the aggregate limit of $434.5 million, resulted in the recognition of a deferred gain liability. The deferral of gains had a negative impact in the respective period to cost of revenue as the losses on direct liabilities were not offset by gains from excess benefits under the Reinsurance Agreement. The amortization of these deferred gains provided a benefit to the cost of revenue over multiple periods equal to the excess benefits received. We believe that the net amount recognized on the statement of operations associated with claims ceded under the Reinsurance Agreement, including any related reserve adjustments and any benefit recognized for the related deferred gains, should be excluded to show the ultimate economic benefit of the Reinsurance Agreement. This adjustment helped investors understand the economic benefit of our Reinsurance Agreement on future trends in our operations, as they improved over the settlement period of any deferred gains. Therefore, in the event that the net amount of any reserve adjustments and any benefits from deferred gains related to claims ceded under the Reinsurance Agreement was recognized on the statement of operations, those amounts would be excluded from the calculation of Adjusted EBITDA and Adjusted Net Income (Loss) through the exclusion of the “Net amount from claims ceded under the Reinsurance Agreement”. As of December 31, 2023, there were no deferred gains related to losses ceded under the Reinsurance Agreement. As of December 31, 2022, we had $2.4 million of deferred gain related to losses ceded under the Reinsurance Agreement which was included within accrued and other current liabilities on the consolidated balance sheets.
+During the second quarter of 2022, we completed the Commutation Transaction, which effectively commuted and settled the Reinsurance Agreement. The Commutation Transaction resulted in a $36.8 million gain recorded to cost of revenue on the consolidated statement of operations. Refer to Note 6 “Supplemental Financial Statement Information” to the consolidated financial statements for information regarding these transactions. We believe the adjustment to exclude this gain associated with the commutation of the Reinsurance Agreement from Adjusted EBITDA and Adjusted Net Income (Loss) is useful to investors by enabling them to better assess our operating performance in the context of current period results and provide for better comparability with our historically disclosed Adjusted EBITDA and Adjusted Net Income (Loss) amounts. The gain associated with this Commutation Agreement. which commutes and settles the Reinsurance Agreement was excluded from the calculation of Adjusted EBITDA and Adjusted Net Income (Loss) through the exclusion of the “Net amount from claims ceded under the Reinsurance Agreement.”
+We announced restructuring plans in the fourth quarter of 2022 and the second quarter of 2023 to reduce operating expenses. We believe the costs associated with the restructurings are distinguishable from ongoing operating costs and do not reflect current or expected performance of our ongoing operations. We believe the adjustment to exclude the costs related to restructuring from Adjusted EBITDA and Adjusted Net Income (Loss) is useful to investors by enabling them to better assess our ongoing operating performance and provide for better comparability with our historically disclosed Adjusted EBITDA and Adjusted Net Income (Loss) amounts. Refer to Note 16 “Restructuring” to the consolidated financial statements for information regarding these restructuring plans.
+We sublease certain office space and earn sublease income. Sublease income is included within other income, net on our consolidated statement of operations, while the related lease expense is included within operating expenses and loss from operations. We believe the adjustment to include sublease income in Adjusted EBITDA is useful to investors by enabling them to better assess our operating performance, including the benefits of recent transactions, by presenting sublease income as a contra-expense to the related lease charges within our operating expenses.
+For more information regarding the limitations of Adjusted EBITDA and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings) and a reconciliation of net loss to Adjusted EBITDA, see the section titled “Reconciliation of Non-GAAP Financial Measures”.
+Adjusted Net Income (Loss)
+Adjusted Net Income (Loss) is a measure used by our management to understand and evaluate our operating performance and trends. Net loss is the most directly comparable financial measure to Adjusted Net Income (Loss).
+We define Adjusted Net Income (Loss) as net loss adjusted for:
+•
+amortization of intangible assets;
+•
+stock-based compensation;
+66
+•
+payroll tax expense related to stock-based compensation;
+•
+net amount from claims ceded under the Reinsurance Agreement;
+•
+transaction costs related to certain legacy auto insurance liabilities, if any;
+•
+costs related to acquisitions and divestitures, if any;
+•
+impairment charges, if any; and
+•
+restructuring charges, if any.
+Free Cash Flow
+Free cash flow is a measure used by our management to understand and evaluate our operating performance and trends. We believe free cash flow is a useful indicator of liquidity that provides our management, board of directors, and investors with information about our ability to generate or use cash to enhance the strength of our balance sheet, further invest in our business and pursue potential strategic initiatives.
+We define free cash flow as net cash provided by (used in) operating activities less purchases of property and equipment and scooter fleet.
+Free cash flow has certain limitations, including that it does not reflect our future contractual commitments and it does not represent the total increase or decrease in our cash balance for a given period. Free cash flow does not necessarily represent funds available for discretionary use and is not necessarily a measure of our ability to fund our cash needs. For more information regarding the limitations of free cash flow and a reconciliation of net cash provided by (used in) operating activities to free cash flow, see the section titled “Reconciliation of Non-GAAP Financial Measures”.
+Reconciliation of Non-GAAP Financial Measures
+We use our non-GAAP financial measures in conjunction with GAAP measures as part of our overall assessment of our performance, including the preparation of our annual operating budget and quarterly forecasts, to evaluate the effectiveness of our business strategies, and to communicate with our board of directors concerning our financial performance. Our definitions may differ from the definitions used by other companies and therefore comparability may be limited. In addition, other companies may not publish these or similar metrics. Furthermore, these measures have certain limitations in that they do not include the impact of certain expenses that are reflected in our consolidated statements of operations that are necessary to run our business. Thus, our non-GAAP financial measures should be considered in addition to, not as substitutes for, or in isolation from, measures prepared in accordance with GAAP.
+We compensate for these limitations by providing a reconciliation of our non-GAAP financial measures to the most directly comparable GAAP financial measure. We encourage investors and others to review our financial information in its entirety, not to rely on any single financial measure and to view our non-GAAP financial measures in conjunction with the respective most directly comparable GAAP financial measures.
+67
+Net loss is the most directly comparable financial measure to Adjusted EBITDA. The following table provides a reconciliation of net loss to Adjusted EBITDA (in millions):
+Year Ended December 31,
+2023
+2022
+2021
+(in millions)
+Net loss
+$
+(340.3)
+$
+(1,584.5)
+$
+(1,062.1)
+Adjusted to exclude the following:
+Interest expense
+(1)
+29.7
+20.8
+52.8
+Other (income) expense, net
+(2)
+(170.1)
+100.0
+(135.9)
+Provision for (benefit from) income taxes
+8.6
+5.9
+11.2
+Depreciation and amortization
+116.5
+154.8
+139.3
+Stock-based compensation
+484.5
+750.8
+724.6
+Payroll tax expense related to stock-based compensation
+12.5
+17.0
+31.5
+Net amount from claims ceded under the Reinsurance Agreement
+(3)(4)
+—
+18.5
+52.8
+Sublease income
+4.8
+11.6
+6.6
+Costs related to acquisitions and divestitures
+(5)
+—
+2.3
+1.5
+Transactions related to certain legacy auto insurance liabilities
+(6)
+—
+—
+20.4
+Restructuring charges
+(7)(8)
+76.2
+86.6
+—
+Adjusted EBITDA
+(9)
+$
+222.4
+$
+(416.5)
+$
+(157.5)
+Gross Bookings
+$
+13,775.2
+$
+12,057.3
+$
+9,745.7
+Net loss as a percentage of Gross Bookings
+(2.5)
+%
+(13.1)
+%
+(10.9)
+%
+Adjusted EBITDA margin (calculated as a percentage of Gross Bookings)
+1.6
+%
+(3.5)
+%
+(1.6)
+%
+_______________
+(1)
+Includes interest expense for Flexdrive vehicles and the 2025 Notes. $3.4 million, $1.1 million and $1.1 million related to the interest component of vehicle related finance leases in the year ended December 31, 2023, 2022, and 2021. Refer to Note 8 “Leases” to the consolidated financial statements for information regarding the interest component of vehicle-related finance leases.
+(2)
+Includes a $135.7 million impairment charge related to a non-marketable equity investment and other assets in the third quarter of 2022 and a $119.3 million pre-tax gain from the transaction with Woven Planet in the third quarter of 2021 and interest income.
+(3)
+Includes a $36.8 million gain recognized in cost of revenue in the second quarter of 2022 on the consolidated statement of operations related to the Commutation Transaction, which effectively commuted and settled the Reinsurance Agreement. Refer to Note 6 "Supplemental Financial Statement Information" to the consolidated financial statements for information regarding the Commutation Transaction.
+(4)
+Reflects the net amount recognized on the statement of operations associated with claims ceded under the Reinsurance Agreement (described above), including any losses related to the deferral gains on the statement of operations and any benefit from the amortization of the deferred gain in the same period.
+(5)
+Includes third-party costs incurred related to our acquisition of PBSC in the second quarter of 2022 and our transaction with Woven Planet in the second quarter of 2021. This also includes adjustments to the contingent consideration related to our acquisition of PBSC in the third quarter of 2022.
+(6)
+In the second quarter of 2021, we entered into the Reinsurance Agreement under which a third party reinsured certain legacy auto insurance liabilities. The total impact of the transaction to reinsure certain legacy auto insurance liabilities under the Reinsurance Agreement on our consolidated statement of operations was $20.4 million, with $20.2 million in cost of revenue and $0.2 million in general and administrative expense in the year ended December 31, 2021.
+(7)
+In the year ended December 31, 2023, we incurred restructuring charges of $50.9 million of severance and other employee costs and $25.3 million related to right-of-use-asset impairments and other costs related to the restructuring plans announced in April 2023 and November 2022. Restructuring related charges for stock-based compensation of $9.9 million, accelerated depreciation of $1.0 million and payroll tax expense related to stock-based compensation of $0.6 million incurred in the year ended December 31, 2023 are included on their respective line items. Refer to Note 16 “Restructuring” to the consolidated financial statements for information regarding the restructuring plan announced in April 2023.
+(8)
+In the year ended December 31, 2022, we incurred restructuring charges of $29.2 million of severance and other employee costs and $57.4 million related to lease termination and other restructuring costs. In addition, restructuring-related charges for accelerated depreciation of $23.9 million, stock-based compensation of $9.5 million, and payroll taxes related to stock-based compensation of $0.3 million are included on their respective line items. Refer to Note 16 “Restructuring” to the consolidated financial statements for information regarding the restructuring plan announced in November 2022.
+(9)
+Due to rounding, numbers presented may not add up precisely to the totals provided.
+68
+Net loss is the most directly comparable financial measure to Adjusted Net Income (Loss). The following table provides a reconciliation of net loss to Adjusted Net Income (Loss) (in millions):
+Year Ended December 31,
+2023
+2022
+2021
+Net loss
+$
+(340.3)
+$
+(1,584.5)
+$
+(1,062.1)
+Adjusted for the following:
+Amortization of intangible assets
+16.8
+18.4
+18.1
+Stock-based compensation
+484.5
+750.8
+724.6
+Payroll tax expense related to stock-based compensation
+12.5
+17.0
+31.5
+Net amount from claims ceded under the Reinsurance Agreement
+(1)(2)
+—
+18.5
+52.8
+Costs related to acquisitions and divestitures
+(3)
+—
+2.3
+(117.7)
+Transactions related to certain legacy auto insurance liabilities
+(4)
+—
+—
+20.4
+Restructuring charges
+(5)(6)
+77.2
+110.5
+—
+Impairment charges
+(7)
+—
+135.7
+—
+Adjusted Net Income (Loss)
+(8)
+$
+250.7
+$
+(531.4)
+$
+(332.6)
+_______________
+(1)
+In the second quarter of 2022, we recorded a $36.8 million gain recognized in cost of revenue on the consolidated statement of operations related to the Commutation Transaction, which effectively commuted and settled the Reinsurance Agreement. Refer to Note 6 "Supplemental Financial Statement Information" to the consolidated financial statements for information regarding the Commutation Transaction.
+(2)
+Reflects the net amount recognized on the statement of operations associated with claims ceded under the Reinsurance Agreement (described above), including any losses related to the deferral gains on the statement of operations and any benefit from the amortization of the deferred gain in the same period.
+(3)
+Includes third-party costs incurred related to our acquisition of PBSC, which closed on May 17, 2022 and a $119.3 million pre-tax gain and third-party costs incurred related to our transaction with Woven Planet in the third quarter of 2021.
+(4)
+In the second quarter of 2021, we entered into a Reinsurance Agreement under which a third party reinsured certain legacy auto insurance liabilities. The total impact of the transaction to reinsure certain legacy auto insurance liabilities on our consolidated statement of operations was $20.4 million, with $20.2 million in cost of revenue and $0.2 million in general and administrative expense in the year ended December 31, 2021.
+(5)
+In the year ended December 31, 2023, we incurred restructuring charges of $50.9 million of severance and other employee costs, $25.3 million related to right-of-use-asset impairments and other costs and $1.0 million of accelerated depreciation related to the restructuring plans announced in April 2023 and November 2022. In addition, restructuring related charges for stock-based compensation of $9.9 million and payroll tax expense related to stock-based compensation of $0.6 million incurred in the year ended December 31, 2023 are included on their respective line items. Refer to Note 16 “Restructuring” to the consolidated financial statements for information regarding the restructuring plan announced in April 2023.
+(6)
+In the year ended December 31, 2022, we incurred restructuring charges of $29.2 million of severance and other employee costs, $57.4 million related to lease impairments and other restructuring costs and $23.9 million related to accelerated depreciation of certain fixed assets. In addition, restructuring-related charges for the stock-based compensation of $9.5 million, payroll taxes related to stock-based compensation of $0.3 million are included on their respective line items. Refer to Note 16 “Restructuring” to the consolidated financial statements for information regarding the restructuring plan announced in November 2022.
+(7)
+In the third quarter of 2022, we recorded $135.7 million in impairment charges related to the wind down of an equity investee, which included impairments of a non-marketable equity investment and other assets.
+(8)
+Due to rounding, numbers presented may not calculate precisely to the totals provided.
+Net cash provided by (used in) operating activities is the most directly comparable financial measure to free cash flow. The following table provides a reconciliation of net cash provided by (used in) operating activities to free cash flow (in millions):
+Year Ended December 31,
+2023
+2022
+2021
+Net cash provided by (used in) operating activities
+$
+(98.2)
+$
+(237.3)
+$
+(101.7)
+Less: purchases of property and equipment and scooter fleet
+(149.8)
+(115.0)
+(79.2)
+Free cash flow
+(1)
+$
+(248.1)
+$
+(352.3)
+$
+(180.9)
+(1)
+Due to rounding, numbers presented may not calculate precisely to the totals provided.
+69
+Cash Flows
+The following table summarizes our cash flows for the periods indicated (in thousands):
+Year Ended December 31,
+2023
+2022
+(in thousands)
+Net cash used in operating activities
+$
+(98,244)
+$
+(237,285)
+Net cash provided by investing activities
+599,753
+186,045
+Net cash used in financing activities
+(122,078)
+(87,500)
+Effect of foreign exchange on cash, cash equivalents and restricted cash and cash equivalents
+533
+(631)
+Net change in cash, cash equivalents and restricted cash and cash equivalents
+$
+379,964
+$
+(139,371)
+Operating Activities
+Cash used in operating activities was $98.2 million for the year ended December 31, 2023. This consisted primarily of a net loss of $340.3 million. This was offset by non-cash stock-based compensation expense of $484.5 million and depreciation and amortization expense of $116.5 million.
+Cash used in operating activities was $237.3 million for the year ended December 31, 2022. This consisted primarily of a net loss of $1.6 billion. This was offset by non-cash stock-based compensation expense of $750.8 million, depreciation and amortization expense of $154.8 million and impairment charges of $135.7 million.
+Investing Activities
+Cash provided by investing activities was $599.8 million for the year ended December 31, 2023, which primarily consisted of proceeds from sales and maturities of marketable securities of $3.9 billion and the sale of property and equipment of $92.6 million, partially offset by purchases of marketable securities of $3.3 billion and purchases of property and equipment of $149.8 million.
+Cash provided by investing activities was $186.0 million for the year ended December 31, 2022, which primarily consisted of proceeds from sales and maturities of marketable securities of $4.0 billion, maturities of term deposits of $395.1 million and the sale of property and equipment of $129.8 million, partially offset by purchases of marketable securities of $4.0 billion, the acquisition of PBSC of $146.3 million, and purchases of property and equipment of $115.0 million.
+Financing Activities
+Cash used in financing activities was $122.1 million for the year ended December 31, 2023, which primarily consisted of repayment of loans of $72.5 million and principal payments on finance lease obligations for $43.5 million.
+Cash used in financing activities was $87.5 million for the year ended December 31, 2022, which primarily consisted of repayment of loans of $67.6 million and principal payments on finance lease obligations for $34.8 million.
+Liquidity and Capital Resources
+As of December 31, 2023, our principal sources of liquidity were cash and cash equivalents of approximately $558.6 million, short-term investments of approximately $1.1 billion, exclusive of restricted cash, cash equivalents and investments of $1.0 billion, and a revolving credit agreement which provides for a $420 million revolving secured credit facility described below. Cash and cash equivalents consisted of institutional money market funds, certificates of deposits, commercial paper and corporate bonds that have an original maturity of less than three months and are readily convertible into known amounts of cash. Also included in cash and cash equivalents are certain money market deposit accounts and cash in transit from payment processors for credit and debit card transactions. Short-term investments consisted of commercial paper, certificates of deposit, corporate bonds and term deposits, which mature in 12 months or less. Restricted cash, cash equivalents and investments consisted primarily of amounts held in separate trust accounts and restricted bank accounts as collateral for insurance purposes and amounts pledged to secure certain letters of credit. That portion of our cash and cash equivalents that is not invested is held at several large financial institutions and our investments are focused on the preservation of capital, fulfillment or our liquidity needs, and maximization of investment performance within the parameters set forth in our investment policy and subject to market conditions. The investment policy sets forth credit rating minimums, permissible allocations, and limits our exposure to specific investment types. We believe these policies mitigate our exposure to any risk concentrations.
+In November 3, 2022, we entered into the Revolving Credit Facility, which is a revolving credit agreement with certain lenders which provides for a $420 million revolving secured credit facility maturing on the earlier of (i) November 3, 2027 and (ii) February 13, 2025, if, as of such date, the Company’s Liquidity (as defined in the revolving credit agreement) minus the aggregate principal amount of the Company’s 2025 Notes outstanding on such date is less than $1.25 billion. We are obligated to pay interest on loans under the Revolving Credit Facility and other customary fees for a credit facility of this size and type, including an upfront fee
+70
+and an unused commitment fee. The interest rate for the Revolving Credit Facility is determined based on calculations using certain market rates as set forth in the credit agreement. In addition, the Revolving Credit Facility contains restrictions on payments including cash payments of dividends. The Revolving Credit Facility provides for borrowings up to the amount of the facility, with a sublimit of $168 million for the issuance of letters of credit. On December 12, 2023, we entered into an amendment to Revolving Credit Facility, which amends the existing agreement to, among other things: (i) permit us to refinance existing junior indebtedness (including our convertible senior notes due 2025) with proceeds from one or more new convertible debt issuance(s) or other subordinated indebtedness, subject to certain conditions set forth therein, (ii) permit us to repurchase up to $450.0 million of our convertible senior notes due 2025, (iii) extend the applicability of the existing liquidity covenant to the fiscal quarter ending June 30, 2024 and (iv) commence the date of the stepdown of the total leverage ratio from 3.50x to 3.00x at the fiscal quarter ending March 31, 2025. As of December 31, 2023, no amounts had been drawn under the credit facility.
+We collect the fare and related charges from riders on behalf of drivers at the time the ride is delivered using the rider’s authorized payment method, and we retain any fees owed to us before making the remaining disbursement to drivers. Accordingly, we maintain no accounts receivable from drivers. Our contracts with insurance providers require reinsurance premiums to be deposited into trust accounts with a third-party financial institution from which the insurance providers are reimbursed for claims payments. Our restricted reinsurance trust investments were $837.3 million and $1.0 billion as of December 31, 2023 and 2022, respectively.
+We continue to actively monitor the impact of the uncertain macroeconomic environment, including tightening credit markets, inflation and changing interest rates. We have made adjustments to our expenses and cash flow which include headcount reductions announced in November 2022 and April 2023. We have also incurred restructuring charges related to the exit and sublease or cease use of certain facilities to align with our anticipated operating needs in the fourth quarter of 2022 and the first quarter of 2023. While we cannot be certain that our actions will mitigate the impact of the uncertain macroeconomic environment, with $1.7 billion in unrestricted cash and cash equivalents and short-term investments as of December 31, 2023, as well as our credit facility, we believe we have sufficient liquidity to meet our working capital and capital expenditures needs for at least the next 12 months.
+Our future capital requirements will depend on many factors, including, but not limited to our growth, our ability to attract and retain drivers and riders on our platform, the continuing market acceptance of our offerings, the timing and extent of spending to support our efforts to develop our platform, actual insurance payments for which we have made reserves, and the expansion of sales and marketing activities. Further, we may in the future enter into arrangements to acquire or invest in businesses, products, services and technologies. For example, we intend to invest further in EVs in order to achieve compliance with the California Clean Miles Standard which sets the target that 90% of rideshare miles in California must be in EVs by the end of 2030; the Massachusetts’ Climate Bill; New York City's goal to get to 100% of rideshare rides in EVs or wheelchair accessible vehicles by 2030, and the City of Toronto’s push to bring the industry to 100% electric by 2030. From time to time, we may seek additional equity or debt financing to fund capital expenditures, strategic initiatives or investments and our ongoing operations, or to refinance our existing or future indebtedness. In the event that we decide, or are required, to seek additional financing from outside sources, we may not be able to raise it on terms acceptable to us or at all. The terms of any additional financings or refinancings may place limits on our financial and operating flexibility. If we raise additional funds through further issuances of equity or equity-linked securities, our existing stockholders could suffer dilution in their percentage ownership of us, and any new securities we issue could have rights, preferences and privileges senior to those of holders of our common stock. If we are unable to raise additional capital when desired, our business, financial condition and results of operations could be adversely affected.
+Contractual Obligations and Commitments
+The following table summarizes our contractual obligations and commitments as of December 31, 2023 (in millions):
+Payments Due by Period
+Total
+12 months or less
+Thereafter
+Operating lease commitments
+$
+205.8
+$
+55.7
+$
+150.2
+Financing lease commitments
+98.0
+29.6
+68.4
+Long-term debt, including current maturities
+(1)
+865.2
+25.8
+839.4
+Other noncancelable agreements
+205.0
+8.8
+196.2
+_______________
+(1)
+Includes the
+convertible senior notes with an aggregate principal amount of $747.5 million issued in May 2020 (the "2025 Notes"). The 2025 Notes mature on May 15, 2025, unless earlier converted, redeemed or repurchased.
+Refer to Note 10 "Debt" to the consolidated financial statements for information regarding the 2025 Notes.
+We did not have during the periods presented, and we do not currently have, any off-balance sheet financing arrangements or any relationships with unconsolidated entities or financial partnerships, including entities sometimes referred to as structured finance or special purpose entities, that were established for the purpose of facilitating off-balance sheet arrangements or other contractually narrow or limited purposes.
+71
+Item 7A. Quantitative and Qualitative Disclosures About Market Risk.
+We are exposed to market risks in the ordinary course of our business, which primarily relate to fluctuations in interest rates. Such fluctuations to date have not been significant.
+As of December 31, 2023, we had unrestricted cash, cash equivalents and short-term investments of approximately $1.7 billion, which consisted primarily of institutional money market funds, certificates of deposits, commercial paper, corporate bonds, and term deposits, which each carry a degree of interest rate risk, and restricted cash, cash equivalents and restricted investments of $1.0 billion. A hypothetical 100 basis points change in interest rates would not have a material impact on our financial condition or results of operations due to the short-term nature of our investment portfolio.
+As of December 31, 2023, we had long-term debt of $865.2 million, 86% of which consisted of the 2025 Notes we issued in May 2020. A hypothetical 100 basis points change in interest rates would not have a material impact on our financial condition or results of operations due to immateriality.
+72
+
+
+Item 8. Financial Statements and Supplementary Data.
+INDEX TO CONSOLIDATED FINANCIAL STATEMENTS
+Report of Independent Registered Public Accounting Firm
+(PCAOB ID:
+238
+)
+74
+Consolidated Balance Sheets
+76
+Consolidated Statements of Operations
+77
+Consolidated Statements of Comprehensive Loss
+78
+Consolidated Statements of Stockholders’ Equity
+79
+Consolidated Statements of Cash Flows
+81
+Notes to Consolidated Financial Statements
+83
+73
+Report of Independent Registered Public Accounting Firm
+To the Board of Directors and Stockholders of Lyft, Inc.
+Opinions on the Financial Statements and Internal Control over Financial Reporting
+We have audited the accompanying consolidated balance sheets of Lyft, Inc. and its subsidiaries (the “Company”) as of December 31, 2023 and 2022, and the related consolidated statements of operations, of comprehensive loss, of stockholders’ equity and of cash flows for each of the three years in the period ended December 31, 2023, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2023, based on criteria established in
+Internal Control - Integrated Framework
+(2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO).
+In our opinion, the consolidated financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2023 and 2022, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2023 in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2023, based on criteria established in
+Internal Control - Integrated Framework
+(2013) issued by the COSO.
+Change in Accounting Principle
+As discussed in Note 2 to the consolidated financial statements, the Company changed the manner in which it accounts for convertible debt in 2022.
+Basis for Opinions
+The Company's management is responsible for these consolidated financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in Management’s Report on Internal Control over Financial Reporting appearing under Item 9A. Our responsibility is to express opinions on the Company’s consolidated financial statements and on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud, and whether effective internal control over financial reporting was maintained in all material respects.
+Our audits of the consolidated financial statements included performing procedures to assess the risks of material misstatement of the consolidated financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the consolidated financial statements. Our audit of internal control over financial reporting included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exists, and testing and evaluating the design and operating effectiveness of internal control based on the assessed risk. Our audits also included performing such other procedures as we considered necessary in the circumstances. We believe that our audits provide a reasonable basis for our opinions.
+Definition and Limitations of Internal Control over Financial Reporting
+A company’s internal control over financial reporting is a process designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. A company’s internal control over financial reporting includes those policies and procedures that (i) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the company; (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorizations of management and directors of the company; and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the company’s assets that could have a material effect on the financial statements.
+Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+Critical Audit Matters
+74
+The critical audit matter communicated below is a matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate opinion on the critical audit matter or on the accounts or disclosures to which it relates.
+Valuation of Insurance Reserves and Insurance-Related Accruals
+As described in Notes 2 and 6 to the consolidated financial statements, the Company utilizes both a wholly-owned captive insurance subsidiary and third-party insurance, which may include deductibles and self-insured retentions, to insure or reinsure costs, including auto liability, uninsured and underinsured motorist, auto physical damage, first party injury coverages including personal injury protection under state law and general business liabilities up to certain limits. As of December 31, 2023, insurance reserves and insurance-related accruals totaled $1,338 million and $643 million, respectively. These liabilities are determined on a quarterly basis by internal actuaries through an analysis of historical trends and changes in claims experience. Management makes certain assumptions based on currently available information and industry statistics, with the loss development factors as the most significant assumption related to the insurance reserves and the frequency and severity assumptions as the most significant assumptions related to the insurance-related accruals, and utilizes actuarial models and techniques to estimate the reserves.
+The principal considerations for our determination that performing procedures relating to the valuation of insurance reserves and insurance-related accruals is a critical audit matter are (i) the significant judgment by management when determining the estimated insurance reserves and insurance-related accruals; (ii) a high degree of auditor judgment, subjectivity, and effort in performing procedures and evaluating audit evidence relating to the actuarial valuation techniques and management’s significant assumptions related to loss development factors for the insurance reserves and the frequency and severity for the insurance-related accruals; and (iii) the audit effort involved the use of professionals with specialized skill and knowledge.
+Addressing the matter involved performing procedures and evaluating audit evidence in connection with forming our overall opinion on the consolidated financial statements. These procedures included testing the effectiveness of controls relating to the valuation of insurance reserves and insurance-related accruals, including the controls over the development of the actuarial valuation techniques and the assumptions related to loss development factors for the insurance reserves and the frequency and severity for the insurance-related accruals. These procedures also included, among others (i) testing the completeness and accuracy of historical data provided by management and (ii) the involvement of professionals with specialized skill and knowledge to assist in evaluating the reasonableness of management’s estimates by (a) developing independent estimates of certain insurance reserves and insurance-related accruals and comparing these independent estimates to management’s actuarially determined reserves; (b) evaluating the appropriateness of management’s actuarial techniques; (c) evaluating the reasonableness of management’s significant assumptions by independently developing loss development factors for the insurance reserves and the frequency and severity for the insurance-related accruals based on loss reporting and payment experience and historical trends; and (d) evaluating the consistency of management’s actuarial techniques period-over-period.
+/s/
+PricewaterhouseCoopers LLP
+San Francisco, California
+February 20, 2024
+We have served as the Company’s auditor since 2015.
+75
+Lyft, Inc.
+Consolidated Balance Sheets
+(in thousands, except for share and per share data)
+December 31,
+2023
+2022
+Assets
+Current assets
+Cash and cash equivalents
+$
+558,636
+$
+281,090
+Short-term investments
+1,126,548
+1,515,702
+Prepaid expenses and other current assets
+892,235
+786,067
+Total current assets
+2,577,419
+2,582,859
+Restricted cash and cash equivalents
+211,786
+109,368
+Restricted investments
+837,291
+1,027,506
+Other investments
+39,870
+26,390
+Property and equipment, net
+465,844
+313,402
+Operating lease right of use assets
+98,202
+135,213
+Intangible assets, net
+59,515
+76,208
+Goodwill
+257,791
+261,582
+Other assets
+16,749
+23,903
+Total assets
+$
+4,564,467
+$
+4,556,431
+Liabilities and Stockholders’ Equity
+Current liabilities
+Accounts payable
+$
+72,282
+$
+107,801
+Insurance reserves
+1,337,868
+1,417,350
+Accrued and other current liabilities
+1,508,855
+1,561,609
+Operating lease liabilities — current
+42,556
+45,803
+Total current liabilities
+2,961,561
+3,132,563
+Operating lease liabilities
+134,102
+176,356
+Long-term debt, net of current portion
+839,362
+803,207
+Other liabilities
+87,924
+55,637
+Total liabilities
+4,022,949
+4,167,763
+Commitments and contingencies (Note 9)
+Stockholders’ equity
+Preferred stock, $
+0.00001
+par value;
+1,000,000,000
+shares authorized as of December 31, 2023 and December 31, 2022;
+no
+shares issued and outstanding as of December 31, 2023 and December 31, 2022
+—
+—
+Common stock, $
+0.00001
+par value;
+18,000,000,000
+Class A shares authorized as of December 31, 2023 and December 31, 2022;
+391,239,046
+and
+361,552,359
+Class A shares issued and outstanding as of December 31, 2023 and December 31, 2022, respectively;
+100,000,000
+Class B shares authorized as of December 31, 2023 and December 31, 2022;
+8,566,629
+and
+8,602,629
+Class B shares issued and outstanding, as of December 31, 2023 and December 31, 2022
+4
+4
+Additional paid-in capital
+10,827,378
+10,335,013
+Accumulated other comprehensive income (loss)
+(
+4,949
+)
+(
+5,754
+)
+Accumulated deficit
+(
+10,280,915
+)
+(
+9,940,595
+)
+Total stockholders’ equity
+541,518
+388,668
+Total liabilities and stockholders’ equity
+$
+4,564,467
+$
+4,556,431
+The accompanying notes are an integral part of these consolidated financial statements.
+76
+Lyft, Inc.
+Consolidated Statements of Operations
+(in thousands, except for per share data)
+Year Ended December 31,
+2023
+2022
+2021
+Revenue
+$
+4,403,589
+$
+4,095,135
+$
+3,208,323
+Costs and expenses
+Cost of revenue
+2,543,954
+2,435,736
+1,702,317
+Operations and support
+427,239
+443,846
+402,233
+Research and development
+555,916
+856,777
+911,946
+Sales and marketing
+481,004
+531,512
+411,406
+General and administrative
+871,080
+1,286,180
+915,638
+Total costs and expenses
+4,879,193
+5,554,051
+4,343,540
+Loss from operations
+(
+475,604
+)
+(
+1,458,916
+)
+(
+1,135,217
+)
+Interest expense
+(
+26,223
+)
+(
+19,735
+)
+(
+51,635
+)
+Other income (expense), net
+170,123
+(
+99,988
+)
+135,933
+Loss before income taxes
+(
+331,704
+)
+(
+1,578,639
+)
+(
+1,050,919
+)
+Provision for (benefit from) income taxes
+8,616
+5,872
+11,225
+Net loss
+$
+(
+340,320
+)
+$
+(
+1,584,511
+)
+$
+(
+1,062,144
+)
+Net loss per share, basic and diluted
+$
+(
+0.88
+)
+$
+(
+4.47
+)
+$
+(
+3.17
+)
+Weighted-average number of shares outstanding used to compute net loss per share, basic and diluted
+385,335
+354,731
+334,724
+Stock-based compensation included in costs and expenses:
+Cost of revenue
+$
+30,170
+$
+44,132
+$
+39,491
+Operations and support
+15,468
+25,442
+24,083
+Research and development
+214,160
+391,983
+414,324
+Sales and marketing
+29,682
+49,867
+38,243
+General and administrative
+195,053
+239,343
+208,419
+The accompanying notes are an integral part of these consolidated financial statements.
+77
+Lyft, Inc.
+Consolidated Statements of Comprehensive Loss
+(in thousands)
+Year Ended December 31,
+2023
+2022
+2021
+Net loss
+$
+(
+340,320
+)
+$
+(
+1,584,511
+)
+$
+(
+1,062,144
+)
+Other comprehensive income (loss)
+Foreign currency translation adjustment
+(
+2,851
+)
+(
+1,154
+)
+(
+931
+)
+Unrealized gain (loss) on marketable securities, net of taxes
+3,656
+(
+2,089
+)
+(
+1,107
+)
+Other comprehensive income (loss)
+805
+(
+3,243
+)
+(
+2,038
+)
+Comprehensive loss
+$
+(
+339,515
+)
+$
+(
+1,587,754
+)
+$
+(
+1,064,182
+)
+The accompanying notes are an integral part of these consolidated financial statements.
+78
+Lyft, Inc.
+Consolidated Statements of Stockholders’ Equity
+(in thousands)
+Class A and Class B
+Common Stock
+Additional
+Paid-in Capital
+Accumulated Deficit
+Accumulated
+Other
+Comprehensive Income (Loss)
+Total
+Stockholders’ Equity
+Shares
+Amount
+Balance as of December 31, 2020
+323,737
+$
+3
+$
+8,977,061
+$
+(
+7,300,428
+)
+$
+(
+473
+)
+$
+1,676,163
+Issuance of common stock upon exercise of stock options
+812
+—
+5,184
+—
+—
+5,184
+Issuance of common stock upon settlement of restricted stock units
+19,926
+—
+—
+—
+—
+—
+Shares withheld related to net share settlement
+(
+509
+)
+—
+(
+26,298
+)
+—
+—
+(
+26,298
+)
+Issuance of common stock under employee stock purchase plan
+972
+—
+28,637
+—
+—
+28,637
+Settlement of convertible senior notes
+—
+—
+(
+1
+)
+—
+—
+(
+1
+)
+Stock-based compensation
+—
+—
+721,710
+—
+—
+721,710
+Other comprehensive loss
+—
+—
+—
+—
+(
+2,038
+)
+(
+2,038
+)
+Net loss
+—
+—
+—
+(
+1,062,144
+)
+—
+(
+1,062,144
+)
+Balance as of December 31, 2021
+344,938
+$
+3
+$
+9,706,293
+$
+(
+8,362,572
+)
+$
+(
+2,511
+)
+$
+1,341,213
+Adjustments related to the adoption of ASU 2020-06
+—
+—
+(
+139,958
+)
+6,488
+(
+133,470
+)
+Issuance of common stock upon exercise of stock options
+112
+—
+454
+—
+—
+454
+Issuance of common stock upon settlement of restricted stock units
+23,928
+1
+—
+—
+—
+1
+Shares withheld related to net share settlement
+(
+358
+)
+—
+(
+6,733
+)
+—
+—
+(
+6,733
+)
+Issuance of common stock under employee stock purchase plan
+1,535
+—
+21,198
+—
+—
+21,198
+Stock-based compensation
+—
+—
+753,619
+—
+—
+753,619
+Other comprehensive loss
+—
+—
+—
+—
+(
+3,243
+)
+(
+3,243
+)
+Net loss
+—
+—
+—
+(
+1,584,511
+)
+—
+(
+1,584,511
+)
+Other
+—
+—
+140
+—
+—
+140
+Balance as of December 31, 2022
+370,155
+$
+4
+$
+10,335,013
+$
+(
+9,940,595
+)
+$
+(
+5,754
+)
+$
+388,668
+The accompanying notes are an integral part of these consolidated financial statements.
+79
+Lyft, Inc.
+Consolidated Statements of Stockholders’ Equity
+(in thousands)
+Class A and Class B
+Common Stock
+Additional
+Paid-in Capital
+Accumulated Deficit
+Accumulated
+Other
+Comprehensive Income (Loss)
+Total
+Stockholders’ Equity
+Shares
+Amount
+Balance as of December 31, 2022
+370,155
+$
+4
+$
+10,335,013
+$
+(
+9,940,595
+)
+$
+(
+5,754
+)
+$
+388,668
+Issuance of common stock upon exercise of stock options
+201
+—
+1,204
+—
+—
+1,204
+Issuance of common stock upon settlement of restricted stock units
+28,397
+—
+—
+—
+—
+—
+Shares withheld related to net share settlement
+(
+296
+)
+—
+(
+3,021
+)
+—
+—
+(
+3,021
+)
+Issuance of common stock under employee stock purchase plan
+1,349
+—
+9,788
+—
+—
+9,788
+Stock-based compensation
+—
+—
+484,533
+—
+—
+484,533
+Other comprehensive income
+—
+—
+—
+—
+805
+805
+Net loss
+—
+—
+—
+(
+340,320
+)
+—
+(
+340,320
+)
+Other
+—
+—
+(
+139
+)
+—
+—
+(
+139
+)
+Balance as of December 31, 2023
+399,806
+$
+4
+$
+10,827,378
+$
+(
+10,280,915
+)
+$
+(
+4,949
+)
+$
+541,518
+The accompanying notes are an integral part of these consolidated financial statements.
+80
+Lyft, Inc.
+Consolidated Statements of Cash Flows
+(in thousands)
+Year Ended December 31,
+2023
+2022
+2021
+Cash flows from operating activities
+Net loss
+$
+(
+340,320
+)
+$
+(
+1,584,511
+)
+$
+(
+1,062,144
+)
+Adjustments to reconcile net loss to net cash used in operating activities
+Depreciation and amortization
+116,513
+154,798
+139,347
+Stock-based compensation
+484,533
+750,767
+724,560
+Amortization of premium on marketable securities
+117
+2,955
+4,100
+Accretion of discount on marketable securities
+(
+68,125
+)
+(
+23,245
+)
+(
+1,513
+)
+Amortization of debt discount and issuance costs
+2,877
+2,823
+35,575
+(Gain) loss on sale and disposal of assets, net
+(
+11,278
+)
+(
+60,655
+)
+5,538
+Gain on divestiture
+—
+—
+(
+119,284
+)
+Impairment of non-marketable equity security
+—
+135,714
+—
+Other
+(
+4,261
+)
+23,592
+3,321
+Changes in operating assets and liabilities, net effects of acquisition
+Prepaid expenses and other assets
+(
+86,922
+)
+(
+275,945
+)
+(
+207,046
+)
+Operating lease right-of-use assets
+20,046
+96,317
+61,301
+Accounts payable
+(
+41,079
+)
+(
+27,215
+)
+47,080
+Insurance reserves
+(
+79,482
+)
+348,721
+81,564
+Accrued and other liabilities
+(
+75,571
+)
+262,358
+234,212
+Lease liabilities
+(
+15,292
+)
+(
+43,759
+)
+(
+48,332
+)
+Net cash used in operating activities
+(
+98,244
+)
+(
+237,285
+)
+(
+101,721
+)
+Cash flows from investing activities
+Purchases of marketable securities
+(
+3,288,659
+)
+(
+4,049,515
+)
+(
+3,801,736
+)
+Purchase of non-marketable security
+—
+—
+(
+5,000
+)
+Purchases of term deposits
+(
+3,539
+)
+(
+13,586
+)
+(
+458,021
+)
+Proceeds from sales of marketable securities
+452,465
+676,854
+513,009
+Proceeds from maturities of marketable securities
+3,481,042
+3,308,664
+3,259,221
+Proceeds from maturities of term deposits
+8,539
+395,092
+675,481
+Purchases of property and equipment and scooter fleet
+(
+149,819
+)
+(
+114,970
+)
+(
+79,176
+)
+Cash paid for acquisitions, net of cash acquired
+1,630
+(
+146,334
+)
+3
+Sales of property and equipment
+92,594
+129,840
+42,543
+Proceeds from divestiture
+—
+—
+122,688
+Other
+5,500
+—
+(
+2,000
+)
+Net cash provided by investing activities
+599,753
+186,045
+267,012
+Cash flows from financing activities
+Repayment of loans
+(
+72,484
+)
+(
+67,639
+)
+(
+44,446
+)
+Proceeds from exercise of stock options and other common stock issuances
+10,993
+21,655
+33,822
+Taxes paid related to net share settlement of equity awards
+(
+3,021
+)
+(
+6,733
+)
+(
+26,297
+)
+Principal payments on finance lease obligations
+(
+43,466
+)
+(
+34,783
+)
+(
+35,547
+)
+Contingent consideration paid
+(
+14,100
+)
+—
+—
+Other
+—
+—
+(
+2
+)
+Net cash used in financing activities
+(
+122,078
+)
+(
+87,500
+)
+(
+72,470
+)
+Effect of foreign exchange on cash, cash equivalents and restricted cash and cash equivalents
+533
+(
+631
+)
+(
+113
+)
+Net increase (decrease) in cash, cash equivalents and restricted cash and cash equivalents
+379,964
+(
+139,371
+)
+92,708
+Cash, cash equivalents and restricted cash and cash equivalents
+Beginning of period
+391,822
+531,193
+438,485
+End of period
+$
+771,786
+$
+391,822
+$
+531,193
+The accompanying notes are an integral part of these consolidated financial statements.
+81
+Lyft, Inc.
+Consolidated Statements of Cash Flows
+(in thousands)
+Year Ended December 31,
+2023
+2022
+2021
+Reconciliation of cash, cash equivalents and restricted cash and cash equivalents to the consolidated balance sheets
+Cash and cash equivalents
+$
+558,636
+$
+281,090
+$
+457,325
+Restricted cash and cash equivalents
+211,786
+109,368
+73,205
+Restricted cash, included in prepaid expenses and other current assets
+1,364
+1,364
+663
+Total cash, cash equivalents and restricted cash and cash equivalents
+$
+771,786
+$
+391,822
+$
+531,193
+Supplemental disclosures of cash flow information
+Cash paid for income taxes
+$
+9,425
+$
+10,723
+$
+5,865
+Cash paid for interest
+20,176
+16,752
+16,521
+Non-cash investing and financing activities
+Financed vehicles acquired
+$
+127,095
+$
+48,104
+$
+56,830
+Purchases of property and equipment, and scooter fleet not yet settled
+4,505
+31,534
+12,214
+Contingent consideration
+—
+15,000
+—
+Right-of-use assets acquired under finance leases
+79,102
+11,428
+26,640
+Right-of-use assets acquired under operating leases
+3,795
+498
+7,148
+Remeasurement of finance and operating lease right of use assets
+(
+10,582
+)
+(
+321
+)
+58
+Purchase of non-marketable securities
+—
+—
+64,756
+The accompanying notes are an integral part of these consolidated financial statements.
+82
+Lyft, Inc.
+Notes to Consolidated Financial Statements
+1.

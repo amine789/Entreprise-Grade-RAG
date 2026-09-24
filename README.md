@@ -49,12 +49,15 @@ This is **agentic retrieval** — instead of committing to a single path up fron
 │   ├── tools.py             # search_web, search_hr_docs, search_10k_docs
 │   ├── ingestion.py         # embed + upsert chunks into Qdrant
 │   ├── pipeline.py          # ingestion_pipeline dispatcher over COLLECTIONS
+│   ├── loaders.py           # load + token-aware chunk .txt files under data/
 │   ├── retrieval.py         # collection-name registry
 │   ├── llm_model.py         # shared ChatAnthropic instance
 │   ├── prompt.py            # agent system prompt
 │   └── utils.py             # embeddings + time-sensitivity heuristic
-├── tests/                   # pytest suite for tools, agent loops, API
-├── data/                    # source documents to be ingested (HR handbook, 10-Ks)
+├── tests/                   # pytest suite for tools, agent loops, API, loaders
+├── data/
+│   ├── hr/                  # employee_handbook.txt
+│   └── 10k/                 # uber_2023.txt, lyft_2023.txt
 ├── assets/                  # images used in docs
 ├── demo.py                  # scripted end-to-end run against the LangChain loop
 ├── requirements.txt
@@ -98,7 +101,7 @@ QDRANT_API_KEY=your_qdrant_key    # optional
 python demo.py
 ```
 
-`demo.py` upserts a handful of chunks into the `hr_data` and `10k_data` Qdrant collections via `ingest_documents`, then runs a few sample queries through `run_agent_langchain`. To serve the agent over HTTP instead:
+`demo.py` loads every `.txt` file under `data/hr` and `data/10k`, splits each into token-aware chunks (`loaders.py`), upserts them into the `hr_data` and `10k_data` Qdrant collections via `ingest_documents`, then runs a few sample queries through `run_agent_langchain`. To serve the agent over HTTP instead:
 
 ```bash
 uvicorn enterprise_rag.api:app --reload
@@ -121,11 +124,11 @@ curl -X POST localhost:8000/query \
 - ✅ LLM-based relevance grading + time-sensitivity handling for `search_web`
 - ✅ FastAPI endpoints (`/query`, `/query_langchain`), tested, returning 500 on agent failure
 - ✅ Qdrant ingestion primitive (`ingest_documents`) and collection dispatcher (`ingestion_pipeline`)
+- ✅ Loading and token-aware chunking of the real source documents under `data/` (HR handbook, Uber/Lyft 10-Ks) into the Qdrant indices (`loaders.py`), tested; `demo.py` ingests the actual files instead of hardcoded example chunks
 - ✅ GitHub Actions CI running the test suite on every push
 
 **Roadmap — not yet done**
 
-- Load and chunk the real source documents under `data/` (HR handbook, Uber/Lyft 10-Ks) into the Qdrant indices — `demo.py` currently only ingests a few hardcoded example chunks, not the actual files
 - Test coverage for `ingestion.py` / `pipeline.py`
 - Relevance grading + corrective retry (rewrite query / retry / fall back) for `search_hr_docs` and `search_10k_docs` — today that loop only exists for `search_web`
 - Query rewriting — normalizing casual/compound user queries before retrieval; not yet implemented in `src/`
