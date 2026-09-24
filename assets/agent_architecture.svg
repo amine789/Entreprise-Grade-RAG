@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 600" font-family="Helvetica, Arial, sans-serif" role="img" aria-label="A user query enters the Claude agent loop, which calls the search_hr_docs, search_10k_docs, and search_web tools, reads each result, repeats as needed, then exits with a cited answer.">
+  <title>Enterprise RAG agent architecture: query enters an agent loop that calls HR, 10-K, and web-search tools, then exits with a cited answer</title>
   <defs>
-    <marker id="arrC" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <marker id="arrC" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#3d5a73"/>
     </marker>
     <marker id="arrE" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
@@ -8,95 +9,78 @@
     </marker>
   </defs>
 
-  <rect x="0" y="0" width="1100" height="640" fill="#ffffff"/>
+  <rect x="0" y="0" width="1040" height="600" fill="#ffffff"/>
 
   <!-- ============ USER QUERY ============ -->
-  <path d="M108,208 h48 a8,8 0 0 1 8,8 v22 a8,8 0 0 1 -8,8 h-30 l-10,10 v-10 h-8 a8,8 0 0 1 -8,-8 v-22 a8,8 0 0 1 8,-8 z"
-        fill="#f4f6f8" stroke="#8fa4b8" stroke-width="2"/>
-  <circle cx="90" cy="270" r="20" fill="none" stroke="#2c4257" stroke-width="3"/>
-  <path d="M55,322 a35,35 0 0 1 70,0" fill="none" stroke="#2c4257" stroke-width="3"/>
-  <text x="90" y="352" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a2e">USER QUERY</text>
+  <rect x="40" y="250" width="160" height="70" rx="10" fill="#f4f6f8" stroke="#8fa4b8" stroke-width="2"/>
+  <circle cx="80" cy="273" r="13" fill="none" stroke="#2c4257" stroke-width="2.6"/>
+  <path d="M60,308 a20,20 0 0 1 40,0" fill="none" stroke="#2c4257" stroke-width="2.6"/>
+  <text x="112" y="284" font-size="13" font-weight="700" fill="#1a1a2e">User Query</text>
+  <text x="112" y="301" font-size="10.5" fill="#64748b">asks a question</text>
 
-  <line x1="130" y1="278" x2="205" y2="278" stroke="#3d5a73" stroke-width="2.5" marker-end="url(#arrC)"/>
+  <line x1="200" y1="285" x2="292" y2="285" stroke="#3d5a73" stroke-width="2.2" marker-end="url(#arrC)"/>
+  <text x="246" y="277" text-anchor="middle" font-size="10.5" fill="#3d5a73">asks</text>
 
-  <!-- ============ label above the loop ============ -->
-  <text x="277" y="128" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a2e">CLAUDE AGENT LOOP</text>
-  <text x="277" y="146" text-anchor="middle" font-size="11" fill="#94724a">reasons &#8594; calls tools &#8594; reads results &#8594; repeats</text>
+  <!-- ============ CLAUDE AGENT LOOP ============ -->
+  <rect x="300" y="210" width="220" height="150" rx="14" fill="#fdf3ea" stroke="#94724a" stroke-width="2.5"/>
 
-  <!-- ============ CLAUDE AGENT LOOP (cloud + brain) ============ -->
-  <path d="M230,270
-           a22,22 0 0 1 20,-32
-           a26,26 0 0 1 50,-6
-           a22,22 0 0 1 22,38
-           a20,20 0 0 1 -6,40 h-80 a20,20 0 0 1 -6,-40 z"
-        fill="#fdf3ea" stroke="#94724a" stroke-width="2.5"/>
-  <path d="M255,252 q-8,-8 0,-14 q6,-6 12,0 q6,-8 14,0 q8,6 0,14 q8,8 -2,16 q-6,8 -14,2 q-8,6 -14,-2 q-8,-6 4,-16 z"
-        fill="none" stroke="#94724a" stroke-width="2"/>
-  <line x1="267" y1="240" x2="267" y2="268" stroke="#94724a" stroke-width="1.5"/>
+  <!-- refresh/cycle icon = the loop, drawn as the icon itself rather than decoration -->
+  <path d="M410,235 A20,20 0 1 1 390,255" fill="none" stroke="#94724a" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="390,242 379,262 401,262" fill="#94724a"/>
 
-  <!-- repeat badge: exact 3/4-circle arc (top -> right -> bottom -> left) + arrowhead at the left point -->
-  <circle cx="335" cy="212" r="14" fill="#ffffff"/>
-  <path d="M335,203 A9,9 0 1 1 326,212" fill="none" stroke="#c8722c" stroke-width="2.2" stroke-linecap="round"/>
-  <path d="M326,206 L321,215 L331,215 Z" fill="#c8722c"/>
-
-  <!-- ============ one connector per tool, evenly fanned ============ -->
-  <line x1="335" y1="248" x2="470" y2="118" stroke="#3d5a73" stroke-width="2" marker-end="url(#arrC)"/>
-  <line x1="337" y1="270" x2="470" y2="270" stroke="#3d5a73" stroke-width="2" marker-end="url(#arrC)"/>
-  <line x1="335" y1="292" x2="470" y2="482" stroke="#3d5a73" stroke-width="2" marker-end="url(#arrC)"/>
-
-  <text x="378" y="176" font-size="11" fill="#3d5a73">call, 0&#8211;N times</text>
-  <text x="404" y="256" text-anchor="middle" font-size="11" fill="#3d5a73">call, 0&#8211;N times</text>
-  <text x="368" y="380" font-size="11" fill="#3d5a73">call, 0&#8211;N times</text>
+  <text x="410" y="300" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1a1a2e">CLAUDE AGENT LOOP</text>
+  <text x="410" y="320" text-anchor="middle" font-size="10.5" fill="#94724a">reasons, calls a tool,</text>
+  <text x="410" y="334" text-anchor="middle" font-size="10.5" fill="#94724a">reads result, repeats</text>
 
   <!-- ============ TOOL 1: HR docs ============ -->
-  <rect x="545" y="90" width="290" height="70" rx="10" fill="#eef2f5" stroke="#8fa4b8" stroke-width="2"/>
-  <rect x="562" y="108" width="24" height="32" rx="2" fill="#ffffff" stroke="#3d5a73" stroke-width="2"/>
-  <line x1="568" y1="116" x2="580" y2="116" stroke="#3d5a73" stroke-width="1.5"/>
-  <line x1="568" y1="123" x2="580" y2="123" stroke="#3d5a73" stroke-width="1.5"/>
-  <line x1="568" y1="130" x2="576" y2="130" stroke="#3d5a73" stroke-width="1.5"/>
-  <ellipse cx="805" cy="108" rx="13" ry="5.5" fill="#ffffff" stroke="#4a7a8c" stroke-width="2"/>
-  <path d="M792,108 v18 a13,5.5 0 0 0 26,0 v-18" fill="#ffffff" stroke="#4a7a8c" stroke-width="2"/>
-  <ellipse cx="805" cy="126" rx="13" ry="5.5" fill="none" stroke="#4a7a8c" stroke-width="1.5"/>
-  <text x="695" y="112" text-anchor="middle" font-size="11" fill="#64748b">TOOL</text>
-  <text x="695" y="132" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1a1a2e">search_hr_docs</text>
-  <text x="695" y="148" text-anchor="middle" font-size="10.5" fill="#334155">Qdrant: hr_data</text>
+  <rect x="680" y="60" width="320" height="80" rx="10" fill="#eef2f5" stroke="#8fa4b8" stroke-width="2"/>
+  <rect x="700" y="83" width="26" height="34" rx="2" fill="#ffffff" stroke="#3d5a73" stroke-width="2"/>
+  <line x1="707" y1="92" x2="719" y2="92" stroke="#3d5a73" stroke-width="1.5"/>
+  <line x1="707" y1="99" x2="719" y2="99" stroke="#3d5a73" stroke-width="1.5"/>
+  <line x1="707" y1="106" x2="715" y2="106" stroke="#3d5a73" stroke-width="1.5"/>
+  <text x="760" y="92" font-size="10.5" fill="#64748b">TOOL</text>
+  <text x="760" y="112" font-size="13" font-weight="700" fill="#1a1a2e">search_hr_docs</text>
+  <text x="760" y="128" font-size="10.5" fill="#334155">Qdrant &#183; employee handbook</text>
 
   <!-- ============ TOOL 2: 10-K filings ============ -->
-  <rect x="545" y="235" width="290" height="70" rx="10" fill="#eef2f5" stroke="#8fa4b8" stroke-width="2"/>
-  <rect x="562" y="253" width="24" height="32" rx="2" fill="#ffffff" stroke="#3d5a73" stroke-width="2"/>
-  <line x1="568" y1="261" x2="580" y2="261" stroke="#3d5a73" stroke-width="1.5"/>
-  <line x1="568" y1="268" x2="580" y2="268" stroke="#3d5a73" stroke-width="1.5"/>
-  <line x1="568" y1="275" x2="576" y2="275" stroke="#3d5a73" stroke-width="1.5"/>
-  <ellipse cx="805" cy="253" rx="13" ry="5.5" fill="#ffffff" stroke="#4a7a8c" stroke-width="2"/>
-  <path d="M792,253 v18 a13,5.5 0 0 0 26,0 v-18" fill="#ffffff" stroke="#4a7a8c" stroke-width="2"/>
-  <ellipse cx="805" cy="271" rx="13" ry="5.5" fill="none" stroke="#4a7a8c" stroke-width="1.5"/>
-  <text x="695" y="257" text-anchor="middle" font-size="11" fill="#64748b">TOOL</text>
-  <text x="695" y="277" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1a1a2e">search_10k_docs</text>
-  <text x="695" y="293" text-anchor="middle" font-size="10.5" fill="#334155">Qdrant: 10k_data</text>
+  <rect x="680" y="245" width="320" height="80" rx="10" fill="#eef2f5" stroke="#8fa4b8" stroke-width="2"/>
+  <rect x="700" y="268" width="26" height="34" rx="2" fill="#ffffff" stroke="#3d5a73" stroke-width="2"/>
+  <line x1="707" y1="277" x2="719" y2="277" stroke="#3d5a73" stroke-width="1.5"/>
+  <line x1="707" y1="284" x2="719" y2="284" stroke="#3d5a73" stroke-width="1.5"/>
+  <line x1="707" y1="291" x2="715" y2="291" stroke="#3d5a73" stroke-width="1.5"/>
+  <text x="760" y="277" font-size="10.5" fill="#64748b">TOOL</text>
+  <text x="760" y="297" font-size="13" font-weight="700" fill="#1a1a2e">search_10k_docs</text>
+  <text x="760" y="313" font-size="10.5" fill="#334155">Qdrant &#183; Uber &amp; Lyft 10-Ks</text>
 
   <!-- ============ TOOL 3: web search ============ -->
-  <rect x="545" y="430" width="290" height="70" rx="10" fill="#eef2f5" stroke="#8fa4b8" stroke-width="2"/>
-  <circle cx="575" cy="465" r="15" fill="#ffffff" stroke="#4a7a8c" stroke-width="2"/>
-  <ellipse cx="575" cy="465" rx="6.5" ry="15" fill="none" stroke="#4a7a8c" stroke-width="1.3"/>
-  <line x1="560" y1="465" x2="590" y2="465" stroke="#4a7a8c" stroke-width="1.3"/>
-  <circle cx="805" cy="461" r="11" fill="#ffffff" stroke="#3d5a73" stroke-width="2"/>
-  <line x1="813" y1="469" x2="822" y2="478" stroke="#3d5a73" stroke-width="2.2" stroke-linecap="round"/>
-  <text x="695" y="454" text-anchor="middle" font-size="11" fill="#64748b">TOOL</text>
-  <text x="695" y="474" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1a1a2e">search_web</text>
-  <text x="695" y="490" text-anchor="middle" font-size="10.5" fill="#334155">SerpAPI (Google)</text>
+  <rect x="680" y="430" width="320" height="80" rx="10" fill="#eef2f5" stroke="#8fa4b8" stroke-width="2"/>
+  <circle cx="716" cy="470" r="15" fill="#ffffff" stroke="#4a7a8c" stroke-width="2"/>
+  <ellipse cx="716" cy="470" rx="6.5" ry="15" fill="none" stroke="#4a7a8c" stroke-width="1.3"/>
+  <line x1="701" y1="470" x2="731" y2="470" stroke="#4a7a8c" stroke-width="1.3"/>
+  <circle cx="733" cy="484" r="9" fill="#ffffff" stroke="#3d5a73" stroke-width="1.6"/>
+  <path d="M729,484 l3,3.5 l6,-7" fill="none" stroke="#3d5a73" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="760" y="452" font-size="10.5" fill="#64748b">TOOL</text>
+  <text x="760" y="472" font-size="13" font-weight="700" fill="#1a1a2e">search_web</text>
+  <text x="760" y="488" font-size="10.5" fill="#334155">Firecrawl + LLM relevance grading</text>
 
-  <!-- ============ straight line down from the loop into Generate Answer ============ -->
-  <line x1="277" y1="310" x2="277" y2="565" stroke="#94724a" stroke-width="2.4" stroke-dasharray="1 5" marker-end="url(#arrE)"/>
-  <text x="300" y="440" font-size="10.5" fill="#94724a">exits loop once it</text>
-  <text x="300" y="454" font-size="10.5" fill="#94724a">has enough context</text>
+  <!-- ============ call / result, one line per tool, both directions marked ============ -->
+  <line x1="520" y1="240" x2="680" y2="100" stroke="#3d5a73" stroke-width="2.2" marker-start="url(#arrC)" marker-end="url(#arrC)"/>
+  <text x="560" y="163" font-size="10.5" fill="#3d5a73">call &#183; result</text>
 
-  <rect x="177" y="572" width="200" height="50" rx="8" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
-  <text x="277" y="602" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14532d">GENERATE ANSWER</text>
+  <line x1="520" y1="285" x2="680" y2="285" stroke="#3d5a73" stroke-width="2.2" marker-start="url(#arrC)" marker-end="url(#arrC)"/>
+  <text x="600" y="275" text-anchor="middle" font-size="10.5" fill="#3d5a73">call &#183; result</text>
 
-  <line x1="377" y1="597" x2="465" y2="597" stroke="#3d5a73" stroke-width="2.2" marker-end="url(#arrC)"/>
+  <line x1="520" y1="330" x2="680" y2="470" stroke="#3d5a73" stroke-width="2.2" marker-start="url(#arrC)" marker-end="url(#arrC)"/>
+  <text x="560" y="415" font-size="10.5" fill="#3d5a73">call &#183; result</text>
 
-  <path d="M493,580 h34 a7,7 0 0 1 7,7 v18 a7,7 0 0 1 -7,7 h-9 l9,11 l-18,-11 h-16 a7,7 0 0 1 -7,-7 v-18 a7,7 0 0 1 7,-7 z"
-        fill="#f4f6f8" stroke="#4a7a8c" stroke-width="2"/>
-  <text x="615" y="602" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a2e">ANSWER</text>
-  <text x="615" y="618" text-anchor="middle" font-size="10.5" fill="#64748b">cited, from every tool call made</text>
+  <!-- ============ exit the loop once satisfied ============ -->
+  <line x1="410" y1="360" x2="410" y2="452" stroke="#94724a" stroke-width="2.4" stroke-dasharray="1 5" marker-end="url(#arrE)"/>
+  <text x="430" y="400" font-size="10.5" fill="#94724a">exits loop once it</text>
+  <text x="430" y="414" font-size="10.5" fill="#94724a">has enough to answer</text>
+
+  <!-- ============ ANSWER ============ -->
+  <rect x="300" y="460" width="220" height="80" rx="12" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
+  <text x="410" y="497" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14532d">ANSWER</text>
+  <text x="410" y="515" text-anchor="middle" font-size="10.5" fill="#166534">grounded + cited from every</text>
+  <text x="410" y="528" text-anchor="middle" font-size="10.5" fill="#166534">tool call made</text>
 </svg>

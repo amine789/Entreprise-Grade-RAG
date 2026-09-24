@@ -1,138 +1,104 @@
 # 🧠 Enterprise-Grade RAG
 
-**A production-style Retrieval-Augmented Generation system that doesn't just retrieve — it *decides where to look*.**
+**A RAG system that decides where to look, instead of always looking in the same place.**
 
-Most RAG demos bolt a single vector store onto an LLM and call it a day. This project goes further: Claude is given **tools**, not a fixed path — it reasons about each incoming query, decides which knowledge source(s) it actually needs (an internal HR policy index, a financial-filings index, live web search — zero, one, or several), calls them, reads the results, and repeats until it has enough to answer. It's the difference between a toy chatbot and something you could actually put in front of enterprise users.
+Most RAG demos wire one vector store to one LLM and call it done — every question gets searched the same way, whether or not that's the right place to search. This project gives Claude **tools** instead of a fixed pipeline: an internal HR policy index, a financial-filings index, and live web search. For each incoming question, the agent reasons about which of those it actually needs — zero, one, or several — calls them, reads what comes back, and decides whether it has enough to answer or needs to call another tool. Only then does it write one grounded, cited answer.
 
-## 🏗️ Architecture
+That's the difference between a toy chatbot and something you could put in front of real users: a compound question spanning HR policy *and* company financials gets both sources pulled in the same turn, and a question about neither falls back to the web instead of hitting a dead end.
+
+## 🏗️ How it works
 
 ![Enterprise RAG agent architecture](assets/agent_architecture.svg)
 
-The flow is an **agentic tool-use loop**, not a one-shot classifier:
+1. A user question enters the agent loop along with three tool definitions.
+2. The agent decides what it needs and calls:
+   - **`search_hr_docs`** — internal HR policy (PTO, leave, benefits, payroll, onboarding, performance reviews), retrieved from a Qdrant vector index built from the employee handbook.
+   - **`search_10k_docs`** — Uber & Lyft 2023 10-K filings (revenue, costs, risk factors), retrieved from a separate Qdrant index so financial and HR content never mix.
+   - **`search_web`** — live web search (Firecrawl) for anything outside the indexed documents, current events, or version/date-sensitive facts. Before the agent ever sees them, results pass through an LLM grading step that drops irrelevant or stale pages.
+3. Each tool result goes back to the agent, which reasons again — enough to answer, or another call needed?
+4. Once satisfied, the agent exits the loop and writes one answer grounded in whatever it retrieved.
 
-1. **User Query** enters the agent loop along with three tool definitions. Two interchangeable loop implementations exist side by side: a raw Anthropic SDK loop (`run_agent_sdk`) and a LangChain tool-calling loop (`run_agent_langchain`) — both share the same tools and system prompt.
-2. The agent reasons about what it needs and calls **`search_hr_docs`** (Qdrant: internal HR policy documents — PTO/leave policy, benefits, payroll, onboarding, the employee handbook), **`search_10k_docs`** (Qdrant: Uber & Lyft 10-K annual filings — financial performance, revenue, operating metrics), **`search_web`** (Firecrawl web search, with an LLM grading pass that filters out irrelevant/outdated results before they reach the agent) — or any combination of them; a compound question can trigger more than one tool in the same turn.
-3. Each tool's result goes back to the agent, which reasons again: enough context to answer, or another call needed?
-4. Once satisfied, the agent **exits the loop** and generates one coherent answer from everything it gathered.
+## 🎬 See it run
 
-This is **agentic retrieval** — instead of committing to a single path up front, the model controls its own retrieval strategy at runtime, which is what lets it actually handle compound questions spanning more than one knowledge source.
+This is a real transcript from `python demo.py` — it ingests the actual HR handbook and 10-K filings from `data/`, then fires three questions at the agent loop.
 
-## ✨ Why this is more than a basic RAG pipeline
-
-| Capability | What it buys you |
-|---|---|
-| 🧭 **Agentic tool selection** | No manual keyword rules or fixed branches — the agent reasons about which sources it actually needs, including more than one per query |
-| 🗂️ **Domain-partitioned vector stores** | Cleaner embeddings, less cross-domain noise, faster and more relevant retrieval |
-| 🌐 **Live web fallback with grading** | Never a dead end — queries outside the knowledge base still get answered, and an LLM grading pass filters irrelevant/stale web results before the agent sees them |
-| 🔌 **Two interchangeable agent loops** | The same tool set runs behind a raw Anthropic SDK loop or a LangChain loop, exposed as separate FastAPI endpoints, so the orchestration layer is swappable |
-
-## 🧰 Tech Stack
-
-**Currently exercised by the code:**
-
-- **LLM / agent loop:** Anthropic Claude (`anthropic` SDK, `langchain-anthropic`), LangChain tool-calling (`langchain`, `langchain-core`)
-- **Vector store:** Qdrant (`qdrant-client`), one collection per domain (`hr_data`, `10k_data`), local in-memory fallback when `QDRANT_URL` is unset
-- **Embeddings:** local `sentence-transformers/all-mpnet-base-v2` via `transformers` + `torch` (mean-pooled)
-- **Web search:** Firecrawl API + LLM-based relevance grading, with a time-sensitivity heuristic that restricts recency-sensitive queries to the past month
-- **API:** FastAPI + `uvicorn`
-- **Testing:** `pytest`, `pytest-asyncio`, GitHub Actions CI on every push
-
-**Installed for planned/future work (see Roadmap), not yet wired in:** `chromadb` / `langchain-chroma`, `faiss-cpu`, `rank_bm25` + `scikit-learn` (hybrid dense+BM25 retrieval), `docx2txt`, `wikipedia`, `kagglehub`.
-
-## 📁 Project Structure
-
+**HR question → routed to `search_hr_docs`:**
 ```
-.
-├── src/enterprise_rag/     # installable package
-│   ├── agent.py            # both agent loops (Anthropic SDK + LangChain)
-│   ├── api.py               # FastAPI app (/query, /query_langchain)
-│   ├── tools.py             # search_web, search_hr_docs, search_10k_docs
-│   ├── ingestion.py         # embed + upsert chunks into Qdrant
-│   ├── pipeline.py          # ingestion_pipeline dispatcher over COLLECTIONS
-│   ├── loaders.py           # load + token-aware chunk .txt files under data/
-│   ├── retrieval.py         # collection-name registry
-│   ├── llm_model.py         # shared ChatAnthropic instance
-│   ├── prompt.py            # agent system prompt
-│   └── utils.py             # embeddings + time-sensitivity heuristic
-├── tests/                   # pytest suite for tools, agent loops, API, loaders
-├── data/
-│   ├── hr/                  # employee_handbook.txt
-│   └── 10k/                 # uber_2023.txt, lyft_2023.txt
-├── assets/                  # images used in docs
-├── demo.py                  # scripted end-to-end run against the LangChain loop
-├── requirements.txt
-└── pyproject.toml
+=== How many PTO days do I get? ===
+Based on the HR policy documents, as a full-time employee, you get 15 days of
+paid time off (PTO) per calendar year.
+
+- Accrual rate: 1.25 days per month (totaling 15 days annually)
+- Carryover: up to 5 days into the next calendar year; the rest is forfeited
+  on December 31st
+- Request process: submit through the HR portal at least 5 business days in
+  advance; managers approve/deny within 2 business days
 ```
 
-## 🚀 Getting Started
+**Financial question → routed to `search_10k_docs`:**
+```
+=== What was Uber's 2023 revenue? ===
+Based on Uber's 2023 10-K filing, Uber's 2023 revenue was $37.281 billion,
+representing a 17% increase compared to 2022 revenue of $31.877 billion.
 
-### 1. Create a virtual environment
+Driven by:
+- Mobility: +$5.8 billion (31% increase in Gross Bookings)
+- Delivery: +$1.3 billion (14% increase in Gross Bookings)
+- Freight: -$1.7 billion (Gross Bookings declined 25%)
+```
 
-> ⚠️ Note: `numpy<2`, `torch`, `faiss-cpu`, and `chromadb` don't yet ship prebuilt wheels for the newest Python releases (e.g. 3.14). Use **Python 3.11** for a smooth install.
+**Question outside both indexes → falls back to `search_web`, with grading:**
+```
+=== What's the latest version of Python released? ===
+[Note: time-sensitive query — results restricted to the past month]
+Based on the search results, Python 3.14.6 is the latest stable release.
+```
+
+Every answer is grounded in the actual retrieved text, not the model's own memory — the agent never had this data in its training, it read it out of `data/` and the live web at query time.
+
+## 🚀 Run it yourself
 
 ```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-pip install -e .
-```
-
-### 3. Configure your environment
-
-Copy `.example.env` to `.env` and fill in your API keys. The agent loop actually needs:
-
-```env
-ANTHROPIC_API_KEY=your_key_here
-FIRECRAWL_API_KEY=your_firecrawl_key
-QDRANT_URL=your_qdrant_url        # optional
-QDRANT_API_KEY=your_qdrant_key    # optional
-```
-
-> No Qdrant account yet? Leave `QDRANT_URL` unset and the code falls back to an in-process, in-memory Qdrant instance (`AsyncQdrantClient(location=":memory:")`) — no server or key required, just non-persistent between runs.
-
-### 4. Ingest documents and run the agent
-
-```bash
+python3.11 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt && pip install -e .
+cp .example.env .env   # fill in ANTHROPIC_API_KEY and FIRECRAWL_API_KEY
 python demo.py
 ```
 
-`demo.py` loads every `.txt` file under `data/hr` and `data/10k`, splits each into token-aware chunks (`loaders.py`), upserts them into the `hr_data` and `10k_data` Qdrant collections via `ingest_documents`, then runs a few sample queries through `run_agent_langchain`. To serve the agent over HTTP instead:
+No Qdrant account needed — with `QDRANT_URL` unset, it falls back to an in-process, in-memory Qdrant instance (non-persistent between runs, which is fine for the demo).
+
+To serve it over HTTP instead of running the script:
 
 ```bash
 uvicorn enterprise_rag.api:app --reload
-```
-
-```bash
 curl -X POST localhost:8000/query \
   -H "Content-Type: application/json" \
   -d '{"question": "How many PTO days do I get?"}'
 ```
 
-`/query` runs the raw Anthropic SDK loop; `/query_langchain` runs the LangChain loop against the same tools.
+`/query` runs a raw Anthropic SDK tool-use loop; `/query_langchain` runs an equivalent LangChain loop against the same tools — both are wired up so the orchestration layer is swappable without touching the tools themselves.
+
+## 🧰 Built with
+
+Claude (`anthropic` / `langchain-anthropic`), Qdrant for vector search, local `sentence-transformers` embeddings, Firecrawl for web search, and FastAPI. A few extra libraries (`rank_bm25`, `chromadb`, `faiss-cpu`) are installed for retrieval work that's planned but not wired in yet — see Roadmap.
 
 ## 📌 Status
 
 **Implemented**
 
-- ✅ Both agent loops (Anthropic SDK + LangChain), sharing one tool set, tested end to end including max-turn exhaustion and API-error handling
-- ✅ `search_web`, `search_hr_docs`, `search_10k_docs` tools, tested
-- ✅ LLM-based relevance grading + time-sensitivity handling for `search_web`
-- ✅ FastAPI endpoints (`/query`, `/query_langchain`), tested, returning 500 on agent failure
-- ✅ Qdrant ingestion primitive (`ingest_documents`) and collection dispatcher (`ingestion_pipeline`)
-- ✅ Loading and token-aware chunking of the real source documents under `data/` (HR handbook, Uber/Lyft 10-Ks) into the Qdrant indices (`loaders.py`), tested; `demo.py` ingests the actual files instead of hardcoded example chunks
-- ✅ GitHub Actions CI running the test suite on every push
+- Both agent loops (Anthropic SDK + LangChain), sharing one tool set, tested end to end including max-turn exhaustion and API-error handling
+- `search_web`, `search_hr_docs`, `search_10k_docs` tools, tested
+- LLM-based relevance grading + time-sensitivity handling for `search_web`
+- FastAPI endpoints (`/query`, `/query_langchain`), tested, returning 500 on agent failure
+- Real ingestion: loads and token-aware chunks the actual documents under `data/` (HR handbook, Uber/Lyft 10-Ks) into Qdrant — `demo.py` runs this end to end, not against hardcoded example chunks
+- GitHub Actions CI running the test suite on every push
 
 **Roadmap — not yet done**
 
 - Test coverage for `ingestion.py` / `pipeline.py`
 - Relevance grading + corrective retry (rewrite query / retry / fall back) for `search_hr_docs` and `search_10k_docs` — today that loop only exists for `search_web`
-- Query rewriting — normalizing casual/compound user queries before retrieval; not yet implemented in `src/`
-- Hybrid retrieval (dense + BM25 fusion) — dependencies are installed (`rank_bm25`, `scikit-learn`) but unused
-- Persistent Qdrant deployment for production use (currently defaults to non-persistent in-memory when `QDRANT_URL` is unset)
+- Query rewriting — normalizing casual/compound user queries before retrieval
+- Hybrid retrieval (dense + BM25 fusion)
+- Persistent Qdrant deployment for production use
 - An evaluation suite (retrieval precision, answer groundedness) to measure the impact of the corrective loop once it exists
 - A demoable UI (Streamlit/Gradio) on top of the FastAPI endpoints
